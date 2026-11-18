@@ -1,0 +1,246 @@
+{
+  "command": "check",
+  "counts": {
+    "error": 8,
+    "warning": 14
+  },
+  "findings": [
+    {
+      "message": "related -> food is one-way (food does not link back)",
+      "path": "content/topics/disaster.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "disaster"
+    },
+    {
+      "message": "learn holds 12 readings (4-10)",
+      "path": "content/topics/energy.json",
+      "rule": "LB07",
+      "severity": "error",
+      "topic": "energy"
+    },
+    {
+      "message": "related -> comms is one-way (comms does not link back)",
+      "path": "content/topics/energy.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "energy"
+    },
+    {
+      "message": "related -> food is one-way (food does not link back)",
+      "path": "content/topics/grow.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "grow"
+    },
+    {
+      "message": "related -> water is one-way (water does not link back)",
+      "path": "content/topics/grow.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "grow"
+    },
+    {
+      "message": "related -> water is one-way (water does not link back)",
+      "path": "content/topics/health.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "health"
+    },
+    {
+      "message": "related -> food is one-way (food does not link back)",
+      "path": "content/topics/health.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "health"
+    },
+    {
+      "message": "related -> sanitation is one-way (sanitation does not link back)",
+      "path": "content/topics/health.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "health"
+    },
+    {
+      "message": "intro has 3 sentences",
+      "path": "content/topics/health.json",
+      "rule": "LB15",
+      "severity": "error",
+      "topic": "health"
+    },
+    {
+      "message": "learn holds 11 readings (4-10)",
+      "path": "content/topics/hurt.json",
+      "rule": "LB07",
+      "severity": "error",
+      "topic": "hurt"
+    },
+    {
+      "message": "prepare[0] note has 32 words (>30)",
+      "path": "content/topics/hurt.json",
+      "rule": "LB09",
+      "severity": "error",
+      "topic": "hurt"
+    },
+    {
+      "message": "related -> water is one-way (water does not link back)",
+      "path": "content/topics/hurt.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "hurt"
+    },
+    {
+      "message": "related -> sanitation is one-way (sanitation does not link back)",
+      "path": "content/topics/hurt.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "hurt"
+    },
+    {
+      "message": "intro has 3 sentences",
+      "path": "content/topics/hurt.json",
+      "rule": "LB15",
+      "severity": "error",
+      "topic": "hurt"
+    },
+    {
+      "message": "related -> water is one-way (water does not link back)",
+      "path": "content/topics/land.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "land"
+    },
+    {
+      "message": "choice 'food-link' offers 0 readings (1-4)",
+      "path": "content/topics/power.json",
+      "rule": "LB05",
+      "severity": "error",
+      "topic": "power"
+    },
+    {
+      "message": "related -> grow is one-way (grow does not link back)",
+      "path": "content/topics/repair.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "repair"
+    },
+    {
+      "message": "related -> water is one-way (water does not link back)",
+      "path": "content/topics/shelter.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "shelter"
+    },
+    {
+      "message": "related -> power is one-way (power does not link back)",
+      "path": "content/topics/shelter.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "shelter"
+    },
+    {
+      "message": "related -> food is one-way (food does not link back)",
+      "path": "content/topics/shelter.json",
+      "rule": "LB14",
+      "severity": "warning",
+      "topic": "shelter"
+    },
+    {
+      "message": "intro has 3 sentences",
+      "path": "content/topics/shelter.json",
+      "rule": "LB15",
+      "severity": "error",
+      "topic": "shelter"
+    },
+    {
+      "message": "choice:bleach[3] note has 32 words (>30)",
+      "path": "content/topics/water.json",
+      "rule": "LB09",
+      "severity": "error",
+      "topic": "water"
+    }
+  ],
+  "gaps": {
+    "comms": {
+      "disagree": 1,
+      "missing": 2
+    },
+    "disaster": {
+      "disagree": 0,
+      "missing": 5
+    },
+    "energy": {
+      "disagree": 0,
+      "missing": 1
+    },
+    "food": {
+      "disagree": 0,
+      "missing": 3
+    },
+    "grow": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "health": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "hurt": {
+      "disagree": 3,
+      "missing": 4
+    },
+    "land": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "power": {
+      "disagree": 0,
+      "missing": 5
+    },
+    "preserve": {
+      "disagree": 0,
+      "missing": 1
+    },
+    "repair": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "sanitation": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "shelter": {
+      "disagree": 1,
+      "missing": 3
+    },
+    "water": {
+      "disagree": 2,
+      "missing": 6
+    }
+  },
+  "ok": false,
+  "rules": {
+    "LB01": "id must equal the file stem",
+    "LB02": "required top-level fields present",
+    "LB03": "mode is now or learn",
+    "LB04": "learn topics define an ordered route",
+    "LB05": "each choice offers 1-4 readings",
+    "LB06": "prepare holds 3-8 readings",
+    "LB07": "learn holds 4-10 readings",
+    "LB08": "limits entries carry text and a source reference",
+    "LB09": "note is at most 30 words",
+    "LB10": "readings carry a label",
+    "LB11": "keywords are at least 3 and unique",
+    "LB12": "no bucket lists the same source twice",
+    "LB13": "related names an existing topic, not itself",
+    "LB14": "related links are symmetric",
+    "LB15": "intro is one or two sentences",
+    "LB16": "no dose/quantity leaking into intro or hints",
+    "LB17": "route steps have title, goal and readings",
+    "LB18": "gap domain has a topic file; entries are usable",
+    "LB19": "same gap statement is not filed under two domains",
+    "LB20": "now topics offer at least one choice"
+  },
+  "schema_version": 1,
+  "topics": 14
+}

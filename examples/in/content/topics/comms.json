@@ -1,0 +1,316 @@
+{
+ "id": "comms",
+ "mode": "now",
+ "title": "Communicate & find your way",
+ "short": "Family contact, emergency radio, ham radio, map and compass",
+ "intro": "Ways to reach family and get official warnings when phones and internet are down or overloaded, what you need to know before using two-way radios, and how to find your way with a map and compass or signal for help.",
+ "keywords": [
+  "phone down",
+  "no signal",
+  "internet down",
+  "text",
+  "family plan",
+  "out-of-state contact",
+  "radio",
+  "NOAA weather radio",
+  "emergency alert",
+  "ham",
+  "amateur radio",
+  "license",
+  "FRS",
+  "GMRS",
+  "CB",
+  "walkie-talkie",
+  "Meshtastic",
+  "compass",
+  "map",
+  "navigation",
+  "signal",
+  "whistle",
+  "rescue"
+ ],
+ "choices": [
+  {
+   "id": "phones-down",
+   "label": "Phones or internet are down or overloaded",
+   "hint": "Calls won't connect, need to find family",
+   "read": [
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 29,
+     "label": "FEMA: save calls for emergencies, use texts",
+     "note": "FEMA 2024 sheet notes phone systems are often down or busy after disasters and suggests text messages or social media to reach family."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 60,
+     "label": "After an earthquake: text rather than call",
+     "note": "FEMA P-530: stay off the phone except for emergencies, use text messaging, and contact your out-of-area safety contact."
+    },
+    {
+     "doc": "cecc1671ae4d02",
+     "page": 18,
+     "label": "Using your family communication plan",
+     "note": "Are You Ready: the out-of-state point of contact, two ways to reach them, wallet cards and practicing the plan."
+    }
+   ]
+  },
+  {
+   "id": "alerts-radio",
+   "label": "I need official warnings and news",
+   "hint": "NOAA Weather Radio, emergency alerts, battery or crank radio",
+   "read": [
+    {
+     "doc": "2c619f4fe19187",
+     "page": 2,
+     "label": "NOAA Weather Radio and local alert sign-ups",
+     "note": "FEMA fact sheet: what NOAA Weather Radio broadcasts, SAME receivers, opt-in text alerts and reverse-911 systems."
+    },
+    {
+     "doc": "2c619f4fe19187",
+     "page": 1,
+     "label": "How emergency alerts reach your phone",
+     "note": "Wireless Emergency Alerts need no sign-up; also EAS broadcasts and keeping spare batteries or chargers."
+    },
+    {
+     "doc": "4bd70335aa10ef",
+     "page": 3,
+     "label": "NOAA Weather Radio frequencies and reception",
+     "note": "NWS brochure: seven frequencies from 162.400 to 162.550 MHz, about 40-mile range, and testing reception where you'll use it."
+    }
+   ]
+  },
+  {
+   "id": "ham",
+   "label": "Ham (amateur) radio — can I use it?",
+   "hint": "Licensing, ARES, getting started",
+   "read": [
+    {
+     "doc": "1403f321ea0a31",
+     "label": "Ham vs GMRS vs FRS: licensing and range",
+     "note": "TACDA overview: ham operators must pass a test and get an FCC license; GMRS needs a license too; FRS does not. Points to local clubs."
+    },
+    {
+     "doc": "46dad12e12e2fe",
+     "label": "Beginner's guide to ham radio",
+     "note": "The Prepared (2017 prepper site): radio types compared, the FCC license and test, and starter equipment. Not an official source."
+    },
+    {
+     "doc": "a922465bee681e",
+     "page": 18,
+     "label": "ARRL: using your license for emergency service",
+     "note": "How licensed hams join emergency communication groups (ARES) and the ARRL's emergency training courses."
+    }
+   ]
+  },
+  {
+   "id": "local-radio",
+   "label": "Talking with neighbors without phones",
+   "hint": "FRS/GMRS walkie-talkies, CB, neighborhood radio plans",
+   "read": [
+    {
+     "doc": "4f6b406c191181",
+     "page": 47,
+     "label": "FRS and GMRS radios for neighborhoods",
+     "note": "ARES Manual (2015): license rules, channel-number confusion between brands, alkaline battery backup and coverage testing. GMRS license term stated here may be outdated."
+    },
+    {
+     "doc": "4f6b406c191181",
+     "page": 46,
+     "label": "Working with neighbors and CERT groups",
+     "note": "How neighborhood groups and licensed hams can plan local communications together."
+    },
+    {
+     "doc": "54221d8bbd84d45b",
+     "label": "Meshtastic: text over a LoRa mesh",
+     "note": "Getting-started page for low-power LoRa radios that pass text messages without cell or internet service. Requires compatible hardware."
+    }
+   ]
+  },
+  {
+   "id": "navigate",
+   "label": "Find my way with a map and compass",
+   "hint": "No GPS or phone, reading a topo map, taking a bearing",
+   "read": [
+    {
+     "doc": "bf9e99715ecdde",
+     "page": 1,
+     "label": "USGS: finding your way with map and compass",
+     "note": "Map scale, symbols, bearings and why the compass points to magnetic, not true, north."
+    },
+    {
+     "doc": "5b0efa0b70cb98",
+     "page": 161,
+     "label": "Finding direction from the sun and shadows",
+     "note": "Army ATP 3-50.21 (2018): using the sun and shadows to find north; following pages cover stars and other methods."
+    },
+    {
+     "doc": "5b0efa0b70cb98",
+     "page": 168,
+     "label": "Walking a compass bearing with steering marks",
+     "note": "Army method for dead reckoning: sight a landmark on your bearing, close the compass, walk to it, repeat."
+    },
+    {
+     "doc": "video-0cF0ovA3FtY",
+     "label": "Video: how to use a compass (REI)",
+     "note": "Seven-minute captioned beginner video on the parts of a baseplate compass and taking a bearing."
+    }
+   ]
+  },
+  {
+   "id": "signal",
+   "label": "Signal for help or rescue",
+   "hint": "Trapped, lost, need to be seen or heard",
+   "read": [
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 9,
+     "label": "Trapped after an earthquake: text, bang, whistle",
+     "note": "FEMA: send a text or bang on a pipe or wall, cover your mouth, and use a whistle instead of shouting."
+    },
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 32,
+     "label": "CERT: protect your airway and signal rescuers",
+     "note": "If trapped, bang on an object or blow a whistle; yelling is a last resort."
+    },
+    {
+     "doc": "8bb952fd2f238b",
+     "page": 200,
+     "label": "Army signaling techniques (historical FM 21-76)",
+     "note": "1992 Army manual, superseded: getting attention with fire, light, contrast and patterns. Military context; wilderness focus."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "Ham radio operators must pass a test and obtain an FCC license (Technician, General or Extra).",
+   "doc": "1403f321ea0a31"
+  },
+  {
+   "text": "You need an FCC license to communicate on ham radio (the article says the test can be prepared for in days).",
+   "doc": "46dad12e12e2fe"
+  },
+  {
+   "text": "FRS radios may be used without a license, but transmitting on GMRS radios requires a license.",
+   "doc": "4f6b406c191181",
+   "page": 47
+  },
+  {
+   "text": "FCC rules allow an amateur station in distress to use any means at its disposal to attract attention and get help (the rule as printed in the ARES manual).",
+   "doc": "c91b2af6713df7",
+   "page": 70
+  },
+  {
+   "text": "NOAA Weather Radio usually reaches about 40 miles; buildings and valleys can block it, so test a receiver where you will use it.",
+   "doc": "4bd70335aa10ef",
+   "page": 3
+  },
+  {
+   "text": "A compass points to magnetic north, not true north; the difference varies by place and changes over time.",
+   "doc": "bf9e99715ecdde",
+   "page": 1
+  },
+  {
+   "text": "If trapped, shout only as a last resort — it can make you inhale dangerous dust; tap on a pipe or wall or use a whistle.",
+   "doc": "9681a68ebd07f5",
+   "page": 17
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "e74ed9511d24c6",
+   "page": 1,
+   "label": "FEMA fill-in family communication plan",
+   "note": "Two-page form for household phone numbers, school and work plans, an out-of-town contact and meeting places."
+  },
+  {
+   "doc": "ed5bac0a81b009",
+   "page": 25,
+   "label": "CERT: family check-in contact and meeting places",
+   "note": "Pick two meeting places and an out-of-state check-in contact, carry wallet cards, and practice."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "page": 25,
+   "label": "Earthquake communication plan and emergency radio",
+   "note": "FEMA P-530: a primary safety contact outside the shaking area, contact lists, and a solar or wind-up emergency radio."
+  },
+  {
+   "doc": "e629b2983d95e4",
+   "page": 5,
+   "label": "Plan more than one way to get in touch",
+   "note": "Red Cross: local and out-of-area helpers for communication, and texts, email or internet calls as alternatives."
+  },
+  {
+   "doc": "db4d9783fca34b",
+   "page": 2,
+   "label": "Kit: radio with NOAA tone alerts, whistle, maps",
+   "note": "FEMA 2024 supply list including a battery or crank NOAA radio, whistle, phone charger and local maps."
+  },
+  {
+   "doc": "c91b2af6713df7",
+   "page": 6,
+   "label": "ARES: what a ham does first in an emergency",
+   "note": "ARRL field guide for licensed hams: make sure your own family is safe before responding, then check in."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "4f6b406c191181",
+   "label": "ARES Manual (2015)",
+   "note": "ARRL's manual for the Amateur Radio Emergency Service: organization, FCC rule definitions, working with agencies and neighbors."
+  },
+  {
+   "doc": "c91b2af6713df7",
+   "label": "ARES Field Resources Manual (2019)",
+   "note": "Pocket reference for licensed emergency communicators: checklists, go-kit, message handling and FCC rules."
+  },
+  {
+   "doc": "a922465bee681e",
+   "label": "ARRL Quickstart Guide",
+   "note": "Booklet for new hams on antennas, FM repeaters, operating practices and a first station. Contains advertising."
+  },
+  {
+   "doc": "ham-reference-50110f1fd49f96af",
+   "label": "ARRL U.S. amateur band chart",
+   "note": "One-page chart of which frequencies each U.S. license class may use."
+  },
+  {
+   "zim": "zim/wikibooks_en_all_maxi_2026-04.zim/FCC_Technician_Class_Exam_Study_Guide_-_2014-2018/Subelement_T1_Group_A",
+   "title": "FCC Technician Class Exam Study Guide - 2014-2018/Subelement T1 Group A",
+   "label": "Wikibooks: Technician license rules study guide",
+   "note": "Study notes on FCC amateur rules for the entry-level license. Written for the 2014–2018 question pool, so check current rules."
+  },
+  {
+   "doc": "e0d32d475cba9e",
+   "label": "TACDA: civil defense communications",
+   "note": "Overview of CB, FRS, GMRS and ham options for emergencies. Older chapter; some channel and rule details may be outdated."
+  },
+  {
+   "doc": "78a5c135618251",
+   "label": "USGS: using a compass with a topographic map",
+   "note": "How to orient a USGS topo map and take bearings, including declination."
+  },
+  {
+   "doc": "c15a248ad9ae45",
+   "label": "Wilderness Navigation lesson",
+   "note": "Great Smoky Mountains Institute teaching unit; page 9 gives a step-by-step for taking a bearing and pacing distance."
+  },
+  {
+   "doc": "5b0efa0b70cb98",
+   "label": "Army ATP 3-50.21 Survival (2018)",
+   "note": "Current Army survival manual; chapter 7 covers movement, finding direction and navigation methods."
+  },
+  {
+   "doc": "433d02ed3ce4d9",
+   "label": "Coast Guard navigation and piloting",
+   "note": "Boat Crew Handbook (2017) on charts, compasses and piloting on the water."
+  }
+ ],
+ "related": [
+  "power",
+  "disaster"
+ ]
+}

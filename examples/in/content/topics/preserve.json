@@ -1,0 +1,369 @@
+{
+ "id": "preserve",
+ "mode": "learn",
+ "title": "Preserve and store food",
+ "short": "Canning, drying, freezing, pickling and fermenting safely",
+ "intro": "A beginner's path through tested home food preservation, mostly from the USDA and the National Center for Home Food Preservation. It explains why botulism and acidity decide which method is safe, before moving on to canners, drying, freezing, pickling and fermenting.",
+ "keywords": [
+  "preserve",
+  "canning",
+  "home canning",
+  "pressure canner",
+  "water bath",
+  "boiling water canner",
+  "botulism",
+  "acidity",
+  "pH",
+  "jars",
+  "lids",
+  "drying",
+  "dehydrator",
+  "jerky",
+  "freezing",
+  "blanching",
+  "pickling",
+  "pickles",
+  "fermenting",
+  "sauerkraut",
+  "food storage"
+ ],
+ "choices": [
+  {
+   "id": "method",
+   "label": "Which method suits my food?",
+   "hint": "Fruit, vegetables, meat, tomatoes",
+   "read": [
+    {
+     "doc": "31a7235cab119ccb",
+     "page": 8,
+     "label": "Food acidity decides pressure canner or boiling-water canner",
+     "note": "USDA Complete Guide to Home Canning (2015), Guide 1: low-acid versus acid foods, tomatoes and figs, and why low-acid foods need higher temperatures."
+    }
+   ]
+  },
+  {
+   "id": "lowacid",
+   "label": "Canning vegetables, meat, beans or soup",
+   "hint": "Low-acid foods",
+   "read": [
+    {
+     "doc": "a8defaa10a263bba",
+     "page": 5,
+     "label": "For safety's sake: why low-acid foods need a pressure canner",
+     "note": "USDA Complete Guide (2015) introduction on botulism risk, boiling suspect low-acid food before eating, and the checklist for when home-canned food may be eaten unboiled."
+    },
+    {
+     "doc": "7b1d42bb203e3a2f",
+     "page": 3,
+     "label": "Before using a pressure canner: altitude, trapped air, gauge checks",
+     "note": "NCHFP fact sheet: avoiding outdated canners, venting for 10 minutes, and when a dial gauge needs calibrating."
+    },
+    {
+     "doc": "video-qoFj2Gxy3LA",
+     "label": "Video: Pressure Canning 101 (UMN Extension, 8 min)",
+     "note": "Steps for using a pressure canner and why pressure cookers are not recommended for canning."
+    }
+   ]
+  },
+  {
+   "id": "jarcheck",
+   "label": "Is this jar safe to eat?",
+   "hint": "Bulging lid, leaking, odd smell, unsure how it was canned",
+   "read": [
+    {
+     "doc": "31a7235cab119ccb",
+     "page": 26,
+     "label": "Storing canned food and spotting spoilage",
+     "note": "USDA Guide 1: storage temperatures and places to avoid, checking lids for vacuum, and signs of spoilage; continues on the next page."
+    },
+    {
+     "doc": "31a7235cab119ccb",
+     "page": 27,
+     "label": "Handling and detoxifying suspected botulism jars",
+     "note": "USDA Guide 1: treat suspect low-acid jars as toxic, how to bag or detoxify them, and cleaning surfaces with a bleach solution while wearing gloves."
+    },
+    {
+     "doc": "99dd5e2cc78a16a0",
+     "label": "Clostridium botulinum: the CDC discard advice",
+     "note": "NCHFP page noting CDC advice to discard any home-canned food that might contain botulism toxin, plus the USDA boiling caution."
+    }
+   ]
+  },
+  {
+   "id": "nopower",
+   "label": "Preserving without much power",
+   "hint": "Sun drying, fermenting, dry storage",
+   "read": [
+    {
+     "doc": "d34b594740923db4",
+     "label": "Sun drying: which foods are safe to dry outdoors",
+     "note": "NCHFP: fruits can be sun-dried in hot, dry, breezy weather; vegetables (except vine-dried beans) and meats are not recommended outdoors."
+    },
+    {
+     "doc": "563dd6789e6214f2",
+     "label": "Containers, covers and weights for fermenting",
+     "note": "NCHFP: crock and food-grade plastic or glass sizes, keeping vegetables under brine, and not using garbage bags as liners."
+    },
+    {
+     "doc": "f8cf7fa69fd15ac1",
+     "label": "Packaging and storing dried foods",
+     "note": "NCHFP: cooling, insect-proof containers, small packages, and storage conditions for dried food."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "Pressure canning is the only recommended method for meat, poultry, seafood and vegetables; using boiling-water canners for them risks botulism.",
+   "doc": "a8defaa10a263bba",
+   "page": 5
+  },
+  {
+   "text": "Even a taste of food containing botulinum toxin can be fatal.",
+   "doc": "a8defaa10a263bba",
+   "page": 5
+  },
+  {
+   "text": "CDC recommends discarding any home-canned food that might contain botulism toxin.",
+   "doc": "99dd5e2cc78a16a0"
+  },
+  {
+   "text": "Suspect low-acid jars should be treated as containing botulinum toxin; contact with the toxin, even through skin, can be fatal.",
+   "doc": "31a7235cab119ccb",
+   "page": 27
+  },
+  {
+   "text": "Do not change vinegar, food or water proportions in pickle recipes, or use vinegar of unknown acidity; use only tested recipes.",
+   "doc": "f6fb003a0c35d70b"
+  },
+  {
+   "text": "Open-kettle canning and processing jars in ovens, microwaves or dishwashers are not recommended.",
+   "doc": "eee926a5f91df0aa"
+  },
+  {
+   "text": "Vegetables (except vine-dried beans) and meats are not recommended for drying outdoors; dry them indoors with controlled heat.",
+   "doc": "d34b594740923db4"
+  },
+  {
+   "text": "Outdated pressure canners should not be used, and dial gauges should be calibrated, for example if dropped or submerged.",
+   "doc": "7b1d42bb203e3a2f",
+   "page": 3
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "b7eddc925dc2b7c5",
+   "label": "Recommended jars and lids",
+   "note": "NCHFP/USDA guidance on which jars and lids to use for home canning."
+  },
+  {
+   "doc": "31a7235cab119ccb",
+   "page": 17,
+   "label": "Choosing between a boiling-water canner and a pressure canner",
+   "note": "USDA Guide 1: types and capacities of canners, why small pressure saucepans are not recommended, and typical processing times."
+  },
+  {
+   "doc": "video-K0NjS_cJdFY",
+   "label": "Video: getting a dial-gauge pressure canner tested (UC ANR, 4 min)",
+   "note": "Shows how an extension office tests a dial gauge against a master gauge."
+  },
+  {
+   "doc": "3bc114d3d8a89fc9",
+   "label": "Choosing a food dehydrator",
+   "note": "NCHFP: how dehydrators work and features to look for, such as an adjustable thermostat and enclosed heating element."
+  },
+  {
+   "doc": "4d6322e80565247b",
+   "label": "Freezer management and keeping an inventory",
+   "note": "NCHFP (So Easy to Preserve): filling and rotating the freezer, posting an inventory, and keeping it at 0 °F with a thermometer."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "31a7235cab119ccb",
+   "label": "USDA Complete Guide to Home Canning, Guide 1: Principles",
+   "note": "40-page core guide (2015 revision): safety, acidity, altitude, jars, canners, cooling, storage, spoilage and a glossary."
+  },
+  {
+   "doc": "2018b3d9c821d6a7",
+   "label": "USDA Complete Guide, Guide 6: Fermented Foods and Pickled Vegetables",
+   "note": "Tested recipes and procedures for sauerkraut, fermented and fresh-pack pickles and relishes (2015 revision)."
+  },
+  {
+   "doc": "a8defaa10a263bba",
+   "label": "USDA Complete Guide: introduction and table of contents",
+   "note": "Front section of the 2015 guide with safety cautions, altitude information and the full recipe index."
+  },
+  {
+   "doc": "video-XGNrYnGc3PU",
+   "label": "Video webinar: Food Preservation @ Home, Pressure Canning (SDSU Extension, 1 hr)",
+   "note": "Extension class on pressure canning principles and equipment, with authored captions."
+  },
+  {
+   "doc": "video-XmB_WEdU1kU",
+   "label": "Video webinar: Food Preservation @ Home, Water Bath Canning (SDSU Extension, 53 min)",
+   "note": "Extension class on boiling-water canning of high-acid foods."
+  },
+  {
+   "doc": "video-7hB5oXYsTuQ",
+   "label": "Video: Preserving the Bounty FAQs (URI Extension, 66 min)",
+   "note": "Extension educators answer common home preservation questions across methods."
+  },
+  {
+   "doc": "3f96a831fbf09a59",
+   "label": "NCHFP: Crafting Kombucha at Home, FAQ",
+   "note": "Four-page question-and-answer sheet on making kombucha, equipment and safety."
+  },
+  {
+   "zim": "zim/wikipedia_en_all_nopic_2026-06.zim/Home_canning",
+   "title": "Home canning",
+   "label": "Encyclopedia: home canning",
+   "note": "Background on the history and methods of home canning."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Botulism",
+   "title": "Botulism",
+   "label": "Encyclopedia: botulism",
+   "note": "Medical overview of botulism, including foodborne cases, symptoms and treatment."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Fermentation_in_food_processing",
+   "title": "Fermentation in food processing",
+   "label": "Encyclopedia: fermentation in food processing",
+   "note": "How microbes preserve and transform foods such as sauerkraut and pickles."
+  }
+ ],
+ "route": [
+  {
+   "title": "Step 1: Learn why tested methods matter",
+   "goal": "Understand that preservation methods are chosen by science, and that old family or internet methods can be dangerous.",
+   "read": [
+    {
+     "doc": "video-NU8nal9D2QI",
+     "label": "Video: Unsafe outdated food preservation methods (UMN Extension, 5 min)",
+     "note": "Why recipes from family, newspapers or the internet may be unsafe, and examples of outdated methods."
+    },
+    {
+     "doc": "video-Webb6LKRKNo",
+     "label": "Video: How to preserve food at home safely (Utah State Extension, 8 min)",
+     "note": "Five research-based guidelines, starting with using current tested recipes and approved canning methods."
+    }
+   ]
+  },
+  {
+   "title": "Step 2: Understand botulism and acidity",
+   "goal": "Know how botulism grows in sealed jars and why low-acid and acid foods are treated differently.",
+   "read": [
+    {
+     "doc": "31a7235cab119ccb",
+     "page": 6,
+     "label": "Ensuring safe canned foods: how botulism grows",
+     "note": "USDA Guide 1: spores, the conditions that let them produce toxin, and why processing times matter."
+    },
+    {
+     "doc": "31a7235cab119ccb",
+     "page": 8,
+     "label": "Food acidity and processing methods",
+     "note": "USDA Guide 1: the pH 4.6 line, which foods fall on each side, and acidifying tomatoes and figs."
+    },
+    {
+     "doc": "video-ON8FEyVHE30",
+     "label": "Video: Botulism survivor urges safe canning (Utah State Extension, 10 min)",
+     "note": "A survivor describes the mistakes that led to her botulism poisoning from home-canned vegetables."
+    }
+   ]
+  },
+  {
+   "title": "Step 3: Boiling-water canning for acid foods",
+   "goal": "Learn the equipment and steps for canning fruit, jams, pickles and acidified tomatoes.",
+   "read": [
+    {
+     "doc": "b5b429f9de6c9f77",
+     "page": 2,
+     "label": "NCHFP: Using boiling water canners",
+     "note": "What a water-bath canner is, sizing it to your burner, and the step-by-step process continuing on the following pages."
+    },
+    {
+     "doc": "video-OHT0N0mXUD8",
+     "label": "Video: Boiling water canning method (UMN Extension, 8 min)",
+     "note": "Which foods are safe for this method and a review of each step."
+    }
+   ]
+  },
+  {
+   "title": "Step 4: Pressure canning for low-acid foods",
+   "goal": "Learn to use a pressure canner correctly for vegetables, meats, beans and soups.",
+   "read": [
+    {
+     "doc": "7b1d42bb203e3a2f",
+     "page": 3,
+     "label": "NCHFP: Before using a pressure canner",
+     "note": "Outdated canners, altitude, venting trapped air and calibrating dial gauges; the steps follow on page 4."
+    },
+    {
+     "doc": "31a7235cab119ccb",
+     "page": 21,
+     "label": "USDA: Using pressure canners step by step",
+     "note": "USDA Guide 1 procedure for water level, venting, pressurizing, timing and cooling."
+    },
+    {
+     "doc": "video-qoFj2Gxy3LA",
+     "label": "Video: Pressure Canning 101 (UMN Extension, 8 min)",
+     "note": "Safe use of modern pressure canners, and why pressure cookers should not be used for canning."
+    },
+    {
+     "doc": "video-5XLcDKpv9r0",
+     "label": "Video: Avoiding 10 canning mistakes (Utah State Extension, 6 min)",
+     "note": "Common errors such as making up recipes, with explanations of why each is risky."
+    }
+   ]
+  },
+  {
+   "title": "Step 5: Store, check and judge canned food",
+   "goal": "Store jars well and recognize when a jar must be thrown out.",
+   "read": [
+    {
+     "doc": "31a7235cab119ccb",
+     "page": 26,
+     "label": "Reprocessing unsealed jars and storing canned food",
+     "note": "USDA Guide 1: what to do with jars that did not seal, storage conditions, and inspecting jars before use."
+    },
+    {
+     "doc": "31a7235cab119ccb",
+     "page": 27,
+     "label": "Handling suspected spoiled jars safely",
+     "note": "USDA Guide 1: bagging or detoxifying suspect jars and cleaning contaminated surfaces."
+    }
+   ]
+  },
+  {
+   "title": "Step 6: Freezing, drying, pickling and fermenting",
+   "goal": "Add methods that need less equipment or no canner at all.",
+   "read": [
+    {
+     "doc": "1c6c08a60992fb80",
+     "label": "Freezing: blanching vegetables",
+     "note": "NCHFP: why blanching matters before freezing, and how to water-blanch with the right water-to-vegetable ratio."
+    },
+    {
+     "doc": "67c78e9ae6862f0e",
+     "label": "How long frozen foods keep their quality",
+     "note": "NCHFP table of approximate freezer storage times at 0 °F by food type."
+    },
+    {
+     "doc": "d34b594740923db4",
+     "label": "Drying: sun drying fruits",
+     "note": "NCHFP: conditions needed, which foods are suitable outdoors, and which should be dried indoors."
+    },
+    {
+     "doc": "f6fb003a0c35d70b",
+     "label": "Pickling: general information and acidity cautions",
+     "note": "NCHFP: types of pickles and why acid levels and tested proportions are critical for safety."
+    }
+   ]
+  }
+ ],
+ "related": [
+  "food"
+ ]
+}

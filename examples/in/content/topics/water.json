@@ -1,0 +1,475 @@
+{
+ "id": "water",
+ "mode": "now",
+ "title": "Get safe drinking water",
+ "short": "Treat, find and store water",
+ "intro": "Readings for when tap water is off or may be unsafe: how to treat water, where to find water already in your home, and how to store it. It also points to warnings about water that boiling or bleach cannot fix, such as salt water and flood water.",
+ "keywords": [
+  "water",
+  "drinking water",
+  "boil",
+  "boil notice",
+  "bleach",
+  "chlorine",
+  "purify",
+  "disinfect",
+  "filter",
+  "tablets",
+  "water heater",
+  "geyser",
+  "rainwater",
+  "well",
+  "borewell",
+  "tubewell",
+  "thirsty",
+  "storage",
+  "earthquake",
+  "flood",
+  "contaminated",
+  "apartment",
+  "high-rise",
+  "river",
+  "harbor",
+  "seawater",
+  "salt water"
+ ],
+ "choices": [
+  {
+   "id": "unsafe",
+   "label": "Tap water is off or might be unsafe",
+   "hint": "Boil-water notice, earthquake, flood, broken main",
+   "read": [
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 13,
+     "label": "Ways to treat water of uncertain quality",
+     "note": "FEMA/Red Cross booklet (2004). When to treat water, why to let particles settle or strain first, and boiling instructions. Says boiling and bleach do not remove chemicals."
+    },
+    {
+     "doc": "e4bfed4b6afd6d",
+     "page": 2,
+     "label": "Keep water safe during and after a flood",
+     "note": "FDA fact sheet (2007): use unexposed bottled water, how to boil or bleach cloudy water, and what to do if your well was flooded."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 71,
+     "label": "After an earthquake: check for water leaks and shut the main valve",
+     "note": "FEMA P-530 Earthquake Safety at Home (2020) checklist page: where to look for leaking pipes and where the home's main water valve usually is."
+    }
+   ]
+  },
+  {
+   "id": "boil",
+   "label": "I can boil water",
+   "hint": "Stove, camp stove, grill or fire is available",
+   "read": [
+    {
+     "doc": "med-953dfe1df69e0773",
+     "page": 23,
+     "label": "How long to boil water, and how to fix the taste",
+     "note": "Hesperian, New Where There Is No Doctor (2017): rolling boil time, longer time in high mountains, and shaking cooled water to improve taste. Also covers bleach on the same page."
+    },
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 13,
+     "label": "Boiling: the FEMA/Red Cross method",
+     "note": "FEMA/Red Cross booklet (2004) calls boiling the safest method and describes boil time, cooling, and pouring between containers for taste."
+    },
+    {
+     "doc": "med-3a93d7d4c97d404d",
+     "page": 2,
+     "label": "WHO: boiling, chlorine, and their limits",
+     "note": "WHO emergency technical note (2013) on boiling and chemical disinfection; notes some parasites such as cryptosporidium resist chlorine."
+    }
+   ]
+  },
+  {
+   "id": "bleach",
+   "label": "I have household bleach",
+   "hint": "Plain, unscented liquid bleach",
+   "read": [
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 14,
+     "label": "Bleach drops per gallon and the smell test",
+     "note": "FEMA/Red Cross booklet (2004). Gives a dose for bleach of 5.25–6% strength (stated on page 13), the waiting time, and what to do if no chlorine smell remains."
+    },
+    {
+     "doc": "med-953dfe1df69e0773",
+     "page": 23,
+     "label": "Bleach chart for 1 liter up to a 200-liter barrel",
+     "note": "Hesperian (2017) chart for 5% bleach. Says to read the label for the percent of chlorine, use more if weaker, and avoid bleach with soap or perfume."
+    },
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 135,
+     "label": "CERT manual: bleach amounts for clear and cloudy water",
+     "note": "FEMA CERT Participant Manual (2019): boiling, tablets, or non-perfumed bleach, with drop counts for clear versus cloudy water and a re-dose step."
+    },
+    {
+     "doc": "med-ea4055db35ff180d",
+     "page": 36,
+     "label": "How much chlorine to use, and what 'free chlorine' means",
+     "note": "Hesperian Community Guide to Environmental Health (2012). Explains why water should smell slightly of chlorine, and doubling the dose for cloudy water. Sources differ on drop counts; each states its bleach strength."
+    }
+   ]
+  },
+  {
+   "id": "filter",
+   "label": "I have a filter, tablets, or only sunlight",
+   "hint": "Camping filter, purification tablets, clear bottles",
+   "read": [
+    {
+     "doc": "2bcf93d0ed97f2",
+     "label": "Filter, then disinfect: collecting and purifying natural water",
+     "note": "National Park Service page. Says filtration by itself does not purify water and must be followed by boiling or chemical treatment."
+    },
+    {
+     "doc": "med-3a93d7d4c97d404d",
+     "page": 3,
+     "label": "Picture guide: treating water with chlorine tablets",
+     "note": "WHO technical note (2013) diagram for clear versus dirty water with tablets; says tablet number depends on container size and tablet strength, so check the maker's instructions."
+    },
+    {
+     "doc": "med-953dfe1df69e0773",
+     "page": 24,
+     "label": "Sunlight disinfection with clear bottles",
+     "note": "Hesperian (2017): how to use clear plastic bottles in full sun, how long to leave them, and why it works best near the equator."
+    },
+    {
+     "doc": "video-Kb_6eXF8kVE",
+     "label": "Video: how backcountry water filters work (REI, 4 min)",
+     "note": "Explains which germs filters remove and why viruses may need boiling or chemical treatment as well."
+    }
+   ]
+  },
+  {
+   "id": "inhome",
+   "label": "Find water already inside the house",
+   "hint": "Water heater or geyser, pipes, ice",
+   "read": [
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 12,
+     "label": "Hidden water sources in your home",
+     "note": "FEMA/Red Cross booklet (2004): using water in the hot-water tank, pipes and ice; which sources not to drink (toilet tank, radiators, waterbeds, pools); shutting the main valve."
+    },
+    {
+     "doc": "0dfdf1fb4b178f",
+     "page": 27,
+     "label": "Table of safe and unsafe water sources at home",
+     "note": "Older FEMA Are You Ready? guide. Safe/unsafe table, notes that pool and spa water can be used for hygiene only, and how to drain pipes and the water heater."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 26,
+     "label": "Your water heater as an emergency water source",
+     "note": "FEMA P-530 (2020): typical water heater capacity, usable if it was strapped and is not damaged; suggests storing purification tablets."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 75,
+     "label": "After an earthquake: check the water heater first",
+     "note": "FEMA P-530 (2020) checklist: signs of damage, shutting off gas, water and power, and saving drained water if it is clean."
+    }
+   ]
+  },
+  {
+   "id": "apartment",
+   "label": "I live in an apartment or high-rise",
+   "hint": "Taps slow or stop when the power is out",
+   "read": [
+    {
+     "doc": "c6155c3ed58c35",
+     "page": 2,
+     "label": "Why a power cut can also stop water and sewage",
+     "note": "Norwegian civil protection guide (2024): a power failure can mean home water supply and sewage systems stop working normally; it suggests being ready to manage for one week."
+    },
+    {
+     "doc": "1693406275fcc129",
+     "page": 2,
+     "label": "What happens to tap water when water utilities lose power",
+     "note": "EPA Power Resilience Guide (2023), written for water utilities: pumps can stop producing water, pressure loss can let contaminants into pipes, and sewage can back up into homes."
+    },
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 12,
+     "label": "Water already inside your home: water heater, pipes, ice",
+     "note": "FEMA/Red Cross (2004) lists hot-water tanks as emergency drinking-water sources. Norway's guidance below recommends hygiene use only; the sources disagree."
+    },
+    {
+     "doc": "c6155c3ed58c35",
+     "page": 13,
+     "label": "Norway's differing advice on water-heater water",
+     "note": "Norwegian civil protection guide (2024): water from the heater may be used in a crisis, but should not be used for drinking."
+    }
+   ]
+  },
+  {
+   "id": "outside",
+   "label": "Get water from rain, a stream, pool or well",
+   "hint": "No stored water left, borewell or tubewell",
+   "read": [
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 12,
+     "label": "Emergency outdoor water sources",
+     "note": "FEMA/Red Cross booklet (2004) lists rain, streams, ponds and springs, which to avoid, that seawater needs distilling, and not to drink flood water."
+    },
+    {
+     "doc": "med-ea4055db35ff180d",
+     "page": 24,
+     "label": "Make collected rainwater safe to drink",
+     "note": "Hesperian (2012): cleaning roofs and tanks, letting first rains run through, covering and screening, and adding chlorine or a filter."
+    },
+    {
+     "doc": "e4bfed4b6afd6d",
+     "page": 2,
+     "label": "If your well has been flooded",
+     "note": "FDA fact sheet (2007): a flooded well should be tested and disinfected; contact the local or state health department."
+    },
+    {
+     "doc": "c6155c3ed58c35",
+     "page": 13,
+     "label": "Using roof, river or water-heater water for washing",
+     "note": "Norwegian civil protection guide: such water may be badly contaminated and unsuitable after chemical releases or fallout; check with authorities first."
+    }
+   ]
+  },
+  {
+   "id": "river",
+   "label": "Only river, harbor or flood water nearby",
+   "hint": "City river, canal, bay or flooded streets",
+   "read": [
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 12,
+     "label": "Which outdoor water to avoid, and salt water",
+     "note": "FEMA/Red Cross booklet (2004) lists outdoor sources to treat first, water to avoid (floating material, odor, dark color), salt water only if distilled, and no flood water."
+    },
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 13,
+     "label": "Boiling and bleach do not remove salt or most chemicals",
+     "note": "FEMA/Red Cross booklet (2004): boiling or chlorination kills most germs but leaves heavy metals, salts and most other chemicals. Page 14 describes distilling."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 59,
+     "label": "What flood water can carry",
+     "note": "CERT Hazard Annexes (2019), hurricane section: floodwaters may hold oil, gasoline, chemicals, bacteria and raw sewage, plus hidden downed power lines."
+    }
+   ]
+  },
+  {
+   "id": "chemical",
+   "label": "Water may contain fuel, chemicals or sewage",
+   "hint": "Odd smell or color, spill, flood water, industrial area",
+   "read": [
+    {
+     "doc": "med-ea4055db35ff180d",
+     "page": 29,
+     "label": "Why filtering and disinfecting will not remove toxic chemicals",
+     "note": "Hesperian (2012): settle or filter, then disinfect, for germs only. States water with toxic chemicals is never safe for drinking, bathing or washing clothes."
+    },
+    {
+     "doc": "med-304a093a918ce1d6",
+     "page": 16,
+     "label": "Toxic pollution in water: what it is and how it is found",
+     "note": "Hesperian (2012): chemicals from industry, mining and nature are usually invisible; lab testing is how they are detected."
+    },
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 14,
+     "label": "Distillation: the one home method listed for salts and chemicals",
+     "note": "FEMA/Red Cross booklet (2004) describes distilling with a pot, lid and hanging cup and says it removes heavy metals, salts and most other chemicals."
+    }
+   ]
+  },
+  {
+   "id": "keepclean",
+   "label": "Keep treated water clean once you have it",
+   "hint": "Containers, dippers, how much per person",
+   "read": [
+    {
+     "doc": "med-953dfe1df69e0773",
+     "page": 25,
+     "label": "Stop stored water from getting dirty again",
+     "note": "Hesperian (2017): pouring or using a clean dipper, cleaning containers, covers, and the usual daily amount for drinking and cooking."
+    },
+    {
+     "doc": "med-3a93d7d4c97d404d",
+     "page": 3,
+     "label": "WHO: storing treated water and handwashing",
+     "note": "WHO technical note (2013): covered, cool, dark storage, wide-neck containers with lids, and fitting a tap to avoid hands touching water."
+    },
+    {
+     "doc": "med-9691a9d4a1231acf",
+     "page": 1,
+     "label": "How much water people need in emergencies",
+     "note": "WHO technical note on minimum water quantities for survival and how needs vary with climate and health (based on Sphere standards)."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "Boiling or chlorination kills most germs but does not remove heavy metals, salts, or most other chemicals.",
+   "doc": "f7ff53bcaae9cc",
+   "page": 13
+  },
+  {
+   "text": "Water that contains toxic chemicals is never safe for drinking, bathing, or washing clothes; home treatment methods do not make it safe.",
+   "doc": "med-ea4055db35ff180d",
+   "page": 29
+  },
+  {
+   "text": "Do not drink flood water, or water from toilet tanks, radiators, waterbeds, or pools and spas.",
+   "doc": "f7ff53bcaae9cc",
+   "page": 12
+  },
+  {
+   "text": "If the gas was turned off to drain the water heater, a professional is needed to turn it back on.",
+   "doc": "f7ff53bcaae9cc",
+   "page": 12
+  },
+  {
+   "text": "If bleach-treated water still has no slight bleach smell after a second dose, throw it out and find another source.",
+   "doc": "f7ff53bcaae9cc",
+   "page": 14
+  },
+  {
+   "text": "A flooded well should be tested and disinfected; contact your local or state health department for advice.",
+   "doc": "e4bfed4b6afd6d",
+   "page": 2
+  },
+  {
+   "text": "Some parasites, notably cryptosporidium, are resistant to chlorine.",
+   "doc": "med-3a93d7d4c97d404d",
+   "page": 2
+  },
+  {
+   "text": "Collected rain or river water may be unsuitable after chemical releases or nuclear fallout; seek information from authorities first.",
+   "doc": "c6155c3ed58c35",
+   "page": 13
+  },
+  {
+   "text": "When water utilities lose power, pressure loss can let contaminants into the drinking water pipes.",
+   "doc": "1693406275fcc129",
+   "page": 2
+  },
+  {
+   "text": "Do not use salt water unless you distill it first.",
+   "doc": "f7ff53bcaae9cc",
+   "page": 12
+  },
+  {
+   "text": "Floodwaters may carry oil, gasoline, chemicals, bacteria and raw sewage, and can hide downed power lines.",
+   "doc": "9681a68ebd07f5",
+   "page": 59
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "cecc1671ae4d02",
+   "page": 20,
+   "label": "How much water to keep per person (Ready.gov)",
+   "note": "FEMA Are You Ready? guide (2020): water per person per day, and suggested numbers of days to keep on hand."
+  },
+  {
+   "doc": "f7ff53bcaae9cc",
+   "page": 9,
+   "label": "Who needs more water, and why not to ration it",
+   "note": "FEMA/Red Cross booklet (2004): daily needs, extra for heat, children, nursing mothers and sick people, and a two-week storage goal."
+  },
+  {
+   "doc": "f7ff53bcaae9cc",
+   "page": 10,
+   "label": "Choosing and preparing containers for stored water",
+   "note": "FEMA/Red Cross booklet (2004): bottled versus home-filled water, which containers to avoid; page 11 covers cleaning, filling, labeling and replacing."
+  },
+  {
+   "doc": "ed5bac0a81b009",
+   "page": 26,
+   "label": "CERT tips: which plastic bottles to use and when to replace",
+   "note": "FEMA CERT manual (2019): look for recycling symbol 1, avoid milk jugs and glass, store cool and dark, replace every six months."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "page": 32,
+   "label": "Strap your water heater before an earthquake",
+   "note": "FEMA P-530 (2020): why unstrapped heaters fail, fire and carbon monoxide risks, and that a strapped heater is an emergency water source."
+  },
+  {
+   "doc": "med-ea4055db35ff180d",
+   "page": 23,
+   "label": "Collecting rainwater from a roof",
+   "note": "Hesperian (2012): which roofs are safe to collect from, keeping barrels clean, and tanks above or below ground."
+  },
+  {
+   "doc": "cecc1671ae4d02",
+   "page": 21,
+   "label": "Add a water purification system to your kit",
+   "note": "FEMA Are You Ready? (2020) list of extra kit items, including a water purification system and hand sanitizer."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "med-3a93d7d4c97d404d",
+   "label": "WHO: emergency treatment of drinking water at home",
+   "note": "Four-page WHO/WEDC technical note (2013) on aeration, settling, filters, boiling, chlorine, sunlight and safe storage."
+  },
+  {
+   "doc": "med-ea4055db35ff180d",
+   "label": "Hesperian: Protecting Community Water (full chapter)",
+   "note": "Plain-language chapter on testing, wells, springs, rainwater, filters (cloth, charcoal, slow sand), sunlight and chlorine."
+  },
+  {
+   "doc": "med-f23a61430c6e8cc0",
+   "label": "WHO: cleaning and disinfecting water tanks",
+   "note": "Technical note on a four-step method for cleaning storage tanks and tankers before use. Written for responders."
+  },
+  {
+   "doc": "med-7dfe05843f324a5d",
+   "label": "WHO: cleaning and disinfecting wells",
+   "note": "Technical note on repairing and disinfecting hand-dug wells after floods or earthquakes. Written for responders."
+  },
+  {
+   "doc": "operations-33db295a385d7514",
+   "label": "WHO Water Safety Plan Manual (2023)",
+   "note": "How water suppliers assess and manage risks from source to tap. Technical, for those running a water system."
+  },
+  {
+   "doc": "med-99953e703fef507a",
+   "label": "MSF Public Health Engineering in Precarious Situations",
+   "note": "Field manual (2010 edition) on water supply, treatment, sanitation and waste for humanitarian engineers."
+  },
+  {
+   "doc": "pump-97f27e54f6236045",
+   "label": "FAO Water Lifting Devices: contents",
+   "note": "Entry point to an FAO manual on pumps and water-lifting methods, including hand, wind and solar power."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Portable_water_purification",
+   "title": "Portable water purification",
+   "label": "Encyclopedia: portable water purification",
+   "note": "Overview of boiling, filters, chemical and UV methods and what each removes."
+  },
+  {
+   "zim": "zim/wikipedia_en_all_nopic_2026-06.zim/Rainwater_harvesting",
+   "title": "Rainwater harvesting",
+   "label": "Encyclopedia: rainwater harvesting",
+   "note": "Background on collecting and storing rainwater, quality concerns and system types."
+  },
+  {
+   "doc": "video-sqYPXxbjH_w",
+   "label": "Video: rainwater harvesting demonstration trailer (Texas A&M AgriLife)",
+   "note": "Extension agent walks through rain barrels, screens, overflows and other collection setups."
+  }
+ ],
+ "related": [
+  "sanitation",
+  "food"
+ ]
+}

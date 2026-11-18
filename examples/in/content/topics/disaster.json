@@ -1,0 +1,604 @@
+{
+ "id": "disaster",
+ "mode": "now",
+ "title": "Stay safe in an earthquake, storm, fire, flood or tsunami",
+ "short": "Earthquake, tsunami, hurricane, tornado, thunderstorm, wildfire, home and high-rise fire, flood, shelter-in-place",
+ "intro": "What official guides say to do during and right after an earthquake, tsunami warning, hurricane, tornado or thunderstorm, wildfire or wildfire smoke, home or high-rise fire, flood, or chemical or radiation emergency, and how to plan an evacuation without a car — and how to get a go-bag and family plan ready beforehand.",
+ "keywords": [
+  "earthquake",
+  "drop cover hold on",
+  "aftershock",
+  "liquefaction",
+  "tsunami",
+  "evacuate",
+  "high ground",
+  "wildfire",
+  "bushfire",
+  "smoke",
+  "N95",
+  "air quality",
+  "fire",
+  "smoke alarm",
+  "escape plan",
+  "flood",
+  "floodwater",
+  "cyclone",
+  "monsoon",
+  "storms",
+  "hurricanes",
+  "typhoons",
+  "storm surge",
+  "tornadoes",
+  "funnel cloud",
+  "thunderstorms",
+  "hail",
+  "chemical",
+  "shelter in place",
+  "radiation",
+  "nuclear",
+  "fallout",
+  "go bag",
+  "kit",
+  "family plan",
+  "high-rise",
+  "apartment fire",
+  "elevator",
+  "stairs",
+  "no car",
+  "public transit",
+  "bus",
+  "paratransit"
+ ],
+ "choices": [
+  {
+   "id": "earthquake-now",
+   "label": "The ground is shaking right now",
+   "hint": "Earthquake — indoors, in bed, outside or driving",
+   "read": [
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 9,
+     "label": "FEMA: Drop, Cover and Hold On",
+     "note": "FEMA 2024 sheet: what to do indoors, in bed, in a vehicle or high-rise, and going inland after shaking if tsunamis are possible."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 17,
+     "label": "CERT: why not to run outside or stand in a doorway",
+     "note": "During shaking in a car, in bed, outdoors or near the coast, plus first steps if you are trapped."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 56,
+     "label": "FEMA P-530: what to do during an earthquake",
+     "note": "Detailed survival guidance from the California-originated home earthquake guide, including what to do with no table nearby."
+    }
+   ]
+  },
+  {
+   "id": "earthquake-after",
+   "label": "The shaking stopped — what now?",
+   "hint": "Injuries, damage, gas, fires, aftershocks",
+   "read": [
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 18,
+     "label": "CERT: first checks after an earthquake",
+     "note": "Check yourself, then others; put out small fires; clean up spills; inspect for damage; expect aftershocks; tune to emergency broadcasts."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 60,
+     "label": "What NOT to do after an earthquake",
+     "note": "No candles or flames until you know there's no gas leak, don't turn gas back on yourself, unplug appliances, text rather than call."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 66,
+     "label": "Home safety checklist: gas and fuel tanks",
+     "note": "Start of FEMA's room-by-room post-earthquake checklist; later pages cover electrical, water, chimneys and solar panels."
+    }
+   ]
+  },
+  {
+   "id": "tsunami",
+   "label": "Tsunami warning, or a strong quake at the coast",
+   "hint": "Near the beach, harbor or low ground by the ocean",
+   "read": [
+    {
+     "doc": "68b98222512b05",
+     "page": 1,
+     "label": "NWS: tsunami safety — natural vs official warnings",
+     "note": "Go to high ground or inland right away after a strong quake at the coast; plan to evacuate on foot; a cancelled warning doesn't mean safe."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 99,
+     "label": "Tsunami watch, advisory and warning explained",
+     "note": "CERT: what each NOAA alert level means and that the first wave may arrive before a warning."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 100,
+     "label": "During and after a tsunami",
+     "note": "Higher ground or upper floors of a tall sturdy building, boats, and why to wait for officials — the next wave can be larger."
+    },
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 29,
+     "label": "FEMA: how to stay safe when a tsunami threatens",
+     "note": "Prepare, survive, be safe: shelters 100 feet up or a mile inland, wave-and-arrow route signs, electrocution risk in floodwater."
+    }
+   ]
+  },
+  {
+   "id": "wildfire",
+   "label": "A wildfire is near — evacuate or trapped",
+   "hint": "Evacuation order, forest fires approaching, trapped at home or in a car",
+   "read": [
+    {
+     "doc": "2848f4bffb8109",
+     "page": 8,
+     "label": "Ready.gov: before you evacuate from a wildfire",
+     "note": "The Five Ps to take, and steps that help firefighters if there's time: lights on, windows closed, garage opener disconnected."
+    },
+    {
+     "doc": "2848f4bffb8109",
+     "page": 9,
+     "label": "Driving away, or trapped at home or in a car",
+     "note": "Driving through smoke, and last-resort actions if trapped in your home, a vehicle or outdoors."
+    },
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 33,
+     "label": "FEMA: how to stay safe when a wildfire threatens",
+     "note": "Leave immediately when told, call 9-1-1 if trapped, use N95 masks, and avoid hot ash and embers after."
+    }
+   ]
+  },
+  {
+   "id": "smoke",
+   "label": "Wildfire smoke is making the air bad",
+   "hint": "Smoky air from a wildfire or forest fire, not ordered to evacuate",
+   "read": [
+    {
+     "doc": "a90ff7e6f3cf01",
+     "label": "Ready.gov: protecting yourself from smoke",
+     "note": "N95 masks, a closed-off room with a portable air cleaner, high-efficiency HVAC filters on recirculate, and extra caution for lung conditions."
+    },
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 33,
+     "label": "FEMA: N95 respirators for wildfire smoke",
+     "note": "Gather N95 masks ahead of time and use them to keep particles out of the air you breathe."
+    }
+   ]
+  },
+  {
+   "id": "home-fire",
+   "label": "Fire in the home",
+   "hint": "Smoke alarm going off, fire or smoke inside",
+   "read": [
+    {
+     "doc": "255b448d041a65",
+     "page": 9,
+     "label": "Red Cross: get out and stay out",
+     "note": "Crawl low, check door handles with the back of your hand, signal from a window if trapped, never go back in."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 36,
+     "label": "CERT: if trapped by smoke, and after a fire",
+     "note": "Staying low near a window and signaling the fire department; electrical dangers when returning after a fire."
+    },
+    {
+     "doc": "27757fb5d39987",
+     "label": "U.S. Fire Administration: home fire escape plans",
+     "note": "You may have less than 2 minutes to escape; two ways out of every room, a meeting place, and high-rise advice."
+    }
+   ]
+  },
+  {
+   "id": "highrise-fire",
+   "label": "Fire in an apartment or high-rise building",
+   "hint": "Alarm in the building, smoke in the hallway, stairs or elevator",
+   "read": [
+    {
+     "doc": "27757fb5d39987",
+     "label": "USFA: leaving a high-rise apartment in a fire",
+     "note": "U.S. Fire Administration page: high-rise fires are especially dangerous; leave, close the door behind you, pull the alarm, take the stairs, not the elevator unless firefighters direct it."
+    },
+    {
+     "doc": "cae1149a714fc3",
+     "page": 1,
+     "label": "Red Cross: if you can't reach the exit stairs",
+     "note": "Red Cross sheet (2014): if trapped, call 911, close doors, hang a white sheet outside the window; practice reaching the fire stairs or a safe place in your unit."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 35,
+     "label": "CERT: no elevators, hot doors, and being trapped in a room",
+     "note": "CERT 2019 annex: never using an elevator to escape, checking a door for heat and smoke, and sealing gaps with wet cloth if all exits are blocked."
+    },
+    {
+     "doc": "5cf2ec3dc27738",
+     "label": "Know two ways out of your building",
+     "note": "Ready.gov page (2026): in a high-rise, knowing the closest exit and a second way out, not using elevators, and keeping right on stairwells so emergency workers can come up."
+    }
+   ]
+  },
+  {
+   "id": "flood",
+   "label": "Flooding or a flood warning",
+   "hint": "Rising water, flooded roads, storm, cyclone or monsoon",
+   "read": [
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 13,
+     "label": "FEMA: how to stay safe when a flood threatens",
+     "note": "Evacuate when told, don't walk or drive through floodwater, avoid closed attics, and electrical and generator hazards after."
+    },
+    {
+     "doc": "cecc1671ae4d02",
+     "page": 12,
+     "label": "Turn Around, Don't Drown and flood steps",
+     "note": "Are You Ready: how little moving water can sweep you or a car away, going to higher levels, and after-flood electrocution risks."
+    }
+   ]
+  },
+  {
+   "id": "hurricane",
+   "label": "A hurricane is coming — evacuate or stay",
+   "hint": "Hurricanes, typhoons, storm surge, evacuation order, high winds",
+   "read": [
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 15,
+     "label": "FEMA: how to stay safe when a hurricane threatens",
+     "note": "FEMA 2024 sheet: evacuating when told, the safest room for high winds, not climbing into a closed attic in a flood, generators outdoors only, and dangers after."
+    },
+    {
+     "doc": "1f738924576334",
+     "page": 8,
+     "label": "Deciding to stay or go",
+     "note": "FEMA hurricane guide (2020): leaving at once when told to evacuate, reaching higher ground before floodwater, and why staying can mean days without power, water or roads."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 58,
+     "label": "CERT: if you stay, and during the hurricane",
+     "note": "CERT 2019 annex: a small interior windowless room above flood level, leaving a mobile home for a sturdy building, and keeping generators 20 feet from doors and windows."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 59,
+     "label": "The eye of the storm, tornadoes and flooding",
+     "note": "CERT 2019 annex: sturdy cover from high winds, why the calm eye does not mean the storm is over, tornadoes at landfall, and floodwater dangers."
+    }
+   ]
+  },
+  {
+   "id": "tornado",
+   "label": "Tornado warning — where to go now",
+   "hint": "Tornadoes, funnel cloud, sirens, trailer home, caught in a car or outside",
+   "read": [
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 26,
+     "label": "FEMA: under a tornado warning, find shelter now",
+     "note": "FEMA 2024 sheet: safe room or basement, otherwise a small interior room on the lowest floor away from windows, not under an overpass, and protecting head and neck."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 91,
+     "label": "CERT: signs of a tornado, watches and warnings",
+     "note": "CERT 2019 annex: why mobile and manufactured homes are unsafe, signs such as a roaring sound or a debris cloud, and what to do at a watch or a warning."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 92,
+     "label": "In a car or outside, and if you are trapped after",
+     "note": "CERT 2019 annex: why not to outrun a tornado or stop under an overpass, covering head and neck, and signalling for help if trapped under debris."
+    }
+   ]
+  },
+  {
+   "id": "thunderstorm",
+   "label": "Thunderstorm, lightning or hail",
+   "hint": "Thunder nearby, caught outside, swimming or boating, hail while driving",
+   "read": [
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 25,
+     "label": "FEMA: how to stay safe when a thunderstorm threatens",
+     "note": "FEMA 2024 sheet: going indoors when thunder roars, avoiding running water and landline phones, sheltering in a car with a metal top and sides if needed, and flooded roads."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 84,
+     "label": "CERT: watches, warnings and getting indoors",
+     "note": "CERT 2019 annex: what a severe thunderstorm watch and warning mean, why a sturdy building is safest, and securing the yard against high winds."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 85,
+     "label": "Caught outdoors in a thunderstorm",
+     "note": "CERT 2019 annex: shelters that do not protect, a metal-topped car as a last option, hail while driving, and how lightning travels through water and plumbing."
+    }
+   ]
+  },
+  {
+   "id": "no-car",
+   "label": "I may need to evacuate and have no car",
+   "hint": "Bus, train, paratransit, a ride from neighbors or family",
+   "read": [
+    {
+     "doc": "cecc1671ae4d02",
+     "page": 20,
+     "label": "Are You Ready: planning evacuation without a car",
+     "note": "FEMA Are You Ready? guide (2020): planning transportation with family, friends or local government if you have no car, and checking on neighbors who may need a ride."
+    },
+    {
+     "doc": "2848f4bffb8109",
+     "page": 5,
+     "label": "Public transportation and paratransit in an evacuation",
+     "note": "FEMA wildfire guide (written 2014, reposted 2020): arranging shared rides and asking local emergency management how evacuation by public transportation or paratransit works, including staging areas."
+    },
+    {
+     "doc": "cecc1671ae4d02",
+     "page": 19,
+     "label": "Meeting places and backup ways to get out",
+     "note": "FEMA Are You Ready? (2020): meeting places in several directions that everyone can reach, and learning alternate routes and backup modes of transportation out of your area."
+    },
+    {
+     "doc": "53da8d3443e35e",
+     "page": 1,
+     "label": "Commuter plan: write down routes, buses and trains",
+     "note": "Ready.gov fill-in form (2013): normal and alternative routes between work and home, public transportation lines and stops, and taxi and local bus numbers."
+    }
+   ]
+  },
+  {
+   "id": "shelter-in-place",
+   "label": "Chemical or radiation emergency — told to shelter",
+   "hint": "Shelter-in-place order, chemical release, nuclear incident",
+   "read": [
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 241,
+     "label": "CERT: sealing a room for a chemical release",
+     "note": "Shutting off ventilation, plastic sheeting and duct tape, how long you'd typically stay, and ventilating afterward."
+    },
+    {
+     "doc": "255b448d041a65",
+     "page": 15,
+     "label": "Red Cross: chemical threat — what to do",
+     "note": "Shelter in place by closing windows and fans, wet cloths if no tape, and calling poison control or 9-1-1."
+    },
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 21,
+     "label": "FEMA: nuclear explosion — get inside, stay inside",
+     "note": "Best shelter locations, at least 10 minutes to find shelter, removing and washing off fallout, and safe food and water."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 75,
+     "label": "CERT: nuclear power plant emergency",
+     "note": "Follow local instructions, sheltering vs evacuating, closing air intakes, and showering and bagging clothes after exposure."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "Do NOT get in a doorway during an earthquake — it doesn't protect from falling objects — and do not run outside.",
+   "doc": "9681a68ebd07f5",
+   "page": 16
+  },
+  {
+   "text": "If there are major cracks in the chimney or foundation, or the home or its utilities have shifted, get everyone out.",
+   "doc": "9681a68ebd07f5",
+   "page": 18
+  },
+  {
+   "text": "If you turned the gas off, do not turn it on again yourself; let the gas company inspect and restore it.",
+   "doc": "5cd0b4e41cc479",
+   "page": 60
+  },
+  {
+   "text": "Do not use matches, lighters, candles, camp stoves or electrical equipment until you are sure there are no gas leaks.",
+   "doc": "5cd0b4e41cc479",
+   "page": 60
+  },
+  {
+   "text": "If crawlspace walls have slid or are visibly leaning, turn off gas at the meter and do not reoccupy until a home safety evaluation.",
+   "doc": "5cd0b4e41cc479",
+   "page": 66
+  },
+  {
+   "text": "Damaged or shifted rooftop solar panels are a falling or fire hazard; switch off the solar feed if possible and contact a qualified professional.",
+   "doc": "5cd0b4e41cc479",
+   "page": 68
+  },
+  {
+   "text": "In a tsunami area, after a strong quake or a natural warning go to high ground or inland at once — do not wait for an official warning.",
+   "doc": "68b98222512b05",
+   "page": 1
+  },
+  {
+   "text": "A tsunami is a series of waves that may continue for hours; the next wave may be larger. Return only when officials say it is safe.",
+   "doc": "9681a68ebd07f5",
+   "page": 100
+  },
+  {
+   "text": "If authorities tell you to evacuate for a wildfire, leave immediately; if trapped, call 9-1-1, but help could be delayed or impossible.",
+   "doc": "d0fbb2e051cd46",
+   "page": 33
+  },
+  {
+   "text": "Authorities will never advise you to stay and fight an approaching wildfire.",
+   "doc": "9681a68ebd07f5",
+   "page": 37
+  },
+  {
+   "text": "Once out of a burning home, stay out; never go back inside for possessions, pets or people.",
+   "doc": "255b448d041a65",
+   "page": 9
+  },
+  {
+   "text": "Do not walk, swim or drive through floodwater; just a foot of moving water can sweep a vehicle away. Do not climb into a closed attic.",
+   "doc": "d0fbb2e051cd46",
+   "page": 13
+  },
+  {
+   "text": "Underground or downed power lines can electrically charge water; do not touch electrical equipment if it is wet or you are standing in water.",
+   "doc": "d0fbb2e051cd46",
+   "page": 29
+  },
+  {
+   "text": "When the calm eye of a hurricane passes over, the storm is not over; stay inside until emergency officials say it is safe.",
+   "doc": "9681a68ebd07f5",
+   "page": 59
+  },
+  {
+   "text": "Mobile and manufactured homes are unsafe in a tornado; choose a sturdier shelter before a watch or warning.",
+   "doc": "9681a68ebd07f5",
+   "page": 91
+  },
+  {
+   "text": "Do not try to outrun a tornado in a vehicle, and do not stop under a freeway, overpass or trees.",
+   "doc": "9681a68ebd07f5",
+   "page": 92
+  },
+  {
+   "text": "In a thunderstorm, avoid running water and landline phones; electricity can travel through plumbing and phone lines.",
+   "doc": "d0fbb2e051cd46",
+   "page": 25
+  },
+  {
+   "text": "Young children and older adults should not use fire extinguishers; ask the fire department for training.",
+   "doc": "fc85c36f9ccfab"
+  },
+  {
+   "text": "Outdoor areas, vehicles and mobile homes do NOT provide adequate shelter from nuclear fallout.",
+   "doc": "d0fbb2e051cd46",
+   "page": 21
+  },
+  {
+   "text": "In a high-rise fire, use the stairs; do not use the elevator unless the fire department tells you to.",
+   "doc": "27757fb5d39987"
+  },
+  {
+   "text": "Never open a door that feels hot. If smoke, heat or flames block every exit, stay in the room with the door closed and call the fire department to say where you are.",
+   "doc": "9681a68ebd07f5",
+   "page": 35
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "ed5bac0a81b009",
+   "page": 25,
+   "label": "CERT: create a family disaster plan",
+   "note": "Two meeting places, an out-of-state check-in contact, wallet cards, shutting off utilities, alarms, and meeting neighbors."
+  },
+  {
+   "doc": "255b448d041a65",
+   "page": 6,
+   "label": "Red Cross (Northern California): make a plan",
+   "note": "Two exits from every room, two meeting places, an out-of-area contact, and texting because phone lines get overwhelmed."
+  },
+  {
+   "doc": "db4d9783fca34b",
+   "page": 2,
+   "label": "FEMA 2024 emergency supply kit checklist",
+   "note": "Basic kit items — water, food, radio with NOAA alerts, flashlight, whistle, masks, plastic sheeting, utility wrench — and extras on the reverse."
+  },
+  {
+   "doc": "2848f4bffb8109",
+   "page": 7,
+   "label": "The Five Ps of evacuation and a go-bag",
+   "note": "People, Prescriptions, Papers, Personal needs, Priceless items, and storing important documents safely."
+  },
+  {
+   "doc": "9681a68ebd07f5",
+   "page": 16,
+   "label": "Earthquake-proof your home",
+   "note": "CERT: practice Drop, Cover, Hold On, secure furniture and water heaters, shoes and flashlight by the bed, licensed pros for flexible gas lines."
+  },
+  {
+   "doc": "9681a68ebd07f5",
+   "page": 98,
+   "label": "Plan your tsunami evacuation route",
+   "note": "Know your inundation zone and street elevation, natural warning signs, and plan routes you can follow at night."
+  },
+  {
+   "doc": "a90ff7e6f3cf01",
+   "label": "Ready.gov: prepare home and family for wildfires",
+   "note": "Alerts, evacuation zones, a 30-foot fire-resistant zone, a clean-air room, N95 masks and backup charging."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "page": 16,
+   "label": "Liquefaction and tsunami: why soil matters",
+   "note": "FEMA P-530 explains how loose wet soil can turn to quicksand in a quake, plus how tsunamis form. Relevant for sandy coastal areas."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "d0fbb2e051cd46",
+   "label": "FEMA hazard information sheets (2024)",
+   "note": "Full set of two-page sheets for every major hazard, from earthquake and tsunami to power outage and nuclear explosion."
+  },
+  {
+   "doc": "cecc1671ae4d02",
+   "label": "Are You Ready? guide (FEMA, 2020)",
+   "note": "FEMA's in-depth citizen preparedness guide: hazard-by-hazard actions, making a plan, supplies and recovery."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "label": "Earthquake Safety at Home (FEMA P-530, 2020)",
+   "note": "Prepare, protect, survive, respond and recover — including retrofit projects and a full post-quake home checklist. Originally from California."
+  },
+  {
+   "doc": "9681a68ebd07f5",
+   "label": "CERT Hazard Annexes (2019)",
+   "note": "Detailed before/during/after guidance and myths vs facts for earthquake, fire, flood, tsunami, nuclear and more."
+  },
+  {
+   "doc": "ed5bac0a81b009",
+   "label": "CERT Basic Training Participant Manual (2019)",
+   "note": "Neighborhood volunteer training: preparedness, fire safety and utilities, first aid, light search and rescue, terrorism."
+  },
+  {
+   "doc": "255b448d041a65",
+   "label": "Red Cross Be Prepared guide",
+   "note": "Red Cross Northern California Coastal Region guide covering kits, plans and California hazards like earthquake, tsunami and wildfire."
+  },
+  {
+   "doc": "3c0e90a41f5c85",
+   "label": "Building homes in wildfire zones (FEMA P-754)",
+   "note": "FEMA guide on how homes ignite in wildfires and construction details that resist embers and flames."
+  },
+  {
+   "doc": "6eb90a18a3fd0c",
+   "label": "NOAA tsunami program fact sheet",
+   "note": "How NOAA detects tsunamis and issues warnings."
+  },
+  {
+   "doc": "34d75afda44bde",
+   "label": "EPA Protective Action Guides for radiological incidents",
+   "note": "Planning manual for officials on when to shelter or evacuate after radiation releases. Technical; written for emergency planners."
+  },
+  {
+   "doc": "ec27c9c3c6b74c",
+   "label": "Nuclear War Survival Skills (Kearny)",
+   "note": "Classic civil-defense book from the 1980s on fallout shelters and expedient protection. Historical — prefer current FEMA guidance."
+  }
+ ],
+ "related": [
+  "power",
+  "comms",
+  "food"
+ ]
+}

@@ -1,0 +1,658 @@
+{
+ "id": "hurt",
+ "mode": "now",
+ "title": "Someone is hurt or sick",
+ "short": "First aid for bleeding, burns, breathing, injuries and sudden illness",
+ "intro": "Find the right first-aid pages fast when someone is injured or suddenly ill and help may be slow to arrive. Start with checking the person and the scene, then pick what you see. These pages describe what trusted first-aid manuals say; they do not replace training or a medical professional.",
+ "keywords": [
+  "first aid",
+  "injury",
+  "hurt",
+  "bleeding",
+  "blood",
+  "cut",
+  "wound",
+  "stitches",
+  "infection",
+  "burn",
+  "scald",
+  "broken bone",
+  "fracture",
+  "sprain",
+  "splint",
+  "CPR",
+  "not breathing",
+  "unconscious",
+  "recovery position",
+  "choking",
+  "shock",
+  "head injury",
+  "concussion",
+  "spine",
+  "neck",
+  "heat stroke",
+  "heatstroke",
+  "heat exhaustion",
+  "hypothermia",
+  "frostbite",
+  "frostnip",
+  "allergic reaction",
+  "anaphylaxis",
+  "epinephrine",
+  "adrenaline",
+  "diarrhea",
+  "loose motions",
+  "vomiting",
+  "dehydration",
+  "rehydration",
+  "ORS",
+  "heart attack",
+  "stroke",
+  "seizure",
+  "diabetes",
+  "low blood sugar",
+  "triage",
+  "911",
+  "999",
+  "112",
+  "111",
+  "108",
+  "emergency",
+  "poison",
+  "swallowed",
+  "overdose",
+  "pesticide"
+ ],
+ "choices": [
+  {
+   "id": "check",
+   "label": "I don't know what's wrong – how do I check the person?",
+   "hint": "Accident, collapse, several injured people, you need a calm order of steps",
+   "read": [
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 1,
+     "label": "Stay calm, make the place safe, check breathing then bleeding",
+     "note": "Hesperian's step-by-step start for any emergency: calm yourself, move away from danger, check breathing first, then heavy bleeding, and protect yourself from blood."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 2,
+     "label": "Check the whole body and keep re-checking",
+     "note": "How to look head to toe for hidden injuries, comfort the person, give helpers jobs and keep watching because injured people can suddenly get worse."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 114,
+     "label": "The general approach: scene safety and life threats first",
+     "note": "IFRC 2025 guidelines on keeping yourself safe, then finding life-threatening problems (unresponsive, breathing, severe bleeding) before anything else. Written for first-aid educators."
+    },
+    {
+     "doc": "med-68adb7585ea5d7e0",
+     "page": 25,
+     "label": "The ABCDE check: Airway, Breathing, Circulation, Disability, Exposure",
+     "note": "WHO/ICRC Basic Emergency Care explains the ABCDE order and why each problem is fixed before moving on. Course for frontline health workers; some actions need training."
+    }
+   ]
+  },
+  {
+   "id": "bleeding",
+   "label": "Bleeding, a cut or a wound",
+   "hint": "Heavy bleeding, deep cut, tourniquet, dirty wound, wound getting red or swollen",
+   "read": [
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 9,
+     "label": "Stop bleeding with direct, firm pressure",
+     "note": "Raising the wound, pressing a folded clean cloth firmly on or into it, adding cloth instead of removing it, and how long to keep pressing on a large wound."
+    },
+    {
+     "doc": "video-YJB3fI3T1oo",
+     "label": "Video: direct pressure for life-threatening bleeding",
+     "note": "American Red Cross demonstration (about 5 minutes, captions) of finding the source of bleeding, placing a dressing and pushing hard."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 13,
+     "label": "Clean every wound well",
+     "note": "Why cleaning prevents infection, washing with plenty of flowing clean water, soapy water for dirty wounds, and flushing deep wounds."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 19,
+     "label": "Signs a wound is infected or spreading",
+     "note": "Swelling, redness, heat, pus, bad smell; fever and swollen lymph nodes mean the infection is spreading. Next page covers sepsis danger signs."
+    }
+   ]
+  },
+  {
+   "id": "closing",
+   "label": "Does this wound need stitches or a doctor?",
+   "hint": "Gaping cut, old wound, deep wound, tetanus worry",
+   "read": [
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 14,
+     "label": "Caring for a wound and when to close it",
+     "note": "Keeping wounds clean and covered, changing bandages, which wounds should be left open (including wounds over 12 hours old) and which heal better closed."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 16,
+     "label": "When a cut benefits from stitches",
+     "note": "Which cuts benefit from stitches and an illustrated method; deep wounds that cannot be closed properly should be left open. Stitching is a skill to learn beforehand."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 275,
+     "label": "Cuts and grazes: clean, cover, and when to get care",
+     "note": "IFRC 2025 guidance: clean with running water, cover the wound, seek help if not protected against tetanus or if signs of infection or fever appear."
+    }
+   ]
+  },
+  {
+   "id": "burn",
+   "label": "Burn or scald",
+   "hint": "Fire, hot water, cooking oil, chemicals, electricity",
+   "read": [
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 288,
+     "label": "Cool the burn with running water",
+     "note": "IFRC 2025 key action and guidelines for heat and chemical burns, what to put on afterwards, and why not to break blisters."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 289,
+     "label": "When a burn needs emergency care",
+     "note": "Burns that are large, deep, near the face, throat or genitals, or from chemicals, electricity or flames need emergency help; signs of burn infection; watching children for chilling."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 38,
+     "label": "Minor vs dangerous burns and the palm-size rule",
+     "note": "Hesperian on cooling minor burns, recognising deep or large burns (using the person's palm as about 1% of the body) and care on the way to help."
+    }
+   ]
+  },
+  {
+   "id": "bone",
+   "label": "Broken bone, dislocation or sprain",
+   "hint": "Fall, twisted ankle, limb looks bent or can't be moved",
+   "read": [
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 29,
+     "label": "Is it broken, dislocated or sprained?",
+     "note": "How to tell these injuries apart and the advice to keep the part still and get help when you cannot tell."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 30,
+     "label": "Make a splint and a sling",
+     "note": "Illustrated steps for splinting an arm, leg, thigh or finger with cardboard or board, and checking that fingers and toes stay warm with normal feeling."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 301,
+     "label": "Fractures, sprains and strains: keep it still",
+     "note": "IFRC 2025: treat any limb injury as a possible fracture, stabilise it, cool for up to 20 minutes, and watch for bleeding and shock with thigh fractures."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 36,
+     "label": "Sprains, strains and bruises: rest, ice, compress, elevate",
+     "note": "Signs of a sprain, the rest-ice-compression-elevation routine, how to wrap a bandage, and bruises that may signal something more serious."
+    }
+   ]
+  },
+  {
+   "id": "breathing",
+   "label": "Not breathing, unconscious or choking",
+   "hint": "Collapsed or fainted, not responding, can't breathe, gasping, food stuck in throat, drowning",
+   "read": [
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 159,
+     "label": "Unresponsive and not breathing normally: start CPR",
+     "note": "IFRC 2025: assume cardiac arrest if unresponsive with abnormal breathing, call for help, and start chest compressions. Continues on the next two pages with depth, ratio and steps."
+    },
+    {
+     "doc": "video-6eRwgM2Pa4o",
+     "label": "Video: hands-only CPR",
+     "note": "American Red Cross demonstration (about 3 minutes, captions) of checking the person, calling 911 and doing compression-only CPR."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 152,
+     "label": "Unresponsive but breathing: the recovery position",
+     "note": "IFRC 2025 on keeping the airway open by turning the person on their side, and what to do differently if a spine injury is possible."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 5,
+     "label": "Choking: back blows and abdominal thrusts",
+     "note": "Hesperian steps for an adult or child who cannot cough or talk, including pregnant or large people; next page covers babies under one year and drowning."
+    }
+   ]
+  },
+  {
+   "id": "shock",
+   "label": "Pale, cold, sweaty, weak – could be shock",
+   "hint": "After heavy bleeding, bad burns, severe vomiting or a severe allergy",
+   "read": [
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 12,
+     "label": "Signs of shock and what to do on the way to help",
+     "note": "Hesperian explains shock (not the same as being scared), its warning signs and first steps while getting help."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 388,
+     "label": "Shock: lie the person down and keep them at normal temperature",
+     "note": "IFRC 2025 guidance on positioning, when leg raising is and is not appropriate, and getting emergency care immediately."
+    }
+   ]
+  },
+  {
+   "id": "head",
+   "label": "Head, neck or back injury",
+   "hint": "Fall, car crash, blow to the head, confused or numb after an accident",
+   "read": [
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 22,
+     "label": "Protect a possible spine injury",
+     "note": "When to assume the spine is hurt, keeping neck and back still, signs of spine injury and a simple movement and feeling check."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 24,
+     "label": "Concussion vs severe brain injury",
+     "note": "Signs of mild and severe brain injury, watching the person for 24 hours, and the signs that mean bleeding inside the skull needs immediate help."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 307,
+     "label": "Spinal injury: keep still, do not strap the neck",
+     "note": "IFRC 2025: who may have a spinal injury, always call emergency services, and when an unresponsive person should or should not be moved."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 312,
+     "label": "Head injury: when to get emergency care",
+     "note": "IFRC 2025 concussion screening questions and a list of warning signs after a blow to the head that need emergency medical care."
+    }
+   ]
+  },
+  {
+   "id": "heatcold",
+   "label": "Too hot or too cold (heat stroke, hypothermia, frostbite)",
+   "hint": "Heat wave, no AC, confused and hot, shivering, frostnip, numb white fingers",
+   "read": [
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 446,
+     "label": "Heat illness: cool the person fast",
+     "note": "IFRC 2025 on heat exhaustion and heatstroke, cooling methods, and when to call emergency services. Next page lists the warning signs."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 57,
+     "label": "Heat stroke: signs and how to cool someone",
+     "note": "Hesperian on who is most at risk, dangerous signs and how to cool quickly; warns that ice baths are dangerous for older or ill people."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 461,
+     "label": "Hypothermia: warm gradually",
+     "note": "IFRC 2025 on removing wet clothes, passive and active warming, avoiding burns from warm stones, and always getting medical help."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 60,
+     "label": "Frostbite: warming frozen fingers and toes",
+     "note": "Hesperian on rewarming frozen parts, not rubbing, and why a thawed part must not refreeze. See the shelter topic for keeping a home warm or cool."
+    }
+   ]
+  },
+  {
+   "id": "allergy",
+   "label": "Severe allergic reaction",
+   "hint": "Swollen lips or throat, trouble breathing, hives after a sting, food or medicine",
+   "read": [
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 55,
+     "label": "Mild allergy vs anaphylaxis",
+     "note": "Hesperian lists signs of a severe allergic reaction and when epinephrine is needed; next page shows where it is injected and other steps."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 376,
+     "label": "Help the person use their own epinephrine auto-injector",
+     "note": "IFRC 2025 key action: stop contact with the allergen and help the person use prescribed medication. Next page covers calling EMS and repeat reactions."
+    }
+   ]
+  },
+  {
+   "id": "poison",
+   "label": "Poisoning: swallowed a chemical, medicine or pesticide",
+   "hint": "Cleaning product, too many pills (overdose), fuel, button battery, a child got into something",
+   "read": [
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 348,
+     "label": "First steps for any poisoning",
+     "note": "IFRC 2025 steps: stop the exposure, find out what was taken and how much, reach a poison centre or EMS and follow them. Do not make the person vomit."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 347,
+     "label": "Do not induce vomiting or give milk, water or charcoal",
+     "note": "IFRC 2025: do not induce vomiting, and do not give milk, water or activated charcoal unless a poison centre or poison expert says to. Also lists signs of poisoning."
+    }
+   ]
+  },
+  {
+   "id": "diarrhea",
+   "label": "Diarrhea, vomiting or dehydration",
+   "hint": "Stomach bug, loose motions, bad water, baby or older person drying out",
+   "read": [
+    {
+     "doc": "med-8bd4770a63b99cc6",
+     "page": 20,
+     "label": "Signs of dehydration and when it gets worse",
+     "note": "Hesperian on early dehydration signs, the signs it is getting dangerous (including the skin-pinch test) and why young children are at special risk."
+    },
+    {
+     "doc": "med-8bd4770a63b99cc6",
+     "page": 22,
+     "label": "Make a home rehydration drink",
+     "note": "Hesperian recipe for salt and sugar or cereal rehydration drink, how to taste-check it, and how much to give after each stool."
+    },
+    {
+     "doc": "med-d9ac20e4a9829e89",
+     "page": 8,
+     "label": "Diarrhea in children: drinks, food, no plug medicines",
+     "note": "Hesperian on how much rehydration drink to give small children, continuing food and breastfeeding, and avoiding anti-diarrhea medicines."
+    },
+    {
+     "doc": "med-8bd4770a63b99cc6",
+     "page": 25,
+     "label": "Danger signs with vomiting or diarrhea",
+     "note": "Vomiting and diarrhea warning signs (blood, a lot of watery stool fast, weeks of diarrhea) and who is most at risk."
+    }
+   ]
+  },
+  {
+   "id": "sudden",
+   "label": "Chest pain, stroke signs, seizure or diabetic emergency",
+   "hint": "Crushing chest pain, face drooping, fit or convulsion, diabetic acting confused",
+   "read": [
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 28,
+     "label": "Signs of a heart attack",
+     "note": "Hesperian lists heart attack signs in men and women and first steps while getting help. Mentions medicines; check the source's precautions."
+    },
+    {
+     "doc": "med-f0d080c42e81de5f",
+     "page": 20,
+     "label": "Stroke: face, arm, speech – get to a hospital fast",
+     "note": "Hesperian on recognising a stroke and why treatment within the first hours matters."
+    },
+    {
+     "doc": "med-443ae5cfaa6ecc68",
+     "page": 51,
+     "label": "What to do during a seizure",
+     "note": "Clearing space, turning the person on their side, not holding them down, and the causes that need urgent medical help."
+    },
+    {
+     "doc": "med-a840a35b017c5748",
+     "page": 31,
+     "label": "Low blood sugar in someone with diabetes",
+     "note": "Hesperian on danger signs of low blood sugar, giving sugar if conscious, and when to get help if they do not improve."
+    }
+   ]
+  },
+  {
+   "id": "nohelp",
+   "label": "Phones are down or help is far away",
+   "hint": "Earthquake, many injured, no ambulance coming, need to send for help",
+   "read": [
+    {
+     "doc": "clinical-fe3d008bfe1dd1a2",
+     "page": 4,
+     "label": "Signs a person is too sick to treat at home",
+     "note": "Where There Is No Doctor (2025) list of signs of dangerous illness that mean skilled medical help is needed as soon as possible."
+    },
+    {
+     "doc": "clinical-fe3d008bfe1dd1a2",
+     "page": 5,
+     "label": "When and how to look for medical help",
+     "note": "Bringing the health worker to the person or carrying them by stretcher, and sending a responsible messenger with a written patient report (form on the next page)."
+    },
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 128,
+     "label": "How responders set up treatment areas after a disaster",
+     "note": "CERT manual on decentralized and central medical treatment areas where survivors are cared for until transport to professional care. Written for trained CERT volunteers."
+    },
+    {
+     "doc": "clinical-14def41d1ef369f1",
+     "page": 26,
+     "label": "Moving a badly injured person on a stretcher",
+     "note": "Where There Is No Doctor (2025) illustration of lifting an injured person without bending them and keeping the head and neck still."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "If someone has heavy blood loss, cannot be woken, has great difficulty breathing, cannot drink for a day or more, or other listed danger signs, they are probably too sick to treat at home; seek skilled medical help as soon as possible.",
+   "doc": "clinical-fe3d008bfe1dd1a2",
+   "page": 4
+  },
+  {
+   "text": "Watch for confusion, a very fast heart rate, and cold, moist, pale skin after bleeding: these are danger signs of losing too much blood and shock.",
+   "doc": "med-443ae5cfaa6ecc68",
+   "page": 10
+  },
+  {
+   "text": "A tourniquet is a last resort, for when you are willing to risk losing the limb to save a life: a limb that cannot be saved, or limb bleeding that direct pressure cannot slow.",
+   "doc": "med-443ae5cfaa6ecc68",
+   "page": 10
+  },
+  {
+   "text": "After applying a tourniquet, get to a hospital as fast as you can; the limb is likely to be lost after 2 or 3 hours.",
+   "doc": "med-443ae5cfaa6ecc68",
+   "page": 11
+  },
+  {
+   "text": "Emergency medical services should be called for all severe bleeding.",
+   "doc": "med-2e83e22162a9a006",
+   "page": 256
+  },
+  {
+   "text": "Signs of sepsis (fever or very low temperature, fast heart rate, fast breathing, confusion) mean an infection has spread: get medical help quickly.",
+   "doc": "med-443ae5cfaa6ecc68",
+   "page": 20
+  },
+  {
+   "text": "Burns that are large, deep, on the face, throat or genitals, or caused by chemicals, electricity or flames need emergency medical services.",
+   "doc": "med-2e83e22162a9a006",
+   "page": 289
+  },
+  {
+   "text": "Deep burns, burns covering 10% or more of the body, burns on joints, face or genitals, and burns in children are dangerous: get help. Children should be cared for in a burn-equipped hospital whenever possible.",
+   "doc": "med-443ae5cfaa6ecc68",
+   "page": 38
+  },
+  {
+   "text": "After a head injury, growing confusion, a worsening headache, passing out or a seizure suggest bleeding inside the skull and need immediate medical help.",
+   "doc": "med-443ae5cfaa6ecc68",
+   "page": 24
+  },
+  {
+   "text": "Always call emergency services when a spinal injury is suspected; do not move an unresponsive person with a possible spine injury unless they are in danger or help has arrived.",
+   "doc": "med-2e83e22162a9a006",
+   "page": 307
+  },
+  {
+   "text": "Call emergency services for heat illness if the person shows unusual behaviour or confusion, becomes unresponsive, has a seizure or has a body temperature above 39°C (102.2°F).",
+   "doc": "med-2e83e22162a9a006",
+   "page": 446
+  },
+  {
+   "text": "For all cases of hypothermia, emergency medical services should be called and the person's airway, breathing and circulation watched.",
+   "doc": "med-2e83e22162a9a006",
+   "page": 461
+  },
+  {
+   "text": "Severe hypothermia (body temperature 32°C/90°F or less, unconscious, no longer shivering): handle the person as gently as possible while quickly getting them to help.",
+   "doc": "med-443ae5cfaa6ecc68",
+   "page": 59
+  },
+  {
+   "text": "Call emergency services whenever anaphylaxis is suspected; symptoms can return hours after improving. Recognising anaphylaxis requires training.",
+   "doc": "med-2e83e22162a9a006",
+   "page": 377
+  },
+  {
+   "text": "Setting bones and putting on a cast should be done by someone with experience; keep a broken bone still until then.",
+   "doc": "med-443ae5cfaa6ecc68",
+   "page": 30
+  },
+  {
+   "text": "If a child with dehydration does not start to improve quickly with rehydration drink, get help.",
+   "doc": "med-d9ac20e4a9829e89",
+   "page": 7
+  },
+  {
+   "text": "A suspected stroke needs a hospital right away; treatment works best within the first hours.",
+   "doc": "med-f0d080c42e81de5f",
+   "page": 20
+  },
+  {
+   "text": "Do not make a poisoned person vomit, and do not give milk, water or activated charcoal unless a poison control centre or poison expert tells you to.",
+   "doc": "med-2e83e22162a9a006",
+   "page": 347
+  },
+  {
+   "text": "The Basic Emergency Care course is written for frontline health providers; airway devices and other practical skills in it require training.",
+   "doc": "med-68adb7585ea5d7e0",
+   "page": 9
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "clinical-660fbc63f3545bd0",
+   "page": 4,
+   "label": "What to keep in a home medicine and first-aid kit",
+   "note": "Where There Is No Doctor (2025) home kit list with gloves, gauze, bandages, tape and other supplies, with page references for how each is used. Earlier pages explain caring for the kit."
+  },
+  {
+   "doc": "db4d9783fca34b",
+   "page": 2,
+   "label": "FEMA basic emergency supply kit checklist",
+   "note": "Ready.gov 2024 checklist including a first aid kit, whistle, dust mask and plastic sheeting; first page adds prescriptions, glasses and a first aid book."
+  },
+  {
+   "doc": "ed5bac0a81b009",
+   "page": 46,
+   "label": "CERT volunteer first aid pouch",
+   "note": "CERT 2019 list of minimum first-aid pouch items (dressings, pads, triangular bandages, roller bandage) plus gloves, lights and tools on the previous page."
+  },
+  {
+   "doc": "med-c1d102b9e751af81",
+   "page": 233,
+   "label": "Red Cross field first aid bag and how to look after it",
+   "note": "ICRC 2006 annex on keeping a first aid bag clean and restocked, improvising, and a detailed contents table. Written for Red Cross first aiders in conflict areas; older edition."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "page": 23,
+   "label": "Take a first aid, CPR, Until Help Arrives or CERT course",
+   "note": "FEMA Earthquake Safety at Home (2020) recommends a ready first aid kit and taking first aid, CPR, Until Help Arrives or CERT training."
+  },
+  {
+   "doc": "med-a840a35b017c5748",
+   "page": 31,
+   "label": "Carry a card if you have diabetes and teach your family",
+   "note": "Hesperian advice to wear a medical bracelet or card listing diabetes and medicines, and teach family the danger signs."
+  },
+  {
+   "doc": "med-2e83e22162a9a006",
+   "page": 377,
+   "label": "Allergy plan: carry the card and prescribed medication",
+   "note": "IFRC 2025 prevention advice: avoid known allergens and make sure the person and caregivers know where their prescribed medication is."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "med-443ae5cfaa6ecc68",
+   "label": "New Where There Is No Doctor: First Aid chapter",
+   "note": "Hesperian's plain-language first aid chapter (2020 advance chapter) covering bleeding, wounds, burns, bones, breathing, heat, cold, bites and poisoning; medicine pages at the end include doses."
+  },
+  {
+   "doc": "med-2e83e22162a9a006",
+   "label": "IFRC International First Aid Guidelines 2025",
+   "note": "Current evidence-based guidelines from the Red Cross Red Crescent, topic by topic with key actions. Written for first-aid educators and programme designers, so it is detailed."
+  },
+  {
+   "doc": "clinical-14def41d1ef369f1",
+   "label": "Where There Is No Doctor (2025): Chapter 10 First Aid",
+   "note": "The classic village health book's first aid chapter, including shock, bleeding, wounds, burns, fractures and moving injured people."
+  },
+  {
+   "doc": "ed5bac0a81b009",
+   "page": 100,
+   "label": "CERT Basic Training: Disaster Medical Operations",
+   "note": "FEMA CERT 2019 units on life-threatening conditions, basic first aid, treatment areas and head-to-toe checks. A volunteer training course; hands-on practice is part of it."
+  },
+  {
+   "doc": "med-68adb7585ea5d7e0",
+   "label": "WHO/ICRC Basic Emergency Care workbook",
+   "note": "Systematic ABCDE approach to the acutely ill and injured (2018). For frontline health workers; many skills need supervised training."
+  },
+  {
+   "doc": "video-k98ilfQmUWw",
+   "label": "Video: how to use a tourniquet",
+   "note": "American Red Cross demonstration (about 3 minutes, captions) of placing and tightening a windlass tourniquet for life-threatening limb bleeding."
+  },
+  {
+   "doc": "video-GmqXqwSV3bo",
+   "label": "Video: the recovery position",
+   "note": "St John Ambulance demonstration (about 2.5 minutes, captions) of rolling an unresponsive, breathing person onto their side. UK emergency numbers are mentioned."
+  },
+  {
+   "doc": "video-in8j2Q2z3HE",
+   "label": "Video: using an AED on an adult",
+   "note": "American Red Cross demonstration (about 3 minutes, captions) of turning on an AED, placing pads and following its prompts."
+  },
+  {
+   "doc": "video-HGBBu4zr8sM",
+   "label": "Video: helping someone who is choking",
+   "note": "St John Ambulance demonstration (about 2.5 minutes, captions) of recognising choking, back blows and abdominal thrusts."
+  },
+  {
+   "doc": "video-W-Us9IP33Gs",
+   "label": "Video: helping someone with heat exhaustion",
+   "note": "British Red Cross (about 3 minutes, captions): pale, cold, clammy skin and dizziness; shade, sitting down, sips of water; when to get medical advice or call the UK emergency number."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/First_aid",
+   "title": "First aid",
+   "label": "Encyclopedia: First aid (MDWiki)",
+   "note": "Medical encyclopedia overview of first aid; from there, linked articles cover bleeding, burns, CPR, shock and more. Reference reading, not step-by-step instructions."
+  }
+ ],
+ "related": [
+  "shelter",
+  "health",
+  "water",
+  "sanitation"
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "id": "energy",
+ "mode": "learn",
+ "title": "Make and manage power",
+ "short": "Electricity basics, batteries, solar, generators",
+ "intro": "A beginner's path from electrical safety and basic theory to batteries, solar panels, charge controllers, inverters and generator care, with pointers to small wind and micro-hydro. It is for understanding and looking after a system; wiring into a house is a job for a qualified electrician.",
+ "keywords": [
+  "electricity",
+  "solar",
+  "photovoltaic",
+  "PV",
+  "battery",
+  "lithium",
+  "lead-acid",
+  "inverter",
+  "charge controller",
+  "MPPT",
+  "PWM",
+  "generator",
+  "off-grid",
+  "wiring",
+  "fuse",
+  "Ohm's law",
+  "wind turbine",
+  "micro-hydro",
+  "NEETS"
+ ],
+ "choices": [],
+ "limits": [
+  {
+   "text": "Electricity can kill at low voltages — deaths have occurred at about 42 volts; electrical work should be done by a qualified electrician or technician following local rules.",
+   "doc": "1fa960bf955dd5cb",
+   "page": 4
+  },
+  {
+   "text": "Do not short-circuit batteries, which can cause fire or explosion; battery charging can create explosive gases; use insulated tools.",
+   "doc": "1fa960bf955dd5cb",
+   "page": 4
+  },
+  {
+   "text": "Low-voltage circuits of 115 volts and below can kill; fatalities from voltages as low as 30 volts have been recorded.",
+   "doc": "eng-4f1f21ea9351fcec",
+   "page": 263
+  },
+  {
+   "text": "Never work alone on electrical equipment, and work on energized circuits only when absolutely necessary.",
+   "doc": "eng-b70776fb7c7b0bde",
+   "page": 226
+  },
+  {
+   "text": "Never short battery terminals; keep smoking, sparks and open flames away from charging batteries; wear eye and hand protection. If electrolyte gets in the eyes or on skin, flush with water at least 15 minutes and get medical help.",
+   "doc": "eng-4f1f21ea9351fcec",
+   "page": 110
+  },
+  {
+   "text": "All storage batteries on charge give off an explosive hydrogen–oxygen mixture; never remove connections with current flowing or allow sparks near a battery.",
+   "doc": "47e8a442a2b343f0",
+   "page": 13
+  },
+  {
+   "text": "Inverter terminals can stay dangerously energized even when switched off; disconnect the battery before servicing, and leave internal servicing to qualified personnel (Victron manual, model-specific).",
+   "doc": "equipment-694555f3b9a47b0e",
+   "page": 2
+  },
+  {
+   "text": "A solar array exposed to light supplies high DC voltage to the charge controller; shut down and isolate both the DC and PV sides before disconnecting cables (Victron manual, model-specific).",
+   "doc": "equipment-a22e0d8a01e0f933"
+  },
+  {
+   "text": "Connect the charge controller to the batteries first, then the panels; when removing, disconnect panels first. Reversed polarity can damage components; a skilled installer is advisable.",
+   "doc": "89c91ae1008675d0",
+   "page": 18
+  },
+  {
+   "text": "Connecting a generator to house wiring requires an isolation (transfer) switch installed by a qualified electrician; improper connections can backfeed and electrocute utility workers.",
+   "doc": "equipment-b463000c0e14b4ad",
+   "page": 56
+  },
+  {
+   "text": "Make sure a generator's engine is off and cool before maintenance, and never use gasoline to clean parts.",
+   "doc": "equipment-b463000c0e14b4ad",
+   "page": 59
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "89c91ae1008675d0",
+   "page": 11,
+   "label": "Know what your solar system can really supply",
+   "note": "Plain handbook advice on matching appliance use to what a small stand-alone system generates and stores."
+  },
+  {
+   "doc": "89c91ae1008675d0",
+   "page": 15,
+   "label": "Routine checks for batteries, wiring and appliances",
+   "note": "Simple user checklist: battery ventilation and fuse, connections, corrosion, and keeping equipment out of reach."
+  },
+  {
+   "doc": "89c91ae1008675d0",
+   "page": 16,
+   "label": "Routine checks for charge controller and panels",
+   "note": "Loose connections, water near equipment, indicator lights, shading and cleaning panels."
+  },
+  {
+   "doc": "equipment-b463000c0e14b4ad",
+   "page": 60,
+   "label": "Generator maintenance schedule",
+   "note": "Honda EU2200i schedule (model-specific) for oil, air cleaner, spark plug and spark arrester; check your own manual."
+  },
+  {
+   "doc": "equipment-b463000c0e14b4ad",
+   "page": 67,
+   "label": "Storing a generator and its fuel",
+   "note": "Why gasoline deteriorates in storage and what affects it; Honda model-specific storage steps follow on the next pages."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "page": 68,
+   "label": "Check rooftop solar after an earthquake",
+   "note": "FEMA P-530 checklist item on damaged or shifted solar panels and switching off the solar feed."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "eng-4f1f21ea9351fcec",
+   "label": "NEETS Module 1: matter, energy and direct current",
+   "note": "U.S. Navy self-study course: what electricity is, batteries, Ohm's law and DC circuits, with review questions. Older training text."
+  },
+  {
+   "doc": "eng-370c8714b3377bbf",
+   "label": "NEETS Module 5: generators and motors",
+   "note": "Navy course explaining how DC and AC generators and motors work. Theory, not a maintenance guide."
+  },
+  {
+   "doc": "1fa960bf955dd5cb",
+   "label": "Victron: Wiring Unlimited",
+   "note": "2026 manufacturer book on wiring battery, inverter and solar systems: cable sizes, fuses, busbars, grounding. Written for installers; uses Victron products as examples."
+  },
+  {
+   "doc": "3ecb5e0370365a99",
+   "label": "Victron: Energy Unlimited",
+   "note": "Victron's 2011 guide to off-grid and boat power: battery aging, charging, energy budgets and generators. Mostly lead-acid; older."
+  },
+  {
+   "doc": "c87af72e51c38f3a",
+   "label": "PWM or MPPT solar charge controller?",
+   "note": "Victron 2020 paper comparing the two controller types and how temperature affects panel output."
+  },
+  {
+   "doc": "88668e8084f2aa1c",
+   "label": "Off-grid and backup system schematics",
+   "note": "Victron example diagrams for backup and island systems. Product-specific; useful to see how parts fit together."
+  },
+  {
+   "doc": "47e8a442a2b343f0",
+   "label": "Storage Battery Maintenance and Principles",
+   "note": "Bureau of Reclamation 2020 manual for large battery rooms: hazards, ventilation, lead-acid, NiCd and lithium. Written for qualified facility staff."
+  },
+  {
+   "doc": "video-89u8R_aUFO4",
+   "label": "Video: wiring your solar power system",
+   "note": "altE Store walk-through of how panels, controller, batteries and inverter are wired together; captioned. A retailer's video."
+  },
+  {
+   "doc": "a6b4cbfc71c2d72d",
+   "label": "DOE consumer guide to small wind",
+   "note": "Two-page U.S. Department of Energy overview of home wind turbines, sizing and grid connection."
+  },
+  {
+   "doc": "eng-be1c99a3bc9aad69",
+   "label": "Wind turbines on or near buildings: lessons",
+   "note": "NREL report: rooftop and urban turbine projects often produced far less than estimated. Relevant before buying a turbine for a city lot."
+  },
+  {
+   "doc": "883e521e727e9ae0",
+   "label": "Microhydropower Handbook, Volume 1",
+   "note": "U.S. DOE 1983 handbook on assessing a stream, design, equipment and safety. Historical; only relevant with flowing water on site."
+  },
+  {
+   "zim": "zim/wikibooks_en_all_maxi_2026-04.zim/Battery_Power/Lithium_Ion_Batteries",
+   "title": "Battery Power/Lithium Ion Batteries",
+   "label": "Wikibooks: lithium-ion batteries",
+   "note": "Encyclopedia-style overview of lithium-ion chemistry, advantages and why they can be dangerous if mistreated."
+  }
+ ],
+ "route": [
+  {
+   "title": "Step 1: Safety before anything else",
+   "goal": "Understand why even low voltages and batteries can injure or kill, and when to stop and call a professional.",
+   "read": [
+    {
+     "doc": "eng-4f1f21ea9351fcec",
+     "page": 263,
+     "label": "NEETS: electrical safety and shock",
+     "note": "How current, not voltage, determines shock severity and why household voltages are deadly."
+    },
+    {
+     "doc": "eng-b70776fb7c7b0bde",
+     "page": 226,
+     "label": "NEETS: safety precautions for preventing shock",
+     "note": "Nine Navy rules for working around electrical equipment, from never working alone to discharging capacitors."
+    },
+    {
+     "doc": "1fa960bf955dd5cb",
+     "page": 4,
+     "label": "Victron safety warnings",
+     "note": "Short list of battery and wiring dangers and the advice to use a qualified electrician."
+    }
+   ]
+  },
+  {
+   "title": "Step 2: Volts, amps, watts and Ohm's law",
+   "goal": "Learn the few ideas you need to read a label, size a cable or estimate how long a battery lasts.",
+   "read": [
+    {
+     "doc": "eng-4f1f21ea9351fcec",
+     "page": 120,
+     "label": "NEETS: Ohm's law",
+     "note": "The relationship between current, voltage and resistance, with worked examples on the following pages."
+    },
+    {
+     "doc": "1fa960bf955dd5cb",
+     "page": 5,
+     "label": "Victron: theory for system builders",
+     "note": "Electricity, current and voltage explained with an eye on choosing cables and fuses."
+    }
+   ]
+  },
+  {
+   "title": "Step 3: Batteries — capacity, care and hazards",
+   "goal": "Understand amp-hours, series vs parallel, what shortens battery life, and battery-specific dangers.",
+   "read": [
+    {
+     "doc": "eng-4f1f21ea9351fcec",
+     "page": 100,
+     "label": "NEETS: combining cells in series and parallel",
+     "note": "How cells are combined for more voltage or more capacity."
+    },
+    {
+     "doc": "eng-4f1f21ea9351fcec",
+     "page": 110,
+     "label": "NEETS: battery safety and capacity ratings",
+     "note": "Battery safety precautions and what an ampere-hour rating means."
+    },
+    {
+     "doc": "3ecb5e0370365a99",
+     "page": 18,
+     "label": "What ages a battery early",
+     "note": "Victron on deep discharge and sulphation, with a table of cycle life by lead-acid battery type."
+    },
+    {
+     "doc": "e02dc81261aae7",
+     "page": 358,
+     "label": "Lithium battery fire warning signs",
+     "note": "Emergency Response Guidebook 2024 on thermal runaway and signs of a damaged lithium battery."
+    }
+   ]
+  },
+  {
+   "title": "Step 4: Solar panels and charge controllers",
+   "goal": "See how panels, controller, battery and inverter fit together, and how to look after a small system.",
+   "read": [
+    {
+     "doc": "89c91ae1008675d0",
+     "page": 9,
+     "label": "The parts of a stand-alone solar system",
+     "note": "Charge controller, lead-acid vs lithium battery, inverter and wiring, with typical lifespans."
+    },
+    {
+     "doc": "c87af72e51c38f3a",
+     "page": 1,
+     "label": "PWM vs MPPT controllers",
+     "note": "What each controller type does and when each performs better."
+    },
+    {
+     "doc": "video-x7YWPjycgR4",
+     "label": "Video: off-grid solar system overview",
+     "note": "Seven-minute captioned demo of a small 12V system with combiner box, breakers and grounding (altE Store)."
+    }
+   ]
+  },
+  {
+   "title": "Step 5: Inverters, fuses and wiring",
+   "goal": "Understand why cable size, fuses and grounding matter and what the manufacturer says about inverters.",
+   "read": [
+    {
+     "doc": "1fa960bf955dd5cb",
+     "page": 35,
+     "label": "Cable thickness, length and heat",
+     "note": "Why undersized or enclosed cables overheat and local rules on fusing doubled cables."
+    },
+    {
+     "doc": "equipment-694555f3b9a47b0e",
+     "page": 2,
+     "label": "Inverter safety instructions (Victron)",
+     "note": "Model-specific manual: energized terminals, grounding and GFCI notes. Read your own inverter's manual."
+    }
+   ]
+  },
+  {
+   "title": "Step 6: Generators — how they work and how to keep one running",
+   "goal": "Know the basic principle and the maintenance and storage a portable generator needs.",
+   "read": [
+    {
+     "doc": "eng-370c8714b3377bbf",
+     "page": 10,
+     "label": "NEETS: how a generator makes electricity",
+     "note": "Learning objectives and the principle of turning motion into electricity."
+    },
+    {
+     "doc": "equipment-b463000c0e14b4ad",
+     "page": 59,
+     "label": "Generator maintenance safety",
+     "note": "Honda EU2200i (model-specific): engine off, cool parts, CO and fuel precautions before servicing."
+    },
+    {
+     "doc": "video-zfR1ikN_HZM",
+     "label": "Video: Honda EU2200i maintenance",
+     "note": "Manufacturer video of routine maintenance on one model; no transcript."
+    }
+   ]
+  }
+ ],
+ "related": [
+  "power",
+  "comms"
+ ]
+}

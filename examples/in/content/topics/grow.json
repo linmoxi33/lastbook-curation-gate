@@ -1,0 +1,463 @@
+{
+ "id": "grow",
+ "mode": "learn",
+ "title": "Grow staple food",
+ "short": "Containers, beds, soil, water, staple crops and seed saving",
+ "intro": "A step-by-step learning track for growing food over months and years, starting with a few containers or a small bed and building toward storable staple crops and saved seed. Readings lean on University of California extension guides for coastal Southern California, with general manuals for the parts UC does not cover.",
+ "keywords": [
+  "grow",
+  "garden",
+  "gardening",
+  "vegetables",
+  "seeds",
+  "plant",
+  "planting",
+  "compost",
+  "soil",
+  "potato",
+  "sweet potato",
+  "beans",
+  "squash",
+  "corn",
+  "grain",
+  "seed saving",
+  "heirloom",
+  "open-pollinated",
+  "hybrid",
+  "F1",
+  "container",
+  "raised bed",
+  "watering",
+  "irrigation",
+  "pests",
+  "Los Angeles",
+  "Southern California"
+ ],
+ "choices": [
+  {
+   "id": "small-space",
+   "label": "I only have a patio, balcony or a little yard",
+   "hint": "Pots, buckets, a small raised bed",
+   "read": [
+    {
+     "doc": "coastal-growing-84be1f504ea1d4902487",
+     "page": 1,
+     "label": "How deep each kind of vegetable needs its pot",
+     "note": "UC handout listing soil depths for shallow, medium and deep-rooted vegetables, container mix options and small tomato varieties for 5-gallon pots."
+    },
+    {
+     "doc": "med-2ca695c9db63d020",
+     "page": 33,
+     "label": "Growing food in small city spaces",
+     "note": "Hesperian page on growing upward on supports and in buckets, bags and other containers with drainage holes, with crops that suit containers."
+    },
+    {
+     "zim": "zim/appropedia_en_all_maxi_2026-02.zim/Container_gardening",
+     "title": "Container gardening",
+     "label": "Short overview of container gardening",
+     "note": "Appropedia article on moving containers for sun and shelter and on greens and dwarf tomatoes for balconies."
+    }
+   ]
+  },
+  {
+   "id": "when-to-plant",
+   "label": "What can I plant now in coastal Southern California?",
+   "hint": "Los Angeles, coastal Ventura and Orange counties",
+   "read": [
+    {
+     "doc": "coastal-growing-6c1e6263ed3907b61d56",
+     "page": 1,
+     "label": "Month-by-month vegetable planting chart for Southern California",
+     "note": "UC Ventura County one-page colour chart for coastal Southern California. It is an image only: open the PDF and read the colours, the text is not searchable."
+    },
+    {
+     "doc": "coastal-growing-2bf5bc7fde86306a742c",
+     "page": 1,
+     "label": "October planting list for Los Angeles County (historical)",
+     "note": "Older UC column (about 2000) listing cool-season crops to sow or transplant in October. Use for planting ideas only, not its chemical or preserving advice."
+    },
+    {
+     "doc": "coastal-growing-7e742f7e7ec7d1b6ee65",
+     "label": "Potato planting months by California region",
+     "note": "UC IPM table gives approximate South Coast potato planting windows and says to check locally with a Master Gardener program."
+    }
+   ]
+  },
+  {
+   "id": "soil-unknown",
+   "label": "I don't know if my soil is safe or good",
+   "hint": "Old house, lead paint, former parking lot, hard clay or sand",
+   "read": [
+    {
+     "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+     "page": 3,
+     "label": "Check your site's history before growing food",
+     "note": "UC guide on clues to past contamination, such as old peeling paint, parking lots and auto shops, and where to look up a site's history."
+    },
+    {
+     "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+     "page": 7,
+     "label": "Options when soil is doubtful: mixing, pH, raised beds",
+     "note": "Describes working existing soil, raised beds filled with clean soil and their drawbacks, and when replacing soil is needed."
+    },
+    {
+     "doc": "med-2ca695c9db63d020",
+     "page": 35,
+     "label": "Signs that city soil may be contaminated",
+     "note": "Hesperian page on site history, chemical smells, soil near painted walls, testing and growing in containers on top of sealed soil."
+    }
+   ]
+  },
+  {
+   "id": "calories",
+   "label": "I want crops that actually fill people up",
+   "hint": "Potatoes, sweet potatoes, dry beans, squash, corn",
+   "read": [
+    {
+     "doc": "coastal-growing-7e742f7e7ec7d1b6ee65",
+     "label": "Growing potatoes from certified seed pieces",
+     "note": "UC IPM page on site, soil, planting dates, certified seed pieces (not grocery potatoes), hilling, watering and harvest."
+    },
+    {
+     "doc": "coastal-growing-61ed997967489e5abeb1",
+     "page": 2,
+     "label": "Growing sweet potatoes from slips",
+     "note": "UC Sacramento guide on certified disease-free slips, warm soil and sun needs, and why slips can be hard to get in California. Sacramento is hotter than the coast."
+    },
+    {
+     "zim": "zim/appropedia_en_all_maxi_2026-02.zim/Three_sisters_agriculture",
+     "title": "Three sisters agriculture",
+     "label": "Corn, beans and squash grown together",
+     "note": "Appropedia article on the traditional companion planting of corn, beans and squash; parts are flagged by the wiki as needing verification."
+    }
+   ]
+  },
+  {
+   "id": "save-seed",
+   "label": "I want to save my own seed",
+   "hint": "Heirloom, open-pollinated or hybrid (F1)?",
+   "read": [
+    {
+     "doc": "coastal-growing-740c0243d587fcafebe3",
+     "page": 1,
+     "label": "Chart: which vegetables are easy to save seed from",
+     "note": "UC Master Gardener chart of annual or biennial, self- or cross-pollinated, isolation distance, seed life and ease of saving for common vegetables."
+    },
+    {
+     "doc": "eng-866c68545e73a8ef",
+     "page": 30,
+     "label": "Why seed saved from hybrids does not come true",
+     "note": "FAO explanation of F1 hybrids versus open-pollinated varieties and why hybrid offspring are not used as next season's seed."
+    },
+    {
+     "doc": "video-wbgYx8UFV00",
+     "label": "Video: seed-saving terms in under two minutes",
+     "note": "Oregon State University Food Hero clip explaining heirloom, open-pollinated and hybrid, and checking the seed packet."
+    }
+   ]
+  },
+  {
+   "id": "bugs",
+   "label": "Something is eating my plants",
+   "hint": "Holes in leaves, wilting, spots",
+   "read": [
+    {
+     "doc": "med-2ca695c9db63d020",
+     "page": 20,
+     "label": "Is it a pest, a friend, or harmless?",
+     "note": "Hesperian page on checking crops regularly, questions to ask about damage, and insects that help control pests."
+    },
+    {
+     "doc": "med-2ca695c9db63d020",
+     "page": 22,
+     "label": "Physical ways to control pests",
+     "note": "Describes encouraging birds and beneficial insects, scaring birds, and simple traps, from a sustainable farming chapter."
+    },
+    {
+     "doc": "eng-582d9d6be8c29785",
+     "page": 14,
+     "label": "Scouting for pests and keeping records",
+     "note": "SARE bulletin page on regularly scouting fields, looking for beneficial insects and sampling all areas."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "Urban soil is often contaminated by past uses such as industry, dumping, traffic and lead paint; lead is especially risky for young children who may swallow soil.",
+   "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+   "page": 1
+  },
+  {
+   "text": "UC Cooperative Extension does not test soil; the guide suggests using a soil lab and asking it questions before sampling.",
+   "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+   "page": 4
+  },
+  {
+   "text": "Former industrial or manufacturing land and old gas station sites may need expert help to assess before growing food.",
+   "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+   "page": 5
+  },
+  {
+   "text": "Fresh manure carries germs that cause illness; keep it away from waterways and wash hands and clothes after handling it.",
+   "doc": "med-2ca695c9db63d020",
+   "page": 10
+  },
+  {
+   "text": "Uncomposted manure can carry pathogens; the guide describes required waiting intervals between applying raw manure and harvest.",
+   "doc": "coastal-growing-7faf0e1254afe98b605e",
+   "page": 73
+  },
+  {
+   "text": "Signs of pesticide poisoning may appear right away or hours, days or years later; people may be exposed without knowing it.",
+   "doc": "med-b87c43e8650e9d77",
+   "page": 5
+  },
+  {
+   "text": "Pesticides are more dangerous to children than adults; amounts that make adults sick may kill babies and children.",
+   "doc": "med-b87c43e8650e9d77",
+   "page": 6
+  },
+  {
+   "text": "Sweet potatoes only crop well in warm areas and are injured by temperatures below 50°F; the guide is written for hotter Sacramento, not the coast.",
+   "doc": "coastal-growing-61ed997967489e5abeb1",
+   "page": 1
+  },
+  {
+   "text": "Do not plant grocery store potatoes; use seed pieces certified free of pests and diseases.",
+   "doc": "coastal-growing-7e742f7e7ec7d1b6ee65"
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "coastal-growing-84be1f504ea1d4902487",
+   "page": 2,
+   "label": "Saving water with containers",
+   "note": "UC tips on container type and colour, larger pots, self-watering inserts, reusing household water and mulch."
+  },
+  {
+   "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+   "page": 9,
+   "label": "Good habits for any urban garden",
+   "note": "Removing debris, mulching paths to keep dust off crops, wearing gloves and washing produce, plus local rules for community gardens."
+  },
+  {
+   "doc": "med-e7a8569d25995a83",
+   "page": 15,
+   "label": "Start a compost bin or worm box",
+   "note": "Hesperian page on choosing a compost method for your space and composting kitchen scraps with earthworms."
+  },
+  {
+   "doc": "video-v-acl0zDaJQ",
+   "label": "Video: sowing seeds in trays and pots",
+   "note": "Oregon State University Food Hero demonstration of seeding several vegetables and herbs."
+  },
+  {
+   "doc": "video-pOlYpWXdga4",
+   "label": "Video: storing seed cool, dark and dry",
+   "note": "Short Food Hero clip on labelled envelopes, airtight containers, optional silica gel and refrigerator storage."
+  },
+  {
+   "doc": "d99052758961b3",
+   "label": "Plain-language overview of gardening for preparedness",
+   "note": "The Prepared article (secondary source) on starting small, why a first garden will not feed a family, and links to basics."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "med-2ca695c9db63d020",
+   "label": "Hesperian: Sustainable Farming chapter",
+   "note": "Whole 2012 chapter on soil, green manures, compost, water, pests, seed saving, food storage and city growing, written for communities."
+  },
+  {
+   "doc": "eng-5a131eb5010e45d7",
+   "label": "Building Soils for Better Crops (SARE)",
+   "note": "Large university-authored soil manual; see Chapter 13 on composts and Chapter 22 on urban gardens and farms."
+  },
+  {
+   "doc": "coastal-growing-7faf0e1254afe98b605e",
+   "label": "California Urban Agriculture Food Safety Guide",
+   "note": "UC 2018 guide to hygiene, water, soil, manure and compost safety for urban growers; law summaries may be out of date."
+  },
+  {
+   "doc": "video--5JZmKMprJY",
+   "label": "Video: planning a seed-saving garden (UW Extension)",
+   "note": "About 30-minute University of Wisconsin Extension talk on pollination, isolation and choosing what to save; captions available."
+  },
+  {
+   "doc": "video-ZJQsUshlemI",
+   "label": "Video: planning your garden for seed saving (Illinois Extension)",
+   "note": "University of Illinois Extension webinar on open-pollinated, heirloom and hybrid seed, pollination and isolation."
+  },
+  {
+   "doc": "video-HWD8NQaI0T4",
+   "label": "Video: worm composting systems",
+   "note": "University of Wyoming Extension short on red wigglers and simple bucket and bin worm compost systems."
+  },
+  {
+   "doc": "video-BxADBpfi4z8",
+   "label": "Video: long beginner gardening class",
+   "note": "Community class by a Master Gardener covering square-foot beds, seed starting, pests and compost; not an extension publication."
+  },
+  {
+   "zim": "zim/wikipedia_en_all_nopic_2026-06.zim/Seed_saving",
+   "title": "Seed saving",
+   "label": "Encyclopedia: seed saving",
+   "note": "Wikipedia background on saving seed and other planting material such as tubers and cuttings."
+  }
+ ],
+ "route": [
+  {
+   "title": "Step 1: Start with a few containers or one small bed",
+   "goal": "Pick a sunny spot, match pot depth to the crop, and grow something easy so you learn the basics with little cost.",
+   "read": [
+    {
+     "doc": "coastal-growing-84be1f504ea1d4902487",
+     "page": 1,
+     "label": "Soil depth for each vegetable",
+     "note": "UC table of container depths for shallow, medium and deep-rooted crops plus container mix choices."
+    },
+    {
+     "doc": "med-2ca695c9db63d020",
+     "page": 33,
+     "label": "Adapting growing to small spaces",
+     "note": "Hesperian ideas for vertical growing and containers with drainage on balconies and rooftops."
+    }
+   ]
+  },
+  {
+   "title": "Step 2: Learn local timing for coastal Southern California",
+   "goal": "Know which crops go in during the cool season and which wait for warm weather where you live.",
+   "read": [
+    {
+     "doc": "coastal-growing-6c1e6263ed3907b61d56",
+     "page": 1,
+     "label": "Southern California vegetable planting schedule",
+     "note": "UC Ventura County colour chart by month; image-only, so view the page rather than search it."
+    },
+    {
+     "doc": "coastal-growing-2bf5bc7fde86306a742c",
+     "page": 1,
+     "label": "An October list for Los Angeles County (historical)",
+     "note": "Older UC column of cool-season crops to sow or transplant; check against the current chart."
+    }
+   ]
+  },
+  {
+   "title": "Step 3: Check and build your soil, and make compost",
+   "goal": "Find out whether the ground is safe, then improve it with organic matter and your own compost.",
+   "read": [
+    {
+     "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+     "page": 3,
+     "label": "Site history and simple soil checks",
+     "note": "UC guide on investigating past land uses and digging test holes for debris."
+    },
+    {
+     "doc": "med-e7a8569d25995a83",
+     "page": 18,
+     "label": "How to tell if your compost is working",
+     "note": "Hesperian troubleshooting list for compost that smells, stays wet, does not heat or attracts flies."
+    },
+    {
+     "doc": "eng-5a131eb5010e45d7",
+     "page": 216,
+     "label": "Making and using composts (in depth)",
+     "note": "SARE chapter on how composting works, temperatures and using finished compost."
+    }
+   ]
+  },
+  {
+   "title": "Step 4: Water well and use less of it",
+   "goal": "Keep roots evenly moist without waste, using mulch, the right containers and simple drip ideas.",
+   "read": [
+    {
+     "doc": "coastal-growing-84be1f504ea1d4902487",
+     "page": 2,
+     "label": "Water-saving tips for containers",
+     "note": "UC list covering container materials, size, colour, self-watering inserts, reused water and mulch."
+    },
+    {
+     "doc": "eng-5a131eb5010e45d7",
+     "page": 276,
+     "label": "Drip irrigation basics",
+     "note": "SARE page noting drip suits small high-value plots and can run from a raised water container."
+    },
+    {
+     "zim": "zim/appropedia_en_all_maxi_2026-02.zim/Water_saving_tips_for_the_home_gardener",
+     "title": "Water saving tips for the home gardener",
+     "label": "Home gardener water-saving tips",
+     "note": "Appropedia collection of tips on plant choice and watering for dry climates."
+    }
+   ]
+  },
+  {
+   "title": "Step 5: Grow staple calorie crops",
+   "goal": "Trial potatoes, sweet potatoes, dry beans and squash so you learn what yields in your conditions before relying on it.",
+   "read": [
+    {
+     "doc": "coastal-growing-7e742f7e7ec7d1b6ee65",
+     "label": "Potatoes: planting, hilling, watering, harvest",
+     "note": "UC IPM cultural guide including South Coast planting months and certified seed pieces."
+    },
+    {
+     "doc": "coastal-growing-61ed997967489e5abeb1",
+     "page": 3,
+     "label": "Sweet potatoes: setting slips and care",
+     "note": "UC Sacramento guide on soil warmth, planting slips, watering and mulch; written for a hotter area."
+    },
+    {
+     "zim": "zim/appropedia_en_all_maxi_2026-02.zim/Three_sisters_agriculture",
+     "title": "Three sisters agriculture",
+     "label": "Corn, beans and squash together",
+     "note": "Appropedia overview of the three sisters method; wiki marks some claims as needing verification."
+    }
+   ]
+  },
+  {
+   "title": "Step 6: Manage pests without harming yourself",
+   "goal": "Watch plants closely, tell pests from helpers, and prevent problems before reaching for chemicals.",
+   "read": [
+    {
+     "doc": "med-2ca695c9db63d020",
+     "page": 19,
+     "label": "Natural (integrated) pest management",
+     "note": "Hesperian introduction to keeping crops, pests and soil life in balance and keeping plants healthy."
+    },
+    {
+     "doc": "eng-582d9d6be8c29785",
+     "label": "A whole-farm approach to managing pests",
+     "note": "SARE 16-page bulletin on ecological pest management, crop health, rotation and scouting."
+    }
+   ]
+  },
+  {
+   "title": "Step 7: Save seed and scale up",
+   "goal": "Choose open-pollinated varieties, save and store seed properly, and plan larger plantings with rotation and records.",
+   "read": [
+    {
+     "doc": "med-2ca695c9db63d020",
+     "page": 26,
+     "label": "Selecting and saving seeds",
+     "note": "Hesperian page on picking strong, locally adapted plants for seed and keeping varieties apart."
+    },
+    {
+     "doc": "coastal-growing-740c0243d587fcafebe3",
+     "page": 1,
+     "label": "Seed-saving chart by crop",
+     "note": "UC Master Gardener chart of pollination type, isolation distance, seed life and ease."
+    },
+    {
+     "doc": "eng-6acf955cac65c875",
+     "label": "Crop Rotation on Organic Farms (planning manual)",
+     "note": "SARE manual for planning rotations on larger plots, written for farmers in the Northeast US."
+    }
+   ]
+  }
+ ],
+ "related": [
+  "food",
+  "water",
+  "land"
+ ]
+}

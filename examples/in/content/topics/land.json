@@ -1,0 +1,436 @@
+{
+ "id": "land",
+ "mode": "learn",
+ "title": "Find safe land and natural resources",
+ "short": "Local hazards, soil, water sources, wild plants and finding your way",
+ "intro": "A learning track for understanding the ground you live on: which natural hazards threaten it, whether its soil and water can be used, why wild plants need great caution, and how to read maps and navigate. The app's separate offline Maps page shows places; this track explains what the map data can and cannot tell you.",
+ "keywords": [
+  "land",
+  "hazard",
+  "earthquake",
+  "fault",
+  "liquefaction",
+  "tsunami",
+  "flood",
+  "landslide",
+  "wildfire",
+  "soil",
+  "water source",
+  "spring",
+  "well",
+  "rainwater",
+  "foraging",
+  "wild plants",
+  "poisonous plants",
+  "mushrooms",
+  "map",
+  "compass",
+  "topographic",
+  "navigation",
+  "gazetteer",
+  "GNIS",
+  "OpenStreetMap",
+  "GIS",
+  "coast"
+ ],
+ "choices": [
+  {
+   "id": "coast",
+   "label": "I live near the beach or low-lying coast",
+   "hint": "Canals, harbors, low coastal ground",
+   "read": [
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 97,
+     "label": "Which coastal areas face the most tsunami risk",
+     "note": "CERT annex describing tsunamis and the areas at greater risk: near the shoreline, low elevation and along rivers that feed the ocean."
+    },
+    {
+     "doc": "a7a60dbbb26052",
+     "page": 2,
+     "label": "Learn your tsunami zone and warning signs",
+     "note": "FEMA sheet on evacuation zone maps and routes, natural warning signs, and what to do during and after a tsunami."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 16,
+     "label": "Why loose wet soil shakes more and can liquefy",
+     "note": "FEMA explanation of how soft soils amplify shaking, how saturated sand can act like quicksand, and how tsunamis form."
+    }
+   ]
+  },
+  {
+   "id": "quake",
+   "label": "How serious is earthquake risk here?",
+   "hint": "Southern California faults, older homes",
+   "read": [
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 95,
+     "label": "California's faults and expected losses",
+     "note": "FEMA supplement on the San Andreas system and the many California faults that lie mostly on land under homes."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 29,
+     "label": "Find your home's earthquake weak points",
+     "note": "Introduces quick checks of home vulnerabilities and which fixes are cheap and high priority versus jobs for professionals."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 13,
+     "label": "What earthquakes can damage and trigger",
+     "note": "CERT annex on earthquake impacts and the other hazards they can set off, such as fires, landslides and tsunamis."
+    }
+   ]
+  },
+  {
+   "id": "flood-fire",
+   "label": "What about floods, landslides or wildfire?",
+   "hint": "Storm runoff, hillsides, brush areas",
+   "read": [
+    {
+     "doc": "dee61b224a1299",
+     "page": 2,
+     "label": "Know your flood risk and flood maps",
+     "note": "FEMA flood sheet pointing to FEMA's Flood Map Service Center and describing what to do before, during and after a flood."
+    },
+    {
+     "doc": "2aadecc420798e",
+     "page": 1,
+     "label": "What landslides and mudflows are",
+     "note": "FEMA sheet describing landslides and mudflows, their speed, causes and warning steps."
+    },
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 32,
+     "label": "Wildfire basics and defense zones",
+     "note": "FEMA 2024 wildfire sheet on what wildfires are, when risk rises, and setting up defense zones around a home."
+    }
+   ]
+  },
+  {
+   "id": "water-source",
+   "label": "Is there water on or near this land I could use?",
+   "hint": "Springs, wells, streams, rain from the roof",
+   "read": [
+    {
+     "doc": "med-ea4055db35ff180d",
+     "page": 12,
+     "label": "Surface water versus groundwater",
+     "note": "Hesperian page explaining that surface water must be treated before drinking and how groundwater can still be contaminated."
+    },
+    {
+     "doc": "med-ea4055db35ff180d",
+     "page": 21,
+     "label": "Questions to ask before trusting a spring",
+     "note": "How to find a spring's true source and look for signs of surface contamination nearby."
+    },
+    {
+     "doc": "med-ea4055db35ff180d",
+     "page": 23,
+     "label": "Collecting rainwater from a roof",
+     "note": "Which roof materials are suitable or toxic, clean containers, and ground catchments that need treatment."
+    }
+   ]
+  },
+  {
+   "id": "wild-plants",
+   "label": "Can I eat wild plants I find?",
+   "hint": "Foraging, berries, mushrooms",
+   "read": [
+    {
+     "doc": "5b0efa0b70cb98",
+     "page": 42,
+     "label": "Common myths about poisonous plants",
+     "note": "Army survival manual (2018) page on why plant toxicity varies and why look-alikes such as poison hemlock and wild carrot fool people."
+    },
+    {
+     "doc": "5b0efa0b70cb98",
+     "page": 78,
+     "label": "Why to avoid wild mushrooms",
+     "note": "Warning that there is no field test for mushrooms and some are hard even for experts, plus other plant toxin cautions."
+    }
+   ]
+  },
+  {
+   "id": "maps",
+   "label": "How do I read a map or use a compass?",
+   "hint": "Topographic maps, bearings, scale",
+   "read": [
+    {
+     "doc": "bf9e99715ecdde",
+     "page": 1,
+     "label": "Map symbols, scale and direction",
+     "note": "USGS two-page primer on topographic map colours, scale and taking a bearing with a compass."
+    },
+    {
+     "doc": "78a5c135618251",
+     "label": "Using a compass with a USGS topographic map",
+     "note": "USGS page covering orienting map and compass, magnetic declination and finding direction."
+    },
+    {
+     "doc": "11c57afd0384b8",
+     "page": 1,
+     "label": "What topographic map symbols mean",
+     "note": "USGS guide to contour lines and standard symbols on topographic maps."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "Surface water from rivers, streams, lakes and ponds is often contaminated and should not be drunk unless treated first.",
+   "doc": "med-ea4055db35ff180d",
+   "page": 12
+  },
+  {
+   "text": "Roofs made of lead, asbestos or tar contain toxic chemicals that make collected rainwater unsafe to drink.",
+   "doc": "med-ea4055db35ff180d",
+   "page": 23
+  },
+  {
+   "text": "There is no field test to tell if an unknown mushroom is edible; some wild mushrooms are hard even for experts to identify.",
+   "doc": "5b0efa0b70cb98",
+   "page": 78
+  },
+  {
+   "text": "Many poisonous plants look like edible ones; boiling removes many poisons but not all.",
+   "doc": "5b0efa0b70cb98",
+   "page": 42
+  },
+  {
+   "text": "Some earthquake strengthening projects can be done yourself, but others may need a contractor, architect or engineer.",
+   "doc": "5cd0b4e41cc479",
+   "page": 29
+  },
+  {
+   "text": "In a tsunami warning, go to high ground as far inland as possible and do not wait.",
+   "doc": "a7a60dbbb26052",
+   "page": 1
+  },
+  {
+   "text": "Former industrial sites and old gas stations may need expert help to assess soil before use.",
+   "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+   "page": 5
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "d0fbb2e051cd46",
+   "label": "FEMA one-page sheets for every major hazard",
+   "note": "2024 set of two-page sheets covering earthquake, flood, landslide, tsunami, wildfire, heat, power outage and more."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "page": 23,
+   "label": "Make an earthquake plan",
+   "note": "FEMA page on Drop, Cover and Hold On, making a household plan and first aid preparation."
+  },
+  {
+   "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+   "page": 3,
+   "label": "Research a site's past use before using its soil",
+   "note": "UC guide on clues, records and online databases for learning a property's history."
+  },
+  {
+   "doc": "506033947edccf",
+   "label": "Assess wildfire risk as a community",
+   "note": "US Fire Administration page on writing a Community Wildfire Protection Plan, including smoke, post-fire flooding and evacuation."
+  },
+  {
+   "doc": "d571edf1e80fbf",
+   "label": "Rip currents and beach hazards",
+   "note": "National Weather Service hub page for rip current and beach safety materials."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "5cd0b4e41cc479",
+   "label": "Earthquake Safety at Home (FEMA P-530, 2020)",
+   "note": "Full FEMA guide: how earthquakes and soils behave, securing your home, retrofits, surviving and recovering, and regional supplements."
+  },
+  {
+   "doc": "9681a68ebd07f5",
+   "label": "CERT Basic Training Hazard Annexes (2019)",
+   "note": "FEMA community responder annexes on earthquake, tsunami, flood, wildfire and other hazards."
+  },
+  {
+   "doc": "med-ea4055db35ff180d",
+   "label": "Hesperian: Protecting Community Water",
+   "note": "2012 chapter on judging water safety, protecting wells and springs, rainwater, storage and treatment."
+  },
+  {
+   "doc": "eng-5a131eb5010e45d7",
+   "page": 374,
+   "label": "How good are your soils? Field and lab evaluation",
+   "note": "SARE chapter on assessing soil health in the field and with laboratory tests."
+  },
+  {
+   "doc": "8bb952fd2f238b",
+   "page": 109,
+   "label": "Poisonous plants chapter (historical Army manual)",
+   "note": "Older FM 21-76 Army survival manual chapter on how plants poison by eating, contact and absorption."
+  },
+  {
+   "doc": "c15a248ad9ae45",
+   "label": "Wilderness navigation lesson",
+   "note": "Great Smoky Mountains Institute lesson plan for learning map and compass through a group course; written for students."
+  },
+  {
+   "doc": "732be4c2e3848d",
+   "label": "Map and compass (US Forest Service, 1965)",
+   "note": "Historical Forest Service booklet on planning trips with maps and using a compass; scan quality is uneven."
+  },
+  {
+   "zim": "zim/wikipedia_en_all_nopic_2026-06.zim/Soil_liquefaction",
+   "title": "Soil liquefaction",
+   "label": "Encyclopedia: soil liquefaction",
+   "note": "Wikipedia article on how saturated loose soils lose strength during shaking."
+  }
+ ],
+ "route": [
+  {
+   "title": "Step 1: Learn which hazards affect your area",
+   "goal": "Get a plain overview of earthquakes, tsunamis, floods, landslides and wildfire so you know what to look into for your own place.",
+   "read": [
+    {
+     "doc": "d0fbb2e051cd46",
+     "page": 1,
+     "label": "FEMA hazard sheets overview",
+     "note": "Start of FEMA's 2024 set of short sheets, one per hazard."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 13,
+     "label": "Earthquake impacts and triggered hazards",
+     "note": "CERT annex introduction to earthquakes and what they set off."
+    }
+   ]
+  },
+  {
+   "title": "Step 2: Understand ground shaking, liquefaction and tsunami on the coast",
+   "goal": "See why soft, wet, low-lying coastal ground behaves differently and why distance from shore and elevation matter.",
+   "read": [
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 16,
+     "label": "Soil amplification, liquefaction and tsunamis",
+     "note": "FEMA explanation in plain words with a beach-sand comparison."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 97,
+     "label": "Who is at greatest tsunami risk",
+     "note": "CERT annex listing higher-risk coastal areas and tsunami impacts."
+    },
+    {
+     "zim": "zim/wikipedia_en_all_nopic_2026-06.zim/Soil_liquefaction",
+     "title": "Soil liquefaction",
+     "label": "More on liquefaction",
+     "note": "Wikipedia background, more technical."
+    }
+   ]
+  },
+  {
+   "title": "Step 3: Check a site's soil before using it",
+   "goal": "Learn how to read clues of past contamination and how soil health is assessed in the field and lab.",
+   "read": [
+    {
+     "doc": "coastal-growing-0e2825ce7a278c7c5e86",
+     "page": 3,
+     "label": "Site history and test holes",
+     "note": "UC guide on investigating past land uses and digging to see debris."
+    },
+    {
+     "doc": "eng-5a131eb5010e45d7",
+     "page": 374,
+     "label": "Evaluating soil health",
+     "note": "SARE chapter on field observations and laboratory tests."
+    }
+   ]
+  },
+  {
+   "title": "Step 4: Judge possible water sources",
+   "goal": "Tell surface water from groundwater, recognise contamination risks, and know which sources always need treatment.",
+   "read": [
+    {
+     "doc": "med-ea4055db35ff180d",
+     "page": 12,
+     "label": "Protecting water sources",
+     "note": "Hesperian page on surface water, groundwater and watersheds."
+    },
+    {
+     "doc": "med-ea4055db35ff180d",
+     "page": 14,
+     "label": "What makes wells unsafe",
+     "note": "Where not to dig a well and simple ways shallow wells get contaminated."
+    },
+    {
+     "doc": "med-ea4055db35ff180d",
+     "page": 23,
+     "label": "Rainwater collection",
+     "note": "Suitable roofs, clean containers and ground catchments."
+    }
+   ]
+  },
+  {
+   "title": "Step 5: Treat wild plants with caution",
+   "goal": "Understand why wild plant foods are risky without expert identification, and why mushrooms are avoided.",
+   "read": [
+    {
+     "doc": "5b0efa0b70cb98",
+     "page": 42,
+     "label": "Poisonous plant myths and look-alikes",
+     "note": "Army ATP 3-50.21 (2018) cautions on toxicity and misidentification."
+    },
+    {
+     "doc": "5b0efa0b70cb98",
+     "page": 78,
+     "label": "Mushroom warning and plant toxins",
+     "note": "Why there is no field test for mushrooms, and other toxin cautions."
+    }
+   ]
+  },
+  {
+   "title": "Step 6: Read maps and use a compass",
+   "goal": "Read symbols, scale and contour lines, and take a bearing with map and compass.",
+   "read": [
+    {
+     "doc": "bf9e99715ecdde",
+     "page": 1,
+     "label": "USGS map and compass primer",
+     "note": "Two pages on symbols, scale and direction."
+    },
+    {
+     "doc": "78a5c135618251",
+     "label": "Compass with a topographic map",
+     "note": "USGS methods, declination and finding direction."
+    },
+    {
+     "doc": "11c57afd0384b8",
+     "page": 1,
+     "label": "Topographic map symbols",
+     "note": "USGS guide to contours and map symbols."
+    }
+   ]
+  },
+  {
+   "title": "Step 7: Use gazetteers and map datasets (advanced)",
+   "goal": "Know what the library's place-name and map datasets contain and that they need conversion or GIS software before use.",
+   "read": [
+    {
+     "zim": "zim/wikipedia_en_all_nopic_2026-06.zim/Geographic_Names_Information_System",
+     "title": "Geographic Names Information System",
+     "label": "What GNIS is",
+     "note": "Wikipedia article on the US federal gazetteer of place names."
+    }
+   ]
+  }
+ ],
+ "related": [
+  "grow",
+  "repair",
+  "water"
+ ]
+}

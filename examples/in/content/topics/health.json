@@ -1,0 +1,551 @@
+{
+ "id": "health",
+ "mode": "learn",
+ "title": "Care for health over time without a doctor",
+ "short": "Examining the sick, medicines, chronic illness, teeth, pregnancy, mental health, disability",
+ "intro": "A beginner's path for looking after a household's health for weeks or months when doctors, pharmacies and clinics are hard to reach. It starts with how to use the main village-health books and moves on to medicines, long-term conditions, teeth, pregnancy, stress and caring for people with disabilities. Knowing when to get skilled help is part of every step.",
+ "keywords": [
+  "health",
+  "doctor",
+  "sick",
+  "illness",
+  "examine",
+  "temperature",
+  "pulse",
+  "medicine",
+  "antibiotics",
+  "dose",
+  "medicine kit",
+  "diabetes",
+  "blood sugar",
+  "blood pressure",
+  "hypertension",
+  "heart",
+  "stroke",
+  "teeth",
+  "toothache",
+  "dentist",
+  "abscess",
+  "pregnancy",
+  "birth",
+  "midwife",
+  "labor",
+  "mental health",
+  "stress",
+  "anxiety",
+  "depression",
+  "suicide",
+  "trauma",
+  "grief",
+  "disability",
+  "older adults",
+  "caregiver",
+  "pressure sores",
+  "Where There Is No Doctor",
+  "Hesperian"
+ ],
+ "choices": [
+  {
+   "id": "start",
+   "label": "Someone is sick and I don't know where to start",
+   "hint": "Fever or flu, pain, not eating, getting weaker",
+   "read": [
+    {
+     "doc": "clinical-e11235e28035e4ac",
+     "page": 1,
+     "label": "Questions to ask a sick person",
+     "note": "Where There Is No Doctor (2025) on asking what bothers the person, how it began, and writing down findings for a health worker."
+    },
+    {
+     "doc": "clinical-fe3d008bfe1dd1a2",
+     "page": 4,
+     "label": "Signs of dangerous illness",
+     "note": "A numbered list of signs that mean the person is probably too sick to treat at home, with page references for what to do until help comes."
+    },
+    {
+     "doc": "clinical-fe3d008bfe1dd1a2",
+     "page": 5,
+     "label": "When and how to look for medical help",
+     "note": "Seeking help at the first dangerous sign, bringing a health worker to the person, and sending a written patient report."
+    }
+   ]
+  },
+  {
+   "id": "medicine",
+   "label": "Should I give a medicine or antibiotic?",
+   "hint": "Leftover pills, unknown brand, antibiotics, expired medicine",
+   "read": [
+    {
+     "doc": "clinical-ec4fa543bb6ce0c8",
+     "page": 1,
+     "label": "Medicines can kill: rules for safe use",
+     "note": "Where There Is No Doctor (2025) guidelines: use medicine only when needed, know its precautions, use the right dose, and ask a health worker when in doubt."
+    },
+    {
+     "doc": "clinical-ec4fa543bb6ce0c8",
+     "page": 2,
+     "label": "The most dangerous misuses of medicine",
+     "note": "Medicines commonly misused in ways that cause deaths, including injections and antibiotics for problems they do not help."
+    },
+    {
+     "doc": "clinical-96bc1472fc13d771",
+     "page": 1,
+     "label": "What antibiotics are and how to tell them apart",
+     "note": "The main antibiotic groups, their generic and brand names, and why each has dangers."
+    }
+   ]
+  },
+  {
+   "id": "chronic",
+   "label": "Diabetes, high blood pressure or heart disease",
+   "hint": "Running low on prescriptions, no clinic visits, insulin without a fridge",
+   "read": [
+    {
+     "doc": "med-a840a35b017c5748",
+     "page": 3,
+     "label": "Diabetes danger signs and long-term harm",
+     "note": "Hesperian on signs of dangerously high blood sugar and the damage unmanaged diabetes causes."
+    },
+    {
+     "doc": "med-f0d080c42e81de5f",
+     "page": 7,
+     "label": "When blood pressure is too high or an emergency",
+     "note": "Hesperian on blood pressure numbers, very high blood pressure with warning signs, and why it must be lowered gradually in a clinic."
+    },
+    {
+     "doc": "med-f0d080c42e81de5f",
+     "page": 13,
+     "label": "Blood pressure medicines: take them every day",
+     "note": "Why these medicines work only when taken daily, common side effects, and asking a health worker before stopping."
+    },
+    {
+     "doc": "e629b2983d95e4",
+     "page": 6,
+     "label": "Plan for medical devices and medicines that need power",
+     "note": "American Red Cross (2020) planning for power to run medical devices or keep medicines cold, and registries for people who need help evacuating."
+    }
+   ]
+  },
+  {
+   "id": "teeth",
+   "label": "Toothache, swollen face or broken tooth",
+   "hint": "Cavity, abscess, knocked-out tooth, bleeding gums",
+   "read": [
+    {
+     "doc": "clinical-8743f84f6741a54e",
+     "page": 9,
+     "label": "Tooth abscess: signs and treatment",
+     "note": "Where There Is No Dentist (2024) on signs of an abscess and how it is treated; draining requires sterile tools and skill."
+    },
+    {
+     "doc": "clinical-8743f84f6741a54e",
+     "page": 13,
+     "label": "Tooth knocked out",
+     "note": "What to do when a tooth is knocked out of the mouth."
+    },
+    {
+     "doc": "clinical-8743f84f6741a54e",
+     "page": 24,
+     "label": "Problems too serious to treat yourself",
+     "note": "Introduction to serious mouth and jaw problems that should be sent to a more experienced dental worker, starting with a broken jaw."
+    }
+   ]
+  },
+  {
+   "id": "pregnant",
+   "label": "Someone is pregnant or in labor",
+   "hint": "No prenatal care, labor starting, bleeding after birth",
+   "read": [
+    {
+     "doc": "med-c8a380e07e30f3e3",
+     "page": 19,
+     "label": "Danger signs in labor and birth",
+     "note": "Hesperian list of labor danger signs that need medical help, and supplies to prepare for a safe birth."
+    },
+    {
+     "doc": "clinical-8dc56ea4c7868623",
+     "page": 2,
+     "label": "Problems that cannot be treated at home",
+     "note": "A Book for Midwives (2026): severe hemorrhage, eclampsia and a prolapsed cord need a medical center; do not learn procedures only from reading."
+    },
+    {
+     "doc": "clinical-8dc56ea4c7868623",
+     "page": 7,
+     "label": "Getting a woman to medical help fast",
+     "note": "Why to decide quickly, and planning transport with the family and community before an emergency."
+    }
+   ]
+  },
+  {
+   "id": "mind",
+   "label": "Stress, fear, grief or someone in crisis",
+   "hint": "Can't sleep, panic, hopeless, talking about suicide, after a disaster",
+   "read": [
+    {
+     "doc": "med-0faf49d8c0bd8eb2",
+     "page": 8,
+     "label": "How to offer emotional support",
+     "note": "Promoting Community Mental Health (Hesperian, 2025): asking, listening more than talking, and offering empathy."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 486,
+     "label": "Supporting someone after a traumatic event",
+     "note": "IFRC 2025: listen, be empathetic, keep in contact and connect the person to other resources. A brief introduction, not formal psychological first aid training."
+    },
+    {
+     "doc": "med-323535ddfa576a04",
+     "page": 7,
+     "label": "If someone may be considering suicide",
+     "note": "Hesperian (2025): take them seriously, ask directly, stay calm, and get others involved so you are not helping alone."
+    },
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 144,
+     "label": "Normal stress reactions to disaster",
+     "note": "CERT 2019 on common disaster stress reactions in survivors and helpers, including vicarious trauma and burnout."
+    }
+   ]
+  },
+  {
+   "id": "care",
+   "label": "Caring for an older or disabled person",
+   "hint": "Bedbound, wheelchair user, dementia, caregiver worn out",
+   "read": [
+    {
+     "doc": "med-f65faa1b8cb4c8f9",
+     "page": 1,
+     "label": "Preventing pressure (bed) sores",
+     "note": "Disabled Village Children (Hesperian) on what pressure sores are and who is most at risk; following pages cover prevention and care."
+    },
+    {
+     "doc": "clinical-5312980049ba6680",
+     "page": 1,
+     "label": "Health problems of older people",
+     "note": "Where There Is No Doctor (2025) summary of common problems in older people with page links: vision, weakness and eating, swollen feet."
+    },
+    {
+     "doc": "med-d60d65e8fbbab512",
+     "page": 1,
+     "label": "Support for caregivers",
+     "note": "A Health Handbook for Women with Disabilities (Hesperian, 2007) chapter for families and others who assist, including caregiver stress."
+    },
+    {
+     "doc": "e629b2983d95e4",
+     "page": 5,
+     "label": "Build a support network for an older adult",
+     "note": "American Red Cross (2020): identifying helpers, planning to stay home two weeks or evacuate, and what to do if caregivers cannot come."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "Part of informed self-care is knowing your limits: the book points out when to see or get advice from a health worker or doctor.",
+   "doc": "clinical-e2b88f3bfc5cbf33",
+   "page": 8
+  },
+  {
+   "text": "A person with one or more signs of dangerous illness (such as heavy blood loss, coughing blood, cannot be woken, no urine for 12 hours, high fever that won't come down) is probably too sick to treat at home: seek skilled medical help as soon as possible.",
+   "doc": "clinical-fe3d008bfe1dd1a2",
+   "page": 4
+  },
+  {
+   "text": "Never use a dangerous medicine for a mild illness. Use medicines only when necessary, use the right dose, stop if it causes problems, and ask a health worker when in doubt.",
+   "doc": "clinical-ec4fa543bb6ce0c8",
+   "page": 1
+  },
+  {
+   "text": "Expired medicines can be dangerous, some (such as tetracyclines) especially so; keep all medicines out of reach of children because any medicine in large doses can be poisonous.",
+   "doc": "clinical-660fbc63f3545bd0",
+   "page": 2
+  },
+  {
+   "text": "MSF Essential Drugs is a practical manual intended for physicians, pharmacists, nurses and health auxiliaries, not for self-treatment.",
+   "doc": "med-903c9aef19e87be8",
+   "page": 6
+  },
+  {
+   "text": "MSF Clinical Guidelines are designed for medical professionals in curative care at dispensaries and primary hospitals.",
+   "doc": "med-fe020d4fcf31e31a",
+   "page": 5
+  },
+  {
+   "text": "Very high blood pressure with headache, blurred vision, chest pain, shortness of breath or seizures can be an emergency: take the person to a clinic or hospital. Lowering blood pressure too quickly can cause harm.",
+   "doc": "med-f0d080c42e81de5f",
+   "page": 7
+  },
+  {
+   "text": "Do not just stop blood pressure medicine because of side effects; ask a health worker about another medicine. Stop and talk to a health worker if a rash or swelling appears.",
+   "doc": "med-f0d080c42e81de5f",
+   "page": 13
+  },
+  {
+   "text": "A person with signs of very high blood sugar (severe thirst, extreme weakness or confusion, weight loss) should be tested and treated fast; very high blood sugar can kill.",
+   "doc": "med-a840a35b017c5748",
+   "page": 3
+  },
+  {
+   "text": "Dental workers must know their limits and do only what they know how to do; some problems are too serious and should go to a more experienced dental worker.",
+   "doc": "clinical-8743f84f6741a54e",
+   "page": 1
+  },
+  {
+   "text": "Severe hemorrhage, eclampsia or a prolapsed cord cannot be treated at home. Procedures in A Book for Midwives that you have not been trained to do should be learned from someone experienced, not from reading.",
+   "doc": "clinical-8dc56ea4c7868623",
+   "page": 2
+  },
+  {
+   "text": "Labor danger signs (very long labor, blood pressure 160/110 or higher, fever with fast pulse, sideways baby, cord coming first) need medical help.",
+   "doc": "med-c8a380e07e30f3e3",
+   "page": 19
+  },
+  {
+   "text": "If someone talks about suicide or death, take it seriously and ask directly; you do not have to help them alone – involve others and connect them with care.",
+   "doc": "med-323535ddfa576a04",
+   "page": 7
+  },
+  {
+   "text": "Psychological first aid is delivered by people who have received appropriate training; it does not require professional mental health qualifications.",
+   "doc": "med-2e83e22162a9a006",
+   "page": 129
+  },
+  {
+   "text": "If someone behaves unusually aggressively or strangely, consider that it may be a physical health emergency; your own safety comes first in any crisis.",
+   "doc": "med-323535ddfa576a04",
+   "page": 1
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "clinical-660fbc63f3545bd0",
+   "page": 1,
+   "label": "Plan a family medicine kit",
+   "note": "Where There Is No Doctor (2025) on why each family should have a home medicine kit, how much to keep, and caring for it (next page)."
+  },
+  {
+   "doc": "clinical-fe3d008bfe1dd1a2",
+   "page": 6,
+   "label": "Print the patient report form",
+   "note": "A blank form for recording a sick person's signs to send with a messenger to a health worker."
+  },
+  {
+   "doc": "18bf4604bf28c4",
+   "page": 2,
+   "label": "Medicines and medical devices in a power outage",
+   "note": "FEMA (2023) sheet: plan with your doctor for powered medical devices and refrigerated medicines, and when to replace medicines kept warm."
+  },
+  {
+   "doc": "e629b2983d95e4",
+   "page": 5,
+   "label": "Disaster planning for older adults and caregivers",
+   "note": "American Red Cross (2020) booklet on support networks, staying home or evacuating, power needs and documents."
+  },
+  {
+   "doc": "clinical-e43618811c630265",
+   "page": 9,
+   "label": "Clean teeth well without toothpaste",
+   "note": "Where There Is No Dentist (2024) on a cleaning method people can learn at home; toothpaste is not necessary."
+  },
+  {
+   "doc": "med-a840a35b017c5748",
+   "page": 2,
+   "label": "Living healthily with diabetes",
+   "note": "Hesperian on what people with diabetes can do themselves: food, exercise, teeth, feet, stress and rest, and the early signs of diabetes."
+  },
+  {
+   "doc": "med-323535ddfa576a04",
+   "page": 3,
+   "label": "Know your support lines before a crisis",
+   "note": "Hesperian (2025, US-focused) on warmlines and hotlines for peer and professional support, and how a crisis can overwhelm someone."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "clinical-e2b88f3bfc5cbf33",
+   "label": "Where There Is No Doctor (2025): contents and introduction",
+   "note": "Start here: the table of contents and how the book is meant to be used, including when to seek help. All chapters of this 2025 edition are in the library."
+  },
+  {
+   "doc": "clinical-d5fa69d5756dae1f",
+   "label": "Where There Is No Doctor: Green Pages (medicines)",
+   "note": "Uses, doses and precautions for the medicines mentioned in the book, grouped by use. Read the precautions; doses are by age or weight."
+  },
+  {
+   "doc": "med-27894636f99b2041",
+   "label": "New Where There Is No Doctor: contents",
+   "note": "Planned contents of Hesperian's new book (advance chapters 2015–2020). Only some chapters are in the library, e.g. first aid, heart, belly and diarrhea, diabetes, pregnancy, children."
+  },
+  {
+   "doc": "clinical-adf7e76078ea5681",
+   "label": "Where There Is No Dentist (2024)",
+   "note": "Front matter and contents. Part 1 is prevention; Part 2 (treating problems) is mainly for health workers."
+  },
+  {
+   "doc": "clinical-df8e3c124e75be2c",
+   "label": "A Book for Midwives (2026 edition)",
+   "note": "Contents of Hesperian's midwifery book. Written for midwives and birth attendants; many skills in it need training and supervised practice."
+  },
+  {
+   "doc": "med-38945e48ce6b835c",
+   "label": "Promoting Community Mental Health (Hesperian, 2025)",
+   "note": "Contents of a practical, US-oriented guide to stress, anxiety, trauma, grief, crisis support and support groups for non-professionals."
+  },
+  {
+   "doc": "med-2883a38b5d8e0b34",
+   "label": "Disabled Village Children (Hesperian)",
+   "note": "Large guide to disabilities in children, therapy, aids and community rehabilitation; many chapters also help adults."
+  },
+  {
+   "doc": "med-fe020d4fcf31e31a",
+   "label": "MSF Clinical Guidelines (December 2024)",
+   "note": "Diagnosis and treatment manual for medical professionals at clinics and primary hospitals. Reference for clinicians, not self-treatment."
+  },
+  {
+   "doc": "med-e85fab191a13185e",
+   "label": "WHO mhGAP Intervention Guide 2.0 (Arabic edition)",
+   "note": "WHO guide for non-specialist health-care providers on mental, neurological and substance use conditions. This copy is in Arabic; the English edition is not in the library."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Hypertension",
+   "title": "Hypertension",
+   "label": "Encyclopedia: High blood pressure (MDWiki)",
+   "note": "Medical encyclopedia article on causes, risks and treatment of high blood pressure, for background reading."
+  }
+ ],
+ "route": [
+  {
+   "title": "Step 1: Learn how to use Where There Is No Doctor",
+   "goal": "Know what the main book covers, how to find things fast, and that it tells you when to seek help.",
+   "read": [
+    {
+     "doc": "clinical-e2b88f3bfc5cbf33",
+     "page": 8,
+     "label": "Introduction: self-care and knowing your limits",
+     "note": "Why the book was written, who it is for, and its promise to say when to seek help as well as what to do meanwhile."
+    },
+    {
+     "doc": "clinical-e2b88f3bfc5cbf33",
+     "page": 1,
+     "label": "Table of contents",
+     "note": "Chapter-by-chapter list of what is discussed; continues over the next pages."
+    }
+   ]
+  },
+  {
+   "title": "Step 2: Examine a sick person and recognise danger",
+   "goal": "Ask the right questions, look carefully, and spot the signs that mean home care is not enough.",
+   "read": [
+    {
+     "doc": "clinical-e11235e28035e4ac",
+     "page": 2,
+     "label": "Look at general condition before touching",
+     "note": "What skin colour, weight, breathing and alertness can tell you, with links to dehydration and shock."
+    },
+    {
+     "doc": "clinical-fe3d008bfe1dd1a2",
+     "page": 4,
+     "label": "Signs of dangerous illness",
+     "note": "The list to memorise: signs that mean skilled medical help is needed as soon as possible."
+    }
+   ]
+  },
+  {
+   "title": "Step 3: Use medicines carefully",
+   "goal": "Understand the risks of medicines, misuse of antibiotics, and how to read dose information.",
+   "read": [
+    {
+     "doc": "clinical-ec4fa543bb6ce0c8",
+     "page": 1,
+     "label": "Right and wrong uses of modern medicines",
+     "note": "Five guidelines for using any medicine and the warning that medicines can kill."
+    },
+    {
+     "doc": "clinical-d5fa69d5756dae1f",
+     "page": 2,
+     "label": "How to read doses in the Green Pages",
+     "note": "Explains fractions of tablets, dosing by weight, and dose ranges before you look up any medicine."
+    }
+   ]
+  },
+  {
+   "title": "Step 4: Manage long-term conditions",
+   "goal": "Keep diabetes and high blood pressure under control when care and supplies are disrupted.",
+   "read": [
+    {
+     "doc": "med-a840a35b017c5748",
+     "page": 2,
+     "label": "Can you be healthy with diabetes?",
+     "note": "Self-management basics and early signs of diabetes."
+    },
+    {
+     "doc": "med-f0d080c42e81de5f",
+     "page": 11,
+     "label": "Living with high blood pressure or heart problems",
+     "note": "Hesperian encouragement on food, movement and family support; pages before and after cover ways to lower blood pressure and medicines."
+    }
+   ]
+  },
+  {
+   "title": "Step 5: Teeth, pregnancy and birth",
+   "goal": "Prevent dental problems and know the limits of home care in pregnancy and birth.",
+   "read": [
+    {
+     "doc": "clinical-b378b0f215a74866",
+     "page": 1,
+     "label": "Care of the teeth and gums",
+     "note": "Where There Is No Doctor (2025) on preventing cavities and gum disease; the next page shows a toothbrush made from a twig."
+    },
+    {
+     "doc": "clinical-615238591a0cdeef",
+     "page": 7,
+     "label": "Words to midwives: keep learning safely",
+     "note": "A Book for Midwives (2026) on learning from experienced midwives, training and practice, not only from books."
+    }
+   ]
+  },
+  {
+   "title": "Step 6: Mental health and stress",
+   "goal": "Support yourself and others through stress, grief and crisis, and know when more help is needed.",
+   "read": [
+    {
+     "doc": "med-0faf49d8c0bd8eb2",
+     "page": 27,
+     "label": "Recognising depression",
+     "note": "Hesperian (2025) on how depression differs from sadness, its signs, and taking talk of suicide seriously."
+    },
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 146,
+     "label": "Self-care for helpers",
+     "note": "CERT 2019 everyday ways to reduce your own stress and how loved ones can support a helper."
+    }
+   ]
+  },
+  {
+   "title": "Step 7: Care for people with disabilities and older adults",
+   "goal": "Help people who need daily assistance stay healthy, and support the caregivers.",
+   "read": [
+    {
+     "doc": "med-f65faa1b8cb4c8f9",
+     "page": 1,
+     "label": "Pressure sores",
+     "note": "Why sores form in people who cannot move themselves, and who is at risk; prevention follows."
+    },
+    {
+     "doc": "med-d60d65e8fbbab512",
+     "page": 1,
+     "label": "Support for caregivers",
+     "note": "Hesperian chapter for families and others who assist; an older (2007) book but still practical."
+    }
+   ]
+  }
+ ],
+ "related": [
+  "hurt",
+  "shelter",
+  "water",
+  "food",
+  "sanitation"
+ ]
+}

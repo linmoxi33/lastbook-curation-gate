@@ -1,0 +1,493 @@
+{
+ "id": "repair",
+ "mode": "learn",
+ "title": "Repair and build",
+ "short": "Hand tools, sharpening, home fixes, woodworking, engines, welding, simple structures",
+ "intro": "A step-by-step learning track for fixing and making things with a modest home or garage workshop. It starts with workshop safety and hand tools, then moves through sharpening, simple home and plumbing repairs, woodworking, small engines, metalwork and building simple structures from plans.",
+ "keywords": [
+  "repair",
+  "fix",
+  "tools",
+  "hand tools",
+  "workshop",
+  "garage",
+  "sharpen",
+  "chisel",
+  "saw",
+  "axe",
+  "plumbing",
+  "faucet",
+  "toilet",
+  "water heater",
+  "woodworking",
+  "carpentry",
+  "bench",
+  "small engine",
+  "lawn mower",
+  "generator",
+  "carburetor",
+  "welding",
+  "metalwork",
+  "build",
+  "shed",
+  "compost bin",
+  "cold frame",
+  "plans",
+  "safety",
+  "PPE"
+ ],
+ "choices": [
+  {
+   "id": "first-tools",
+   "label": "Which tools should I learn first, and how?",
+   "hint": "Starting a basic tool kit",
+   "read": [
+    {
+     "doc": "eng-cea09c7220cd4bd0",
+     "page": 13,
+     "label": "Guide to choosing and using common hand tools",
+     "note": "Introduction to the Army/Navy TM 9-243 manual, which has a chapter per tool type with types, use, care and safety. Historical manual."
+    },
+    {
+     "doc": "eng-cea09c7220cd4bd0",
+     "page": 16,
+     "label": "Good tool habits",
+     "note": "Keeping tools stored, complete and in good condition, and not using damaged tools."
+    },
+    {
+     "doc": "mfg2-7e54a5d6ccd6e584",
+     "page": 11,
+     "label": "Safe use of hand tools outdoors",
+     "note": "US Forest Service page on sharp tools, protective gear, inspecting handles and carrying tools safely."
+    }
+   ]
+  },
+  {
+   "id": "dull",
+   "label": "My blades and edge tools are dull",
+   "hint": "Chisels, axes, saws, knives, hoes",
+   "read": [
+    {
+     "doc": "mfg2-7e54a5d6ccd6e584",
+     "page": 49,
+     "label": "How sharpening and honing work",
+     "note": "Forest Service page on filing, the wire edge and honing, with a reminder to wear gloves."
+    },
+    {
+     "doc": "eng-cea09c7220cd4bd0",
+     "page": 189,
+     "label": "Grinders and sharpening stones",
+     "note": "TM 9-243 chapter on types of grinders and stones, how to use them and their care."
+    },
+    {
+     "doc": "video-GN4yr7vp4I4",
+     "label": "Video: preparing and sharpening a chisel",
+     "note": "Paul Sellers (furniture maker) demonstrates getting a new chisel truly sharp; captions available."
+    }
+   ]
+  },
+  {
+   "id": "plumbing",
+   "label": "A tap drips or the toilet keeps running",
+   "hint": "Basic plumbing fixes",
+   "read": [
+    {
+     "doc": "eng-cc45c31a68f597a7",
+     "page": 354,
+     "label": "Repairing a standard washer faucet",
+     "note": "US Navy Utilitiesman (2014) steps for shutting off water, replacing the washer and checking the valve seat."
+    },
+    {
+     "doc": "eng-cc45c31a68f597a7",
+     "page": 350,
+     "label": "Fixing a toilet tank that keeps running",
+     "note": "Explains common faults in the fill valve, float and stopper and what to check first."
+    },
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 177,
+     "label": "Find and label your gas shutoff",
+     "note": "CERT manual page on gas shutoff valves, automatic earthquake shutoffs and who may turn gas back on."
+    }
+   ]
+  },
+  {
+   "id": "engine",
+   "label": "My mower, tiller or generator won't start",
+   "hint": "Small gasoline engines",
+   "read": [
+    {
+     "doc": "equipment-be25c3a8d8c92c7d",
+     "page": 15,
+     "label": "Engine will not start: causes and fixes",
+     "note": "Honda GX engine manual troubleshooting table: fuel valve, choke, switch, oil level, fuel and stale gasoline."
+    },
+    {
+     "doc": "video-Pb4he2F4ZEw",
+     "label": "Video: hidden carburetor fuel filter screen",
+     "note": "Repair channel (donyboy73) showing a small fuel screen inside some small-engine carburetors; captions available."
+    },
+    {
+     "doc": "video-yBU86SYFjQE",
+     "label": "Video: cleaning a lawn mower carburetor",
+     "note": "Repair channel demonstration on a Briggs & Stratton engine that will not stay running after storage; captions available."
+    }
+   ]
+  },
+  {
+   "id": "weld",
+   "label": "I want to learn welding",
+   "hint": "Stick or MIG welding, metal repairs",
+   "read": [
+    {
+     "doc": "eng-7101623c5f0a1152",
+     "page": 70,
+     "label": "Welding safety: eye and face protection",
+     "note": "Navy Steelworker manual section on why welding mishaps happen and the helmets and goggles used. Historical manual."
+    },
+    {
+     "doc": "manual-5ade034087acdc5b",
+     "page": 6,
+     "label": "Manufacturer's welding hazard list",
+     "note": "Miller welder manual safety pages on fumes, fire, containers that held fuel, clothing and confined spaces."
+    },
+    {
+     "doc": "video-4MKuUICV6-c",
+     "label": "Video: stick welding for beginners",
+     "note": "Weld.com introduction to shielded metal arc (stick) welding and electrodes; captions available."
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "I want to build a bench, bin or small structure",
+   "hint": "Workbench, compost bins, cold frame",
+   "read": [
+    {
+     "doc": "eng-f547be2abcd61da0",
+     "page": 1,
+     "label": "Plan: carpenter's workbench (1952)",
+     "note": "LSU AgCenter/USDA drawing of an 8-foot carpenter's bench with drawer; image-only, open the page to view."
+    },
+    {
+     "doc": "eng-9415fc58b55ed367",
+     "page": 1,
+     "label": "Plan: three-bin compost structure (1990)",
+     "note": "LSU AgCenter drawing with materials and bin sizes for a three-bin compost pile; image-only."
+    },
+    {
+     "doc": "eng-1119bce64d71b642",
+     "page": 1,
+     "label": "Plan: plastic-covered cold frame and greenhouse",
+     "note": "LSU AgCenter drawing of a small cold frame unit and greenhouse framing; image-only."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "If you are not trained to lock out and tag out a machine, do not clear jams or debris inside it yourself; get a trained person.",
+   "doc": "med-187cde78ec741eb1",
+   "page": 2
+  },
+  {
+   "text": "Most machine injuries are very serious and should be treated by a health worker right away.",
+   "doc": "med-187cde78ec741eb1",
+   "page": 13
+  },
+  {
+   "text": "Engine exhaust contains poisonous carbon monoxide: never run an engine indoors or without good ventilation.",
+   "doc": "equipment-be25c3a8d8c92c7d",
+   "page": 2
+  },
+  {
+   "text": "Gasoline is highly flammable and explosive; stop the engine and let it cool before handling fuel.",
+   "doc": "equipment-be25c3a8d8c92c7d",
+   "page": 8
+  },
+  {
+   "text": "The manufacturer says only qualified persons should install, operate, maintain and repair welding equipment.",
+   "doc": "manual-5ade034087acdc5b",
+   "page": 5
+  },
+  {
+   "text": "Do not weld on containers that held combustibles, or closed tanks, drums or pipes, unless properly prepared to standards.",
+   "doc": "manual-5ade034087acdc5b",
+   "page": 6
+  },
+  {
+   "text": "Only a licensed technician should turn natural gas back on after it has been shut off.",
+   "doc": "ed5bac0a81b009",
+   "page": 177
+  },
+  {
+   "text": "Installing flexible water and gas connections on a water heater: a licensed plumber is recommended and may be required.",
+   "doc": "5cd0b4e41cc479",
+   "page": 33
+  },
+  {
+   "text": "These farm plans are conceptual, may not meet current codes, and do not replace competent design help.",
+   "doc": "eng-9415fc58b55ed367",
+   "page": 2
+  },
+  {
+   "text": "You need training to use a crosscut saw; felling standing trees is more advanced and hazardous work.",
+   "doc": "mfg2-7e54a5d6ccd6e584",
+   "page": 11
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "med-4453675fb0dcc5d9",
+   "page": 3,
+   "label": "Protect your eyes",
+   "note": "Hesperian Workers' Guide page on safety glasses, goggles and face shields and rinsing eyes after chemical or dust exposure."
+  },
+  {
+   "doc": "med-683f49e28486c712",
+   "page": 1,
+   "label": "Dust from sanding, grinding and cutting",
+   "note": "Why workshop dust is harmful, how it travels home on clothes, and signs there is too much dust."
+  },
+  {
+   "doc": "eng-cea09c7220cd4bd0",
+   "page": 17,
+   "label": "Power tool safety rules",
+   "note": "TM 9-243 list of rules for inspecting, plugging in, using and clearing power tools and cords."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "page": 32,
+   "label": "Strap your water heater",
+   "note": "FEMA page explaining why unbraced water heaters cause fires and leaks in earthquakes and that strapping kits exist."
+  },
+  {
+   "doc": "equipment-be25c3a8d8c92c7d",
+   "page": 7,
+   "label": "Small engine maintenance schedule",
+   "note": "Honda GX engine manual table of oil, air cleaner and other checks, plus maintenance safety notes."
+  },
+  {
+   "doc": "mfg2-cb2a3ad19507d419",
+   "label": "Maintaining an ax",
+   "note": "Forest Service chapter on caring for an ax head and handle, honing and cleaning after use."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "eng-cea09c7220cd4bd0",
+   "label": "Tools and Their Uses (TM 9-243)",
+   "note": "Military manual covering measuring tools, hammers, wrenches, saws, files, planes, pipe tools and more; historical, check modern safety practice."
+  },
+  {
+   "doc": "mfg2-7e54a5d6ccd6e584",
+   "label": "Handtools for Trail Work (US Forest Service, 2005)",
+   "note": "Saws, axes, grubbing, digging and brushing tools, sharpening and replacing handles."
+  },
+  {
+   "doc": "eng-cc45c31a68f597a7",
+   "label": "Utilitiesman Basic: pumps, compressors and plumbing (US Navy, 2014)",
+   "note": "Large training manual on pipe, fittings, fixtures, water heaters and drains; written for military trainees."
+  },
+  {
+   "doc": "eng-42d38799b35ced71",
+   "label": "Wood Handbook (USDA Forest Service, 2021)",
+   "note": "Reference on wood properties, drying, fasteners and decay; advanced."
+  },
+  {
+   "doc": "eng-7101623c5f0a1152",
+   "label": "Steelworker Volume 1: Metals and Welding (US Navy)",
+   "note": "Metals, heat treatment, cutting, gas and arc welding and safety; historical, check modern safety practice."
+  },
+  {
+   "doc": "eng-bf541a1af196373d",
+   "label": "Machinery Repairman (US Navy)",
+   "note": "Toolrooms, measuring, layout and benchwork, then machine tools; later chapters are advanced. Historical."
+  },
+  {
+   "doc": "video-syLzcxqLLIA",
+   "label": "Video: exploring hand tool woodworking",
+   "note": "Paul Sellers talks through working wood mainly with hand tools; about 30 minutes, captions available."
+  },
+  {
+   "doc": "video-DEDHR-Nst6E",
+   "label": "Video: MIG welding basics (Miller)",
+   "note": "Manufacturer video on welding in flat, horizontal, vertical and overhead positions, practising on scrap and safety gear."
+  },
+  {
+   "doc": "eng-9f4dc094f379d06b",
+   "label": "Rural Structures in the Tropics (FAO)",
+   "note": "Design and construction of simple rural buildings and materials; written for tropical developing regions."
+  }
+ ],
+ "route": [
+  {
+   "title": "Step 1: Set up a safe workspace and protective gear",
+   "goal": "Learn why machines and tools injure people and which protective gear you need before you start.",
+   "read": [
+    {
+     "doc": "med-187cde78ec741eb1",
+     "page": 1,
+     "label": "How machine injuries happen and are prevented",
+     "note": "Hesperian Workers' Guide (2015) introduction to guards, training and maintenance."
+    },
+    {
+     "doc": "eng-cea09c7220cd4bd0",
+     "page": 15,
+     "label": "Tool safety and safety equipment",
+     "note": "TM 9-243 safety chapter on tool habits, power tools and protective equipment."
+    },
+    {
+     "doc": "med-4453675fb0dcc5d9",
+     "page": 3,
+     "label": "Eye protection",
+     "note": "Choosing and using safety glasses, goggles and face shields."
+    }
+   ]
+  },
+  {
+   "title": "Step 2: Choose, use and care for hand tools",
+   "goal": "Get comfortable measuring, marking and using basic hand tools, and keep them in good condition.",
+   "read": [
+    {
+     "doc": "eng-cea09c7220cd4bd0",
+     "page": 19,
+     "label": "Reading rules and tape measures",
+     "note": "TM 9-243 chapter on reading fractions of an inch on a rule or tape."
+    },
+    {
+     "doc": "eng-cea09c7220cd4bd0",
+     "page": 121,
+     "label": "Hammers: types, use, care and handle repair",
+     "note": "Example of the manual's per-tool chapters."
+    },
+    {
+     "doc": "eng-cea09c7220cd4bd0",
+     "page": 271,
+     "label": "Saws: types, use and care",
+     "note": "Chapter on handsaws and other saws."
+    }
+   ]
+  },
+  {
+   "title": "Step 3: Sharpen and maintain edge tools",
+   "goal": "Understand how an edge is ground and honed, and keep axes, chisels and saws sharp and well handled.",
+   "read": [
+    {
+     "doc": "mfg2-7e54a5d6ccd6e584",
+     "page": 49,
+     "label": "Tools for sharpening",
+     "note": "Forest Service pages on files, grinders and whetstones."
+    },
+    {
+     "doc": "mfg2-7e54a5d6ccd6e584",
+     "page": 53,
+     "label": "Replacing tool handles",
+     "note": "Grain direction, wedges and rehandling steps for axes and other tools."
+    },
+    {
+     "doc": "video-u0jAlXmfquo",
+     "label": "Video: sharpening a handsaw quickly",
+     "note": "Paul Sellers shows how he sharpens a new saw; captions available."
+    }
+   ]
+  },
+  {
+   "title": "Step 4: Basic home repairs and plumbing",
+   "goal": "Know where your shutoffs are, fix common leaks, and secure the water heater for earthquakes.",
+   "read": [
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 177,
+     "label": "Utility shutoffs",
+     "note": "CERT pages on gas shutoff and when only professionals should restore service."
+    },
+    {
+     "doc": "eng-cc45c31a68f597a7",
+     "page": 354,
+     "label": "Faucet washer repair",
+     "note": "Navy Utilitiesman step list for a standard washer faucet."
+    },
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 33,
+     "label": "Bracing a water heater",
+     "note": "FEMA drawings for strapping a water heater at a corner or along a wall."
+    }
+   ]
+  },
+  {
+   "title": "Step 5: Woodworking and simple structures from plans",
+   "goal": "Learn about lumber and joinery, then read simple plans for a workbench, compost bins or a cold frame.",
+   "read": [
+    {
+     "doc": "eng-306fa1ae699bb9e4",
+     "page": 9,
+     "label": "Lumber and light wood framing",
+     "note": "Navy Engineering Aid (1982, historical) chapter on lumber terms, sizes, grades and framing members."
+    },
+    {
+     "doc": "video-aBodzmUGtdw",
+     "label": "Video: mortise and tenon joint",
+     "note": "Paul Sellers demonstrates a classic woodworking joint by hand; captions available."
+    },
+    {
+     "doc": "eng-9415fc58b55ed367",
+     "page": 1,
+     "label": "Three-bin compost structure plan",
+     "note": "LSU AgCenter 1990 drawing; read the disclaimer page that follows it."
+    }
+   ]
+  },
+  {
+   "title": "Step 6: Small engines and garden equipment",
+   "goal": "Do routine maintenance on mowers, tillers and generators and work through the common reasons an engine will not start.",
+   "read": [
+    {
+     "doc": "equipment-be25c3a8d8c92c7d",
+     "page": 7,
+     "label": "Maintenance schedule and safety",
+     "note": "Honda GX engine manual; match the manual to your own engine model."
+    },
+    {
+     "doc": "equipment-be25c3a8d8c92c7d",
+     "page": 15,
+     "label": "Troubleshooting a no-start engine",
+     "note": "Table of possible causes and corrections."
+    },
+    {
+     "doc": "video-UnbBYaO25Gg",
+     "label": "Video: lawn mower maintenance (Honda)",
+     "note": "Manufacturer maintenance video for a Honda mower; no captions."
+    }
+   ]
+  },
+  {
+   "title": "Step 7: Metalwork and welding, safety first",
+   "goal": "Only after the safety steps: learn welding hazards and protective clothing, then basic stick or MIG practice on scrap.",
+   "read": [
+    {
+     "doc": "eng-7101623c5f0a1152",
+     "page": 72,
+     "label": "Welding gloves and protective clothing",
+     "note": "Navy Steelworker pages on gauntlets, flame-resistant clothing and what not to wear."
+    },
+    {
+     "doc": "manual-5ade034087acdc5b",
+     "page": 5,
+     "label": "Arc welding hazards from the manufacturer",
+     "note": "Miller manual safety section on electric shock, grounding and qualified persons."
+    },
+    {
+     "doc": "video-8veisgOaHUg",
+     "label": "Video: running a straight weld bead",
+     "note": "Weld.com beginner lesson; captions available."
+    }
+   ]
+  }
+ ],
+ "related": [
+  "grow",
+  "land"
+ ]
+}

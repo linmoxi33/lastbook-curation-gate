@@ -1,0 +1,445 @@
+{
+ "id": "shelter",
+ "mode": "now",
+ "title": "Stay warm, cool and sheltered",
+ "short": "Heat, cold, smoke, carbon monoxide, damaged homes and outdoor shelter",
+ "intro": "Find guidance for keeping people at a safe temperature and under cover when the power is out, the air is smoky, or home is damaged or unsafe. It also points to safe heating and generator use, because the fixes people grab first can poison or burn them. For treating someone already ill from heat or cold, see the first-aid topic.",
+ "keywords": [
+  "shelter",
+  "heat",
+  "heat wave",
+  "heatwave",
+  "hot",
+  "cooling",
+  "fan",
+  "air conditioning",
+  "cold",
+  "freezing",
+  "winter",
+  "ice storm",
+  "freezing rain",
+  "blizzard",
+  "snowstorm",
+  "snow squall",
+  "whiteout",
+  "extreme cold",
+  "cold snap",
+  "polar vortex",
+  "wind chill",
+  "arctic outflow",
+  "warming centre",
+  "hypothermia",
+  "warm",
+  "heater",
+  "space heater",
+  "generator",
+  "carbon monoxide",
+  "CO",
+  "fireplace",
+  "candles",
+  "power outage",
+  "wildfire",
+  "smoke",
+  "air quality",
+  "AQHI",
+  "N95",
+  "mask",
+  "evacuate",
+  "shelter in place",
+  "damaged house",
+  "earthquake",
+  "gas leak",
+  "mass care shelter",
+  "tarp",
+  "lean-to",
+  "camping",
+  "outdoors",
+  "apartment",
+  "high-rise",
+  "city",
+  "upper floor",
+  "cooling center",
+  "cooling centre"
+ ],
+ "choices": [
+  {
+   "id": "heat",
+   "label": "It's dangerously hot and the power or AC is out",
+   "hint": "Heat wave, no air conditioning, older people or babies at home",
+   "read": [
+    {
+     "doc": "1c0d7a149286b5",
+     "page": 2,
+     "label": "Stay safe in extreme heat",
+     "note": "FEMA sheet on keeping the home cool, finding air-conditioned places, warning about fans in high heat, and signs and actions for heat cramps, exhaustion and stroke."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 26,
+     "label": "What to do during a heat wave",
+     "note": "CERT 2019 annex: window reflectors and shades, public cool places, the limits of electric fans, clothing, checking on neighbours and drinking fluids."
+    },
+    {
+     "doc": "475720b524a372",
+     "page": 1,
+     "label": "NWS heat safety tips and heat alerts",
+     "note": "National Weather Service sheet on heat watches and warnings, slowing down, light clothing and drinking water; next page has the heat index chart."
+    },
+    {
+     "doc": "18bf4604bf28c4",
+     "page": 2,
+     "label": "Keeping cool when the power is out",
+     "note": "FEMA power outage sheet, including staying cool in extreme heat without power and finding air-conditioned places."
+    }
+   ]
+  },
+  {
+   "id": "heat-city",
+   "label": "Hot city apartment or upper floor, no air conditioning",
+   "hint": "Heat wave, nights that stay hot, someone living alone upstairs",
+   "read": [
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 25,
+     "label": "Why upper floors and city blocks are riskier in a heat wave",
+     "note": "CERT 2019 annex: higher floors of multistory buildings and being confined to bed are linked to higher heat death risk; city asphalt and concrete keep nights hotter."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 26,
+     "label": "Finding cooler places and checking on neighbors",
+     "note": "CERT 2019 annex: air-conditioned public places, its warning about fans alone when the heat index exceeds 99°F, and checking on neighbors without air conditioning."
+    },
+    {
+     "doc": "8a228a96ebfa42",
+     "label": "Who is most at risk from heat",
+     "note": "National Weather Service page: infants, older adults living alone or with limited mobility, people with chronic illness and pregnant women; suggests checking on them, especially without air conditioning."
+    }
+   ]
+  },
+  {
+   "id": "cold",
+   "label": "It's freezing and the heat is out",
+   "hint": "Winter storm or blizzard, furnace out, no heating in the cold, staying warm overnight",
+   "read": [
+    {
+     "doc": "f6becaef71ffd5",
+     "label": "Stay safe during winter weather",
+     "note": "Ready.gov page on preparing a home for cold, avoiding carbon monoxide, never heating with a gas stove or oven, and signs and actions for frostbite and hypothermia."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 121,
+     "label": "Keeping warm safely in a winter storm",
+     "note": "CERT 2019 annex: closing off unused rooms, never using outdoor heaters or generators inside, and kerosene heater ventilation and refuelling."
+    },
+    {
+     "doc": "4c096c3377a13d",
+     "page": 2,
+     "label": "Winter storm: prepare, survive, recognise",
+     "note": "FEMA sheet on preparing the home, carbon monoxide, checking on neighbours, and recognising frostbite and hypothermia."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 461,
+     "label": "First aid for someone who is too cold",
+     "note": "IFRC 2025 guidance on warming a person with hypothermia and avoiding burns. Full first aid is in the hurt topic."
+    }
+   ]
+  },
+  {
+   "id": "co",
+   "label": "Using a generator, heater, grill or stove for power or heat",
+   "hint": "Power outage, space heater, camp stove, headache or dizziness indoors",
+   "read": [
+    {
+     "doc": "18bf4604bf28c4",
+     "page": 2,
+     "label": "Avoid carbon monoxide poisoning in an outage",
+     "note": "FEMA: generators, camp stoves and charcoal grills only outdoors and away from openings, never heat the home with a stove, oven, grill or dryer, and install CO alarms."
+    },
+    {
+     "doc": "f6becaef71ffd5",
+     "label": "Generator safety",
+     "note": "Ready.gov section on where to run a generator, CO detectors, keeping it dry, extension cords and refuelling only after it cools."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 60,
+     "label": "If your CO alarm sounds or you smell gas",
+     "note": "CERT 2019 annex: move to fresh air and call for help from there; never run a generator indoors or in a garage."
+    },
+    {
+     "doc": "med-2e83e22162a9a006",
+     "page": 353,
+     "label": "Signs of carbon monoxide poisoning",
+     "note": "IFRC 2025 explains that CO is colourless and odourless, where it comes from, and its typical symptoms."
+    }
+   ]
+  },
+  {
+   "id": "smoke",
+   "label": "Wildfire smoke or bad air outside",
+   "hint": "Smoky sky, ash falling, air quality alert, asthma",
+   "read": [
+    {
+     "doc": "a90ff7e6f3cf01",
+     "label": "Protect yourself from wildfire smoke",
+     "note": "Ready.gov: N95 masks, a closed-off clean-air room with a portable air cleaner, HVAC recirculate settings, and when to evacuate or go to a community building."
+    },
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 32,
+     "label": "Seek clean air and protect your breathing",
+     "note": "CERT 2019 on deciding whether to stay or leave, covering mouth and nose, and sealing an inside room until contaminated air clears."
+    },
+    {
+     "doc": "8e7f6a8861354c",
+     "label": "Why smoke and particles harm health",
+     "note": "National Weather Service page on particle pollution (including smoke) and ozone and the breathing and heart problems they can cause."
+    }
+   ]
+  },
+  {
+   "id": "damaged",
+   "label": "Home is damaged – is it safe to stay?",
+   "hint": "After earthquake, fire or storm: cracks, gas smell, downed lines",
+   "read": [
+    {
+     "doc": "cecc1671ae4d02",
+     "page": 31,
+     "label": "Before you go back inside a damaged home",
+     "note": "FEMA Are You Ready? on structural damage signs, gas smells, wet appliances, wiring and getting a qualified inspection."
+    },
+    {
+     "doc": "9681a68ebd07f5",
+     "page": 18,
+     "label": "After an earthquake: check, protect, inspect",
+     "note": "CERT 2019 annex: protective clothing, small fires, spills, when to get everyone out of the home, and aftershocks."
+    },
+    {
+     "doc": "af57f977ae75ec",
+     "page": 2,
+     "label": "Returning after a wildfire",
+     "note": "National Weather Service sheet: return only when officials say so, check for damage and gas, stay out of unsafe buildings, use flashlights not candles."
+    },
+    {
+     "doc": "5e162f84b8d790",
+     "label": "Going to a mass care shelter",
+     "note": "Ready.gov on what community shelters provide, bringing your own kit and cleaning supplies, pets, and how to find open shelters."
+    }
+   ]
+  },
+  {
+   "id": "inplace",
+   "label": "Told to stay inside or shelter in place",
+   "hint": "Chemical release, contaminated air, stay-at-home order",
+   "read": [
+    {
+     "doc": "5e162f84b8d790",
+     "label": "How to shelter in place",
+     "note": "Ready.gov steps: bring everyone in, close windows and vents, turn off air systems, go to an interior room and seal it with plastic and tape."
+    },
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 33,
+     "label": "Types of sheltering",
+     "note": "CERT 2019 on shelter-in-place, staying home for up to two weeks, and mass care shelters."
+    },
+    {
+     "doc": "cecc1671ae4d02",
+     "page": 9,
+     "label": "Assess the situation, then decide to stay or go",
+     "note": "FEMA Are You Ready? on taking a few seconds to judge danger and whether to stay or change location; key actions for specific hazards follow."
+    },
+    {
+     "doc": "5cf2ec3dc27738",
+     "label": "Sheltering in a high-rise or apartment building",
+     "note": "Ready.gov page (2026): asking building managers about alarms, evacuation and shelter-in-place plans; in a high-rise, deciding whether to stay put, shelter in place or get away."
+    }
+   ]
+  },
+  {
+   "id": "outdoors",
+   "label": "Need a shelter outdoors",
+   "hint": "Can't stay inside, camping out, only a tarp or poncho",
+   "read": [
+    {
+     "doc": "5b0efa0b70cb98",
+     "page": 137,
+     "label": "Choose a safe shelter site",
+     "note": "US Army survival manual (2018) checklist: protection from wind and rain, no dead trees above, away from flash-flood and slide areas. Written for soldiers."
+    },
+    {
+     "doc": "5b0efa0b70cb98",
+     "page": 138,
+     "label": "Quick shelters from what you have",
+     "note": "Immediate-action shelters from walls, vehicles, tarps, plastic or space blankets, and natural cover."
+    },
+    {
+     "doc": "5b0efa0b70cb98",
+     "page": 139,
+     "label": "Build a poncho or tarp lean-to",
+     "note": "Step-by-step lean-to with a tarp or poncho, rope and stakes, facing its back to the wind; tents and A-frames follow."
+    },
+    {
+     "doc": "video-4M-f61tbWH4",
+     "label": "Video: 4 ways to set up a tarp shelter",
+     "note": "REI demonstration (about 5 minutes, captions) of A-frame and other tarp setups. A gear store video for camping, not an emergency agency."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "Use generators and fuel only outdoors, at least 20 feet from windows, doors and attached garages; carbon monoxide is colourless and odourless and can kill.",
+   "doc": "f6becaef71ffd5"
+  },
+  {
+   "text": "Never use a gas stovetop, oven, grill or dryer to heat your home, and never leave a vehicle running in a garage, even with the door open.",
+   "doc": "18bf4604bf28c4",
+   "page": 2
+  },
+  {
+   "text": "If your carbon monoxide alarm sounds or you smell gas, move to fresh air immediately, call for help from there and stay until emergency personnel arrive.",
+   "doc": "9681a68ebd07f5",
+   "page": 60
+  },
+  {
+   "text": "Never use heaters designed for outdoor use inside; keep kerosene heaters ventilated, refuel them outside and keep them at least three feet from things that can burn.",
+   "doc": "9681a68ebd07f5",
+   "page": 121
+  },
+  {
+   "text": "Do not rely on electric fans when it is over 95°F outside: they can increase the risk of heat illness.",
+   "doc": "1c0d7a149286b5",
+   "page": 2
+  },
+  {
+   "text": "Heat stroke (very high temperature, red hot dry skin, confusion, unconsciousness): call 9-1-1 or get the person to a hospital immediately.",
+   "doc": "1c0d7a149286b5",
+   "page": 2
+  },
+  {
+   "text": "People on fluid-restricted diets (for example, with kidney disease) should consult their doctor before drinking more fluids in heat.",
+   "doc": "9681a68ebd07f5",
+   "page": 27
+  },
+  {
+   "text": "A body temperature below 95°F is an emergency.",
+   "doc": "f6becaef71ffd5"
+  },
+  {
+   "text": "Evacuate immediately if authorities tell you to. If trapped by wildfire, call 9-1-1 and give your location, but emergency response may be delayed or impossible.",
+   "doc": "a90ff7e6f3cf01"
+  },
+  {
+   "text": "People with asthma, COPD or other lung conditions should take precautions in poor air quality because it can worsen symptoms.",
+   "doc": "a90ff7e6f3cf01"
+  },
+  {
+   "text": "Do not enter a building with signs of structural damage, a gas smell, floodwater around it, or fire damage not yet inspected; have a qualified inspector check a damaged home.",
+   "doc": "cecc1671ae4d02",
+   "page": 31
+  },
+  {
+   "text": "If there are major cracks in the chimney or foundation, or the home has moved, get everyone out of the home.",
+   "doc": "9681a68ebd07f5",
+   "page": 18
+  },
+  {
+   "text": "If experts or local officials tell you to evacuate, leave. Older people and those with access and functional needs may need to leave well before official notice.",
+   "doc": "ed5bac0a81b009",
+   "page": 32
+  },
+  {
+   "text": "Living on higher floors of multistory buildings, and being confined to bed, are linked to a higher risk of heat-related death.",
+   "doc": "9681a68ebd07f5",
+   "page": 25
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "e629b2983d95e4",
+   "page": 6,
+   "label": "Smoke and carbon monoxide alarms, power for medical devices",
+   "note": "American Red Cross (2020): CO and smoke alarms on every floor and near bedrooms, backup power plans, and learning to shut off utilities."
+  },
+  {
+   "doc": "1c0d7a149286b5",
+   "page": 2,
+   "label": "Get your home ready for heat",
+   "note": "FEMA list: drapes, weather-stripping, window reflectors, insulation, attic ventilation, and finding cool places in your community in advance."
+  },
+  {
+   "doc": "a90ff7e6f3cf01",
+   "label": "Prepare a clean-air room and N95 masks for wildfire season",
+   "note": "Ready.gov: a room you can close off, a portable air cleaner, N95 masks, alerts, evacuation routes and a go bag."
+  },
+  {
+   "doc": "db4d9783fca34b",
+   "page": 2,
+   "label": "Kit items for sheltering: dust mask, plastic sheeting, duct tape",
+   "note": "FEMA checklist including items for sealing a room, a radio, flashlight and first aid kit; first page adds sleeping bags or blankets and clothing."
+  },
+  {
+   "doc": "4c096c3377a13d",
+   "page": 2,
+   "label": "Get ready for cold weather",
+   "note": "FEMA: insulation, caulking and weather stripping, protecting pipes, testing alarms, and supplies for several days without power."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "page": 23,
+   "label": "Shoes and a flashlight by every bed",
+   "note": "FEMA Earthquake Safety at Home (2020) planning list, including drop-cover-hold-on practice and checking tsunami zones."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "cecc1671ae4d02",
+   "label": "FEMA Are You Ready? (2020)",
+   "note": "In-depth citizen preparedness guide covering hazards, sheltering, evacuation plans, supplies and recovering after disasters."
+  },
+  {
+   "doc": "9681a68ebd07f5",
+   "label": "CERT Basic Training Hazard Annexes (2019)",
+   "note": "Hazard-by-hazard annexes (earthquake, extreme heat, fire and wildfire, floods, winter storm, tsunami and more) with before, during and after actions."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "label": "FEMA Earthquake Safety at Home (2020)",
+   "note": "How to secure your space, find home weak points, plan, and recover after an earthquake; includes a California supplement."
+  },
+  {
+   "doc": "5b0efa0b70cb98",
+   "label": "US Army ATP 3-50.21 Survival (2018)",
+   "note": "Current military field survival manual; chapter 6 covers clothing, shelter sites, tarp and natural shelters, and insulation."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Carbon_monoxide_poisoning",
+   "title": "Carbon monoxide poisoning",
+   "label": "Encyclopedia: Carbon monoxide poisoning (MDWiki)",
+   "note": "Medical encyclopedia article on CO sources, symptoms and prevention."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Heat_stroke",
+   "title": "Heat stroke",
+   "label": "Encyclopedia: Heat stroke (MDWiki)",
+   "note": "Medical encyclopedia article on heat stroke, who is at risk and prevention."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Hypothermia",
+   "title": "Hypothermia",
+   "label": "Encyclopedia: Hypothermia (MDWiki)",
+   "note": "Medical encyclopedia article on causes, stages and prevention of dangerous cold."
+  }
+ ],
+ "related": [
+  "hurt",
+  "health",
+  "water",
+  "power",
+  "food"
+ ]
+}

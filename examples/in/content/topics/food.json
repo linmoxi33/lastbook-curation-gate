@@ -1,0 +1,319 @@
+{
+ "id": "food",
+ "mode": "now",
+ "title": "Keep food safe and cook without power",
+ "short": "Fridge and freezer in an outage, safe cooking, emergency food",
+ "intro": "Readings for when the power or gas is out: how long fridge and freezer food stays safe, what to throw away, how to cook without burning or poisoning anyone, and how to make stored food last.",
+ "keywords": [
+  "food",
+  "fridge",
+  "refrigerator",
+  "freezer",
+  "power outage",
+  "blackout",
+  "spoiled",
+  "throw out",
+  "cooking",
+  "camp stove",
+  "grill",
+  "barbecue",
+  "BBQ",
+  "generator",
+  "carbon monoxide",
+  "canned food",
+  "tinned food",
+  "emergency food",
+  "baby formula",
+  "flood",
+  "hungry"
+ ],
+ "choices": [
+  {
+   "id": "outage",
+   "label": "The power is out: fridge and freezer",
+   "hint": "Is the food still safe? How long will it last?",
+   "read": [
+    {
+     "doc": "e4bfed4b6afd6d",
+     "page": 1,
+     "label": "How long the fridge and freezer stay cold, and checking food after",
+     "note": "FDA fact sheet (2007): keep doors closed, hours a fridge and a full or half-full freezer hold, dry ice, and how to judge food when power returns."
+    },
+    {
+     "doc": "18bf4604bf28c4",
+     "page": 2,
+     "label": "Ready.gov power outage sheet: during and after",
+     "note": "FEMA sheet (2023): fridge and freezer times, the 'when in doubt, throw it out' rule, and what to do about refrigerated medicines."
+    },
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 7,
+     "label": "Which food to eat first when the electricity goes off",
+     "note": "FEMA/Red Cross booklet (2004): order of using fridge, freezer, then shelf foods, and posting a freezer list to limit opening."
+    },
+    {
+     "doc": "0dfdf1fb4b178f",
+     "page": 30,
+     "label": "Keeping a freezer cold with dry ice",
+     "note": "Older FEMA Are You Ready? guide: finding other cold storage, dry ice amounts, and wearing heavy gloves to handle it."
+    }
+   ]
+  },
+  {
+   "id": "throwout",
+   "label": "Deciding what to throw out",
+   "hint": "Warm meat, swollen cans, odd smell",
+   "read": [
+    {
+     "doc": "e4bfed4b6afd6d",
+     "page": 1,
+     "label": "Temperature and time rules for perishable food",
+     "note": "FDA fact sheet (2007): which foods to discard after time above 40 °F, and that you cannot rely on appearance or odor."
+    },
+    {
+     "doc": "0dfdf1fb4b178f",
+     "page": 29,
+     "label": "Do's and don'ts for managing food supplies",
+     "note": "Older FEMA Are You Ready? guide: damaged cans, abnormal food, food left at room temperature, refreezing thawed food."
+    },
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 5,
+     "label": "Storage tips and throwing out swollen or dented cans",
+     "note": "FEMA/Red Cross booklet (2004): inspecting food for spoilage and discarding swollen, dented or corroded cans."
+    },
+    {
+     "doc": "99dd5e2cc78a16a0",
+     "label": "Home-canned food you are unsure about",
+     "note": "National Center for Home Food Preservation: botulism toxin risk, the CDC advice to discard suspect home-canned food, and when it is safe to eat."
+    }
+   ]
+  },
+  {
+   "id": "flood",
+   "label": "Food got wet in a flood",
+   "hint": "Pantry, cans or garden touched flood water",
+   "read": [
+    {
+     "doc": "e4bfed4b6afd6d",
+     "page": 2,
+     "label": "What to discard and how to save sealed cans after a flood",
+     "note": "FDA fact sheet (2007): which containers cannot be saved, cleaning and sanitizing undamaged cans and pouches, and sanitizing dishes."
+    },
+    {
+     "doc": "1f738924576334",
+     "page": 9,
+     "label": "After a hurricane or flood: food and garden",
+     "note": "FEMA hurricane guide (2020): throwing out food not kept cold or touched by floodwater, including food from a flooded garden."
+    }
+   ]
+  },
+  {
+   "id": "cook",
+   "label": "Cooking without power or gas",
+   "hint": "Camp stove, grill, fireplace, canned or tinned food",
+   "read": [
+    {
+     "doc": "18bf4604bf28c4",
+     "page": 2,
+     "label": "Avoid carbon monoxide: where stoves, grills and generators can go",
+     "note": "FEMA power outage sheet (2023): use generators, camp stoves and charcoal grills outdoors, distance from openings, never heat the home with a stove or oven."
+    },
+    {
+     "doc": "1f738924576334",
+     "page": 7,
+     "label": "Never use generators, grills or camp stoves inside",
+     "note": "FEMA hurricane guide (2020): includes partly enclosed areas, and how far from doors, windows and vents to keep them."
+    },
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 8,
+     "label": "How to cook if the power goes out",
+     "note": "FEMA/Red Cross booklet (2004): fireplace indoors, grill and camp stove outdoors, warming food, and eating or heating canned food safely."
+    },
+    {
+     "doc": "0dfdf1fb4b178f",
+     "page": 30,
+     "label": "Alternative cooking and heating food in the can",
+     "note": "Older FEMA Are You Ready? guide: outdoor-only grills and stoves, and removing the label, cleaning and opening a can before heating."
+    }
+   ]
+  },
+  {
+   "id": "lowfood",
+   "label": "Food is running low",
+   "hint": "Making stores last, staying strong",
+   "read": [
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 8,
+     "label": "When food supplies are low, and nutrition tips",
+     "note": "FEMA/Red Cross booklet (2004): who should not have food rationed, avoiding salty food when water is short, and daily fluid and meal advice."
+    },
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 6,
+     "label": "How long common stored foods keep",
+     "note": "FEMA/Red Cross booklet (2004) shelf-life list: foods to use within six months, within a year, or that store indefinitely."
+    },
+    {
+     "doc": "med-953dfe1df69e0773",
+     "page": 5,
+     "label": "Prepare and store food so it doesn't make you sick",
+     "note": "Hesperian (2017): handwashing, cooking, covering food, reheating leftovers, pests, and a clay-pot cooler that needs no power."
+    }
+   ]
+  },
+  {
+   "id": "special",
+   "label": "Feeding babies or people with special diets",
+   "hint": "Formula, elderly, illness, allergies",
+   "read": [
+    {
+     "doc": "e4bfed4b6afd6d",
+     "page": 1,
+     "label": "Infant formula when water may be unsafe",
+     "note": "FDA fact sheet (2007): prefer ready-to-feed formula that needs no water; mix powder or concentrate with bottled water if tap water may be contaminated."
+    },
+    {
+     "doc": "f7ff53bcaae9cc",
+     "page": 5,
+     "label": "Special diets, babies, the elderly and pets",
+     "note": "FEMA/Red Cross booklet (2004): planning for allergies, liquid formula for nursing mothers, foods for ill or elderly people, can opener and pet food."
+    },
+    {
+     "doc": "0dfdf1fb4b178f",
+     "page": 29,
+     "label": "Baby formula and food hygiene during an emergency",
+     "note": "Older FEMA Are You Ready? guide: use pre-prepared canned formula and not powdered formula with treated water."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "Throw away refrigerated food that has been at 40 °F or higher for more than 4 hours, or that has an unusual odor, color or texture.",
+   "doc": "18bf4604bf28c4",
+   "page": 2
+  },
+  {
+   "text": "Discard perishable food that has been above 40 °F for 2 hours or more; you cannot rely on appearance or odor.",
+   "doc": "e4bfed4b6afd6d",
+   "page": 1
+  },
+  {
+   "text": "Use generators, camp stoves and charcoal grills only outdoors, at least 20 feet from windows, doors or garages; never heat a home with a gas stove, oven, grill or dryer.",
+   "doc": "18bf4604bf28c4",
+   "page": 2
+  },
+  {
+   "text": "Replace refrigerated medicines if the power is out a day or more unless the label says otherwise; call a doctor or pharmacist if you depend on them.",
+   "doc": "18bf4604bf28c4",
+   "page": 2
+  },
+  {
+   "text": "Do not eat any food that may have touched flood water unless it is in a waterproof container that can be cleaned.",
+   "doc": "e4bfed4b6afd6d",
+   "page": 2
+  },
+  {
+   "text": "Food can be rationed safely for healthy adults, but not for children and pregnant women; water should not be rationed.",
+   "doc": "f7ff53bcaae9cc",
+   "page": 8
+  },
+  {
+   "text": "CDC advice is to discard any home-canned food that might contain botulism toxin.",
+   "doc": "99dd5e2cc78a16a0"
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "f7ff53bcaae9cc",
+   "page": 4,
+   "label": "Build an emergency food supply from your own shelves",
+   "note": "FEMA/Red Cross booklet (2004): a two-week goal, familiar foods, and foods that need no refrigeration, water or cooking."
+  },
+  {
+   "doc": "e4bfed4b6afd6d",
+   "page": 1,
+   "label": "Get ready before an outage: thermometers, ice and coolers",
+   "note": "FDA fact sheet (2007): appliance thermometers, freezing water containers, grouping freezer food, coolers, and where to find ice."
+  },
+  {
+   "doc": "cecc1671ae4d02",
+   "page": 20,
+   "label": "Ready.gov kit basics: food, can opener and cooking tools",
+   "note": "FEMA Are You Ready? guide (2020); page 22 covers keeping canned food cool, rotating stock and throwing out damaged cans."
+  },
+  {
+   "doc": "18bf4604bf28c4",
+   "page": 2,
+   "label": "Prepare now: carbon monoxide alarms and supplies",
+   "note": "FEMA power outage sheet (2023): smoke and CO alarms with battery backup, a plan for medicines and medical devices, and supplies for several days."
+  },
+  {
+   "doc": "ed5bac0a81b009",
+   "page": 27,
+   "label": "CERT kit: choosing food that needs no cooking",
+   "note": "FEMA CERT manual (2019): nonperishable food needing no refrigeration and little water, avoiding salty foods, checking dates twice a year."
+  },
+  {
+   "doc": "db4d9783fca34b",
+   "page": 1,
+   "label": "Ready.gov supply checklist (printable)",
+   "note": "FEMA checklist (2024) including mess kits, paper plates, infant formula and pet food among extra items."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "f7ff53bcaae9cc",
+   "label": "FEMA/Red Cross: Food and Water in an Emergency (full booklet)",
+   "note": "16-page booklet (FEMA 477, August 2004) on food and water supplies, outages, cooking and water treatment."
+  },
+  {
+   "doc": "cecc1671ae4d02",
+   "label": "Are You Ready? An In-Depth Guide to Citizen Preparedness (2020)",
+   "note": "FEMA's current general preparedness guide covering kits, plans, hazards and recovery."
+  },
+  {
+   "doc": "d0fbb2e051cd46",
+   "label": "FEMA hazard information sheets (2024 set)",
+   "note": "One-page-per-hazard sheets, including power outage, earthquake and flood, with prepare-survive-after steps."
+  },
+  {
+   "doc": "e4bfed4b6afd6d",
+   "label": "FDA: Food and Water Safety During Hurricanes, Power Outages, and Floods",
+   "note": "Two-page FDA consumer fact sheet (December 2007)."
+  },
+  {
+   "doc": "ec27c9c3c6b74c",
+   "page": 81,
+   "label": "Kearny: Food chapter (living on stored whole grains)",
+   "note": "Nuclear War Survival Skills (1987 civil-defense book): minimum food needs and preparing staples such as whole-grain wheat and corn. Dated; written for fallout sheltering."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Carbon_monoxide_poisoning",
+   "title": "Carbon monoxide poisoning",
+   "label": "Encyclopedia: carbon monoxide poisoning",
+   "note": "Medical overview of symptoms, causes such as indoor fuel burning, and treatment."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Food_safety",
+   "title": "Food safety",
+   "label": "Encyclopedia: food safety",
+   "note": "Background on foodborne hazards, safe handling and storage."
+  },
+  {
+   "zim": "zim/wikipedia_en_all_nopic_2026-06.zim/Foodborne_illness",
+   "title": "Foodborne illness",
+   "label": "Encyclopedia: foodborne illness",
+   "note": "Causes, symptoms and prevention of food poisoning."
+  }
+ ],
+ "related": [
+  "power",
+  "water",
+  "preserve",
+  "sanitation"
+ ]
+}

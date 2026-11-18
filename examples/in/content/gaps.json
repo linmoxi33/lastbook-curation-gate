@@ -1,0 +1,113 @@
+{
+ "water": {
+  "missing": [
+   "No current CDC or EPA page on disinfecting drinking water. Every bleach dose here assumes 5–6% bleach, and today's stronger US bleach labels are not covered.",
+   "No guidance on choosing certified filters or tablets, storing water in large barrels, or treating pool or spa water.",
+   "No local water utility's boil-water notice material.",
+   "No source on how tall buildings get their water (roof tanks, booster pumps), or how long taps keep running on upper floors in a blackout.",
+   "No official guide to water in an apartment or high-rise when the power is out; the readings for it here are general.",
+   "No source on how salty or polluted particular city rivers, harbors or canals are, or what home treatment does to a mix of sewage and chemicals beyond the general warnings here."
+  ],
+  "disagree": [
+   "Sources give different bleach drop counts. Each card states the bleach strength its own source assumes — follow one source's method fully rather than mixing them.",
+   "Water-heater water: the FEMA/Red Cross booklet (2004) lists the hot-water tank among safe water sources in the home; the Norwegian civil protection guide (2024) says water from the water heater should not be used for drinking."
+  ]
+ },
+ "sanitation": {
+  "missing": [
+   "No US (CDC, FEMA or Red Cross) guide to bucket or bag emergency toilets, or to cleaning up sewage backups. The closest are a Norwegian civil-protection guide, WHO notes written for camps and a 1987 book.",
+   "Almost no sanitation videos."
+  ]
+ },
+ "food": {
+  "missing": [
+   "No USDA FSIS “Keeping Food Safe During an Emergency” or FoodKeeper chart.",
+   "No current guide to long-term bulk storage (grains, oxygen absorbers).",
+   "No CDC carbon monoxide fact sheet in English (the US Fire Administration generator flyer here is in Spanish)."
+  ]
+ },
+ "preserve": {
+  "missing": [
+   "The book “So Easy to Preserve” is not in the library; NCHFP web pages and the USDA canning guide are."
+  ]
+ },
+ "hurt": {
+  "missing": [
+   "No simple mass-casualty triage method (such as START) written for the public.",
+   "No stand-alone psychological first aid guide.",
+   "No agency videos on carbon monoxide or burns.",
+   "“New Where There Is No Doctor” is incomplete here: some chapters listed in its contents (mental health, older people, disasters, medicines) were not available."
+  ],
+  "disagree": [
+   "Heat stroke: the CERT manual says give no fluids; New Where There Is No Doctor says give drinks once the person is alert. Follow trained help if you can reach it.",
+   "CPR: the 2025 Red Cross/Red Crescent guidelines say checking for a pulse is unreliable for first aiders; New Where There Is No Doctor says to check for a pulse.",
+   "Poisoning: this guide follows the 2025 Red Cross/Red Crescent guidelines: do not induce vomiting, and give no milk, water or charcoal unless a poison centre says to. The First Aid chapter of New Where There Is No Doctor (2020) instead advises water and activated charcoal for most poisons."
+  ]
+ },
+ "health": {
+  "missing": [
+   "The full WHO mhGAP mental-health guide is only here in Arabic; the English item is a one-page update.",
+   "No pharmacy or compounding manual; medicine references (MSF Essential Drugs) are written for clinicians."
+  ]
+ },
+ "shelter": {
+  "missing": [
+   "No EPA or CDC wildfire smoke health guide and no Air Quality Index explainer.",
+   "Most outdoor-shelter videos are hobbyist channels without captions.",
+   "No city guidance on cooling centers or on heat in apartments without air conditioning."
+  ],
+  "disagree": [
+   "Heat stroke: CERT says no fluids; New Where There Is No Doctor says drinks once alert."
+  ]
+ },
+ "power": {
+  "missing": [
+   "No manual for EcoFlow, Jackery or similar battery power stations.",
+   "Nothing from FDA or health agencies on keeping CPAP or oxygen machines running in an outage beyond Red Cross/FEMA planning advice.",
+   "No local utility's material on gas meters, seismic shut-off valves or planned power shut-offs.",
+   "No power outage guide written for people living in apartment or high-rise buildings, and nothing for residents on being stuck in an elevator.",
+   "Nothing on camp stoves or generators on apartment balconies specifically; the general 20-foot rule is in the FEMA outage sheet. U.S. Fire Administration guidance says not to store or use a grill on a porch or balcony."
+  ]
+ },
+ "energy": {
+  "missing": [
+   "Micro-hydro and wind material is mostly old or utility-scale."
+  ]
+ },
+ "comms": {
+  "missing": [
+   "No text of the FCC amateur radio rules (Part 97) or current GMRS licence guidance; the ham study guide covers the 2014–2018 question pool.",
+   "No modern civilian land-navigation manual."
+  ],
+  "disagree": [
+   "Sources disagree on the GMRS licence term (ARES 2015 vs TACDA)."
+  ]
+ },
+ "disaster": {
+  "missing": [
+   "No California tsunami inundation maps or local tsunami zone guide.",
+   "No EPA/CDC wildfire smoke guide.",
+   "No guidance on getting out of a subway or other transit during an emergency, or on what to do when transit stops running.",
+   "No fire department guidance on when to stay inside a fire-resistant apartment building during a fire elsewhere in it.",
+   "City guides such as NYC Emergency Management's Ready New York series are not in the library."
+  ]
+ },
+ "grow": {
+  "missing": [
+   "No current coastal Southern California planting calendar in text form (the UC Ventura chart is a scanned image).",
+   "No extension guides for dry beans, winter squash or home-scale grains; the sweet potato guide is for hotter Sacramento."
+  ]
+ },
+ "land": {
+  "missing": [
+   "No California Geological Survey liquefaction or fault-zone maps, tsunami inundation maps or FEMA flood maps.",
+   "No regional guide to edible or poisonous wild plants."
+  ]
+ },
+ "repair": {
+  "missing": [
+   "No general home-repair guide (drywall, outlets, doors and windows); plumbing comes from a Navy manual.",
+   "No modern welding safety standard (ANSI Z49.1 / OSHA); the Steelworker manual is historical."
+  ]
+ }
+}

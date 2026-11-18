@@ -1,0 +1,23 @@
+WARNING LB14 disaster     related -> food is one-way (food does not link back)
+ERROR   LB07 energy       learn holds 12 readings (4-10)
+WARNING LB14 energy       related -> comms is one-way (comms does not link back)
+WARNING LB14 grow         related -> food is one-way (food does not link back)
+WARNING LB14 grow         related -> water is one-way (water does not link back)
+WARNING LB14 health       related -> water is one-way (water does not link back)
+WARNING LB14 health       related -> food is one-way (food does not link back)
+WARNING LB14 health       related -> sanitation is one-way (sanitation does not link back)
+ERROR   LB15 health       intro has 3 sentences
+ERROR   LB07 hurt         learn holds 11 readings (4-10)
+ERROR   LB09 hurt         prepare[0] note has 32 words (>30)
+WARNING LB14 hurt         related -> water is one-way (water does not link back)
+WARNING LB14 hurt         related -> sanitation is one-way (sanitation does not link back)
+ERROR   LB15 hurt         intro has 3 sentences
+WARNING LB14 land         related -> water is one-way (water does not link back)
+ERROR   LB05 power        choice 'food-link' offers 0 readings (1-4)
+WARNING LB14 repair       related -> grow is one-way (grow does not link back)
+WARNING LB14 shelter      related -> water is one-way (water does not link back)
+WARNING LB14 shelter      related -> power is one-way (power does not link back)
+WARNING LB14 shelter      related -> food is one-way (food does not link back)
+ERROR   LB15 shelter      intro has 3 sentences
+ERROR   LB09 water        choice:bleach[3] note has 32 words (>30)
+topics: 14  errors: 8  warnings: 14

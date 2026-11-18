@@ -1,0 +1,348 @@
+{
+ "id": "sanitation",
+ "mode": "now",
+ "title": "Toilets, waste and hygiene when plumbing fails",
+ "short": "Emergency toilets, handwashing, garbage, diarrhea",
+ "intro": "Readings for when toilets cannot be flushed or sewer lines may be broken: emergency toilets, keeping hands clean with little water, handling garbage, and stopping diarrhea from spreading. It also shows the warning signs that mean someone needs medical help.",
+ "keywords": [
+  "toilet",
+  "washroom",
+  "sanitation",
+  "sewage",
+  "sewer",
+  "latrine",
+  "bucket toilet",
+  "poop",
+  "waste",
+  "garbage",
+  "trash",
+  "rubbish",
+  "handwashing",
+  "hygiene",
+  "soap",
+  "hand sanitizer",
+  "hand sanitiser",
+  "diarrhea",
+  "loose motions",
+  "cholera",
+  "vomiting",
+  "dehydration",
+  "flies"
+ ],
+ "choices": [
+  {
+   "id": "noflush",
+   "label": "The toilet can't be flushed",
+   "hint": "No water, earthquake, broken sewer line",
+   "read": [
+    {
+     "doc": "5cd0b4e41cc479",
+     "page": 74,
+     "label": "After an earthquake: check sewer lines before using drains",
+     "note": "FEMA P-530 Earthquake Safety at Home (2020): where to look for sewer damage, and to stop sending toilet, kitchen and shower water down drains until it is repaired."
+    },
+    {
+     "doc": "c6155c3ed58c35",
+     "page": 13,
+     "label": "Make an emergency toilet with bags in the toilet or a bucket",
+     "note": "Norwegian civil protection guide: double bag over the toilet seat or a bucket, knotting the bags, and hygiene when the water is off for a long time."
+    },
+    {
+     "doc": "med-d57916742d1eec74",
+     "page": 4,
+     "label": "WHO: plastic bags and chemical toilets as emergency options",
+     "note": "WHO technical note: strong sealable bags when no latrine can be built, collection and burial, and portable chemical toilets."
+    },
+    {
+     "doc": "ec27c9c3c6b74c",
+     "page": 110,
+     "label": "Bucket toilet with a bag liner and lid",
+     "note": "Nuclear War Survival Skills (Kearny, 1987 civil-defense book, shelter setting): urine and feces handling, bagging, a lined 5-gallon can with lid. Product names are dated."
+    }
+   ]
+  },
+  {
+   "id": "latrine",
+   "label": "We need an outdoor toilet for days or weeks",
+   "hint": "Yard or open ground available",
+   "read": [
+    {
+     "doc": "med-0e083d57bbe5021a",
+     "page": 12,
+     "label": "Build a simple trench latrine",
+     "note": "Hesperian Community Guide to Environmental Health (2012): siting downhill from water, foot rests, covering waste with soil, filling in, and privacy screens."
+    },
+    {
+     "doc": "med-953dfe1df69e0773",
+     "page": 8,
+     "label": "Where to put a toilet so it doesn't pollute water",
+     "note": "Hesperian (2017): distance from wells, rivers and springs, groundwater depth, and avoiding ground that floods."
+    },
+    {
+     "doc": "med-d57916742d1eec74",
+     "page": 2,
+     "label": "WHO: shallow trench and family latrines",
+     "note": "WHO technical note on trench latrines in the first days: covering faeces at least daily and closing trenches as they fill."
+    }
+   ]
+  },
+  {
+   "id": "hands",
+   "label": "Keep hands clean with little water",
+   "hint": "No running water, soap or sanitizer",
+   "read": [
+    {
+     "doc": "med-953dfe1df69e0773",
+     "page": 3,
+     "label": "How to wash hands well (and what to use without soap)",
+     "note": "Hesperian (2017): the four steps, rubbing between fingers and nails, and using sand or ash if there is no soap."
+    },
+    {
+     "doc": "med-953dfe1df69e0773",
+     "page": 4,
+     "label": "When to wash, and how to make a tippy-tap",
+     "note": "Hesperian (2017): key times to wash, and building a water-saving handwashing bottle from a soda bottle and pen tube."
+    },
+    {
+     "doc": "ed5bac0a81b009",
+     "page": 134,
+     "label": "Hand sanitizer and hygiene in makeshift conditions",
+     "note": "FEMA CERT manual (2019): handwashing time, CDC alcohol strength for sanitizer and how to use it, gloves, and bagging soiled waste."
+    }
+   ]
+  },
+  {
+   "id": "garbage",
+   "label": "Garbage is piling up",
+   "hint": "No trash or rubbish pickup, food waste, flies and rats",
+   "read": [
+    {
+     "doc": "med-c6ff5672759900f4",
+     "page": 1,
+     "label": "WHO: why garbage becomes a health risk in emergencies",
+     "note": "WHO technical note on what counts as solid waste after a disaster and the flies, rats and mosquitoes it attracts; page 2 covers household waste and collection."
+    },
+    {
+     "doc": "med-e7a8569d25995a83",
+     "page": 24,
+     "label": "Getting rid of trash safely: burning versus burying",
+     "note": "Hesperian (2012): toxic smoke from burning plastic and rubber, and burying waste in small pits away from water sources."
+    },
+    {
+     "doc": "0dfdf1fb4b178f",
+     "page": 29,
+     "label": "Food and garbage hygiene do's and don'ts",
+     "note": "Older FEMA Are You Ready? guide: closed containers, disposing outside, and not letting garbage build up indoors."
+    },
+    {
+     "doc": "med-953dfe1df69e0773",
+     "page": 6,
+     "label": "Keep flies off food and make a fly trap",
+     "note": "Hesperian (2017): how flies spread germs and a simple bottle fly trap to place near toilets and kitchens."
+    }
+   ]
+  },
+  {
+   "id": "diarrhea",
+   "label": "Someone has diarrhea or vomiting",
+   "hint": "Adult, child or baby",
+   "read": [
+    {
+     "doc": "med-8bd4770a63b99cc6",
+     "page": 20,
+     "label": "Signs of dehydration, and signs it is getting worse",
+     "note": "Hesperian New Where There Is No Doctor (2017): early signs, worsening signs such as sunken eyes and the skin-pinch test, and the soft spot in babies."
+    },
+    {
+     "doc": "med-8bd4770a63b99cc6",
+     "page": 22,
+     "label": "How to make a rehydration drink",
+     "note": "Hesperian (2017): salt-and-sugar or cereal drink recipe and how much to give after each stool; page 24 covers ORS packets."
+    },
+    {
+     "doc": "med-8bd4770a63b99cc6",
+     "page": 25,
+     "label": "Danger signs with diarrhea or vomiting",
+     "note": "Hesperian (2017): when vomiting or diarrhea is dangerous, including sudden heavy watery diarrhea and blood in stool."
+    },
+    {
+     "doc": "med-d9ac20e4a9829e89",
+     "page": 7,
+     "label": "Children with dehydration or diarrhea",
+     "note": "Hesperian (2017): why children are in more danger, keeping up breastfeeding, and getting help if the child does not improve quickly."
+    }
+   ]
+  },
+  {
+   "id": "spread",
+   "label": "Stop illness spreading in the household",
+   "hint": "Cholera, stomach bugs, caring for a sick person",
+   "read": [
+    {
+     "doc": "med-f5c6cb5340c1fd3d",
+     "label": "MSF: hand, food and household hygiene during cholera",
+     "note": "MSF cholera guideline section: critical times for handwashing, food hygiene, and cleaning surfaces and laundry soiled by a sick person. Written for health teams."
+    },
+    {
+     "doc": "med-8bd4770a63b99cc6",
+     "page": 29,
+     "label": "Cholera is everyone's problem",
+     "note": "Hesperian (2017): fluids as the main treatment, handwashing, getting people to medical help, safe water and toilets."
+    },
+    {
+     "doc": "med-3a93d7d4c97d404d",
+     "page": 4,
+     "label": "WHO: four times everyone should wash hands",
+     "note": "Box on handwashing with soap after toilet use, before food, before feeding children, and after cleaning a child."
+    }
+   ]
+  },
+  {
+   "id": "floodmess",
+   "label": "Sewage or flood water got into the house",
+   "hint": "Backed-up drains, flooded rooms, mud",
+   "read": [
+    {
+     "doc": "1f738924576334",
+     "page": 9,
+     "label": "After a flood: stay safe and stay healthy",
+     "note": "FEMA hurricane guide (2020): floodwater can contain sewage and chemicals, protective gear, and cleaning and disinfecting everything that got wet."
+    },
+    {
+     "doc": "e4bfed4b6afd6d",
+     "page": 2,
+     "label": "Clean dishes and utensils after flood contact",
+     "note": "FDA fact sheet (2007): washing, then sanitizing pans, dishes and utensils by boiling or a bleach solution."
+    }
+   ]
+  }
+ ],
+ "limits": [
+  {
+   "text": "A lot of watery diarrhea in a short time, diarrhea with blood and mucus, or diarrhea lasting weeks are danger signs.",
+   "doc": "med-8bd4770a63b99cc6",
+   "page": 25
+  },
+  {
+   "text": "In a cholera outbreak, get people who need it to medical help, such as a field clinic that can give IV fluids.",
+   "doc": "med-8bd4770a63b99cc6",
+   "page": 29
+  },
+  {
+   "text": "Dehydration in a child can become serious quickly; if the child does not start to improve quickly with fluids, get help.",
+   "doc": "med-d9ac20e4a9829e89",
+   "page": 7
+  },
+  {
+   "text": "If sewer lines are damaged, stop putting toilet, kitchen, shower and bath water into drains until repaired.",
+   "doc": "5cd0b4e41cc479",
+   "page": 74
+  },
+  {
+   "text": "Burning plastic or rubber releases toxic chemicals; buried trash with chemicals can contaminate drinking water.",
+   "doc": "med-e7a8569d25995a83",
+   "page": 24
+  },
+  {
+   "text": "Keep medical waste such as soiled gloves and dressings bagged, marked, and separate from other trash.",
+   "doc": "ed5bac0a81b009",
+   "page": 134
+  },
+  {
+   "text": "Do not build pit toilets on ground that floods, and keep toilets well away from wells, rivers and springs.",
+   "doc": "med-953dfe1df69e0773",
+   "page": 8
+  }
+ ],
+ "prepare": [
+  {
+   "doc": "ed5bac0a81b009",
+   "page": 29,
+   "label": "Sanitation items for your disaster kit",
+   "note": "FEMA CERT manual (2019) kit list: toilet paper, garbage bags and ties, bucket with tight lid, bleach, disinfectant, hand sanitizer, feminine supplies."
+  },
+  {
+   "doc": "c6155c3ed58c35",
+   "page": 13,
+   "label": "Hygiene supplies to keep at home",
+   "note": "Norwegian civil protection guide: wipes, sanitizer, gloves, extra toilet paper and waste bags, nappies and sanitary products."
+  },
+  {
+   "doc": "cecc1671ae4d02",
+   "page": 21,
+   "label": "Ready.gov kit extras: soap, sanitizer, hygiene products",
+   "note": "FEMA Are You Ready? guide (2020): cleaning supplies, soap, hand sanitizer of at least 60% alcohol, and feminine hygiene items."
+  },
+  {
+   "doc": "5cd0b4e41cc479",
+   "page": 74,
+   "label": "Know how to check sewer lines after a quake",
+   "note": "FEMA P-530 (2020) checklist page: where damage shows (crawlspace, clean-out, smell) so you know before you need it."
+  },
+  {
+   "doc": "med-953dfe1df69e0773",
+   "page": 4,
+   "label": "Build a tippy-tap ahead of time",
+   "note": "Hesperian (2017) instructions for a low-water handwashing bottle from household items."
+  }
+ ],
+ "learn": [
+  {
+   "doc": "med-d57916742d1eec74",
+   "label": "WHO: technical options for excreta disposal in emergencies",
+   "note": "Four-page note on defecation fields, trench and family latrines, bags, chemical and raised toilets. Written for responders."
+  },
+  {
+   "doc": "med-e8a37d03a1e05532",
+   "label": "WHO: planning excreta disposal in emergencies",
+   "note": "How responders assess needs and plan sanitation across the phases of an emergency."
+  },
+  {
+   "doc": "med-ece1337373486dc8",
+   "label": "WHO: hygiene promotion in emergencies",
+   "note": "Why hygiene behavior matters most for preventing diarrhoea after disasters, and how to promote it."
+  },
+  {
+   "doc": "med-0e083d57bbe5021a",
+   "label": "Hesperian: Building Toilets (full chapter)",
+   "note": "Toilet choices from trench latrines to pit, VIP, compost and urine-diverting dry toilets, with siting and building steps."
+  },
+  {
+   "doc": "med-953dfe1df69e0773",
+   "label": "Hesperian: Water and Sanitation, Keys to Staying Healthy",
+   "note": "Chapter from New Where There Is No Doctor (2017) on handwashing, food hygiene, toilets and safe water."
+  },
+  {
+   "doc": "med-8884c589eaca56bd",
+   "label": "Sphere Handbook (2018): humanitarian WASH standards",
+   "note": "International minimum standards for water, sanitation and hygiene in disasters. Technical reference for organizers."
+  },
+  {
+   "doc": "med-99953e703fef507a",
+   "label": "MSF Public Health Engineering in Precarious Situations",
+   "note": "Field manual (2010 edition) covering excreta disposal, waste and vector control for humanitarian engineers."
+  },
+  {
+   "doc": "ec27c9c3c6b74c",
+   "page": 109,
+   "label": "Kearny: Shelter Sanitation and Preventive Medicine chapter",
+   "note": "Nuclear War Survival Skills (1987 civil-defense book): expedient toilets, waste handling and disease prevention while sheltering. Some advice and products are dated."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Container-based_sanitation",
+   "title": "Container-based sanitation",
+   "label": "Encyclopedia: container-based sanitation",
+   "note": "Background on toilets that collect waste in sealed containers for removal."
+  },
+  {
+   "zim": "zim/mdwiki_en_all_maxi_2025-11.zim/Cholera",
+   "title": "Cholera",
+   "label": "Encyclopedia: cholera",
+   "note": "Medical overview of cholera: spread, symptoms, treatment and prevention."
+  }
+ ],
+ "related": [
+  "water",
+  "food"
+ ]
+}

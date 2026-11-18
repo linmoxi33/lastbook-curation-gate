@@ -1,0 +1,66 @@
+{
+  "command": "gaps",
+  "counts": {
+    "comms": {
+      "disagree": 1,
+      "missing": 2
+    },
+    "disaster": {
+      "disagree": 0,
+      "missing": 5
+    },
+    "energy": {
+      "disagree": 0,
+      "missing": 1
+    },
+    "food": {
+      "disagree": 0,
+      "missing": 3
+    },
+    "grow": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "health": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "hurt": {
+      "disagree": 3,
+      "missing": 4
+    },
+    "land": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "power": {
+      "disagree": 0,
+      "missing": 5
+    },
+    "preserve": {
+      "disagree": 0,
+      "missing": 1
+    },
+    "repair": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "sanitation": {
+      "disagree": 0,
+      "missing": 2
+    },
+    "shelter": {
+      "disagree": 1,
+      "missing": 3
+    },
+    "water": {
+      "disagree": 2,
+      "missing": 6
+    }
+  },
+  "disagree_total": 7,
+  "domains": 14,
+  "missing_total": 40,
+  "schema_version": 1,
+  "topics": 14
+}
